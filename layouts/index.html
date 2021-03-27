@@ -1,0 +1,31 @@
+{{ define "body" }}
+  {{ with $page := .GetPage "actualités" }}
+  <section class="mb-5 row">
+    {{ range first 4 $page.Pages.ByPublishDate.Reverse }}
+    <article class="col story">
+      <h3 class="h5 text-center">
+        <a href="{{$page.Permalink}}">{{.Title}}</a>
+      </h3>
+    </article>
+    {{ end }}
+  </section>
+  {{ end }}
+  <section>
+  {{ range $i, $p := .Pages }}
+    {{ if gt $i 0 }}
+    <hr class="w-25 mx-auto my-5">
+    {{ end }}
+    <article class="row align-items-center">
+      <div class="col-7">
+      <h1 class="h3"><em>{{ $p.Title }}</em></h1>
+      <p style="text-indent:50px">{{ $p.Summary }}</p>
+      </div>
+      <div class="col {{if eq (mod $i 2) 0 }}order-first{{end}}">
+        <figure>
+          <img src="https://via.placeholder.com/420x240">
+        </figure>
+      </div>
+    </article>
+  {{ end }}
+  </section>
+{{ end }}

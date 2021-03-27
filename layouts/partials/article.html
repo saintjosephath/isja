@@ -1,0 +1,16 @@
+<article class="card border-0 mb-4">
+  <div class="card-body p-0">
+    <h4 class="card-title">{{.Title}}</h4>
+    <div class="mb-3">
+      <em class="text-muted fs-6">publié {{if .Params.author}}par {{.Params.author}}{{end}} le {{.Date.Format "02-01-2006"}}</em>
+    </div>
+    <div class="text-justify">{{.Content}}</div>
+    <ul class="list-inline text-right">
+      {{ range (.GetTerms "tags") }}
+        <li class="list-inline-item">
+          <a class="btn btn-sm btn-outline-tag" href="{{ .Permalink }}">{{ .LinkTitle }}</a>
+        </li>
+     {{ end }}
+    </ul>
+  </div>
+</article>

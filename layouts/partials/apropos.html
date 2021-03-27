@@ -1,0 +1,6 @@
+{{ with $page := .GetPage "apropos" }}
+<section class="mb-3">
+  <h1 class="w-50 h4 text-center mx-auto py-1 mb-3 border-top border-bottom">A propos!</h1>
+  <p>{{$page.Page.Summary}}</p>
+</section>
+{{ end }}

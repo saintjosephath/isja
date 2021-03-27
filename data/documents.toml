@@ -1,0 +1,6 @@
+list = [
+  {name = "Projet d'établissement", location = "1. Projet d'établissement 31-08-11.pdf", summary = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec facilisis orci vitae massa accumsan maximus"},
+  {name = "Projet éducatif", location = "2. Projet éducatif 31-08-04.pdf", summary = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec facilisis orci vitae massa accumsan maximus"},
+  {name = "Règlement des études", location = "3. Règlement des études 31-08-08.pdf", summary = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec facilisis orci vitae massa accumsan maximus"},
+  {name = "Règlement d'ordre intérieur", location = "4. Règlement d'ordre intérieur 31-08-19.pdf", summary = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec facilisis orci vitae massa accumsan maximus"},
+]

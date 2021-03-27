@@ -1,0 +1,24 @@
+baseURL = "https://saintjosephath.github.io"
+title = "Institut Saint-Joseph Ath"
+
+languageCode = "fr-be"
+defaultContentLanguage = "fr"
+
+canonifyURLs = true
+
+disableKinds = ["RSS"]
+
+enableRobotsTXT = true
+
+paginate = 10
+summaryLength = 64
+
+[taxonomies]
+tag = "tags"
+
+[params]
+# warning = "ceci est un message d'avertissement"
+
+gmap    = "https://maps.googleapis.com/maps/api/staticmap"
+# gkey    = "AIzaSyDKhgVgbkxcWNZFIyYewpxB0rjRpKB4Lxk"
+gkey    = "AIzaSyBoDjY60pcDcd8zWTi4aq0sBoWeQMVxrT4"

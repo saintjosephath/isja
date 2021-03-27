@@ -1,0 +1,12 @@
+{{ with $tags := .Site.Taxonomies.tags.ByCount }}
+<section class="mb-3">
+  <h1 class="w-50 h4 text-center mx-auto py-1 mb-3 border-top border-bottom">En un click!</h1>
+  <ul class="list-inline text-center">
+    {{ range . }}
+      <li class="list-inline-item mb-2">
+        <a class="btn btn-sm btn-tag" href="{{ .Page.Permalink }}">{{ .Page.Title }}</a>
+      </li>
+    {{ end }}
+  </ul>
+</section>
+{{ end }}

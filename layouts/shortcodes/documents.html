@@ -1,0 +1,11 @@
+{{range $.Site.Data.documents.list}}
+  <ul class="list-group list-group-flush">
+    <li class="px-0 list-group-item d-flex justify-content-between align-items-start">
+      <div class="ms-2 me-auto">
+        <h4 class="h5 fw-bold text-dark">{{.name}}</h4>
+        <div>{{.summary}}</div>
+      </div>
+      <a href="/documents/{{.location}}" class="badge bg-primary rounded-pill">télécharger</a>
+    </li>
+  </ul>
+{{ end }}

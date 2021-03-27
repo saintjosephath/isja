@@ -1,0 +1,14 @@
+{{define "main"}}
+  {{range .Pages}}
+    {{ if .Content }}
+    <section class="mb-4">
+      <header>
+        <h1 class="h3">{{.Title}}</h1>
+      </header>
+      <div class="row">
+      {{.Content}}
+      </div>
+    </section>
+    {{end}}
+  {{end}}
+{{end}}

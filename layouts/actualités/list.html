@@ -1,0 +1,12 @@
+{{define "main"}}
+<div>
+  {{ range (.Paginate (.Pages.ByPublishDate.Reverse )).Pages }}
+    {{partial "article.html" .}}
+  {{ end }}
+  <footer>
+    <nav class="mx-auto" style="width:240px">
+      {{ template "_internal/pagination.html" .}}
+    </nav>
+  </footer>
+</div>
+{{end}}
