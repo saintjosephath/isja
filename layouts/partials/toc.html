@@ -5,7 +5,9 @@
       <div class="list-group border-0">
         {{ range $page.Pages }}
           {{ if gt (len .Content) 0 }}
-          <a class="list-group-item border-0 py-1" href="{{ $page.Permalink }}">{{ .Title }}</a>
+          <a class="list-group-item border-0 py-1" href="{{ $page.Permalink }}#{{.File.UniqueID}}">
+            <span>{{ .Title }}</span>
+          </a>
           {{ end }}
         {{ end }}
       </div>

@@ -1,7 +1,7 @@
 {{define "main"}}
   {{range .Pages}}
     {{ if .Content }}
-    <section class="mb-4">
+    <section class="mb-4" id="{{.File.UniqueID}}">
       <header>
         <h1 class="h3">{{.Title}}</h1>
       </header>

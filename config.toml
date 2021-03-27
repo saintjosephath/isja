@@ -1,6 +1,6 @@
 baseURL = "https://saintjosephath.github.io"
 title = "Institut Saint-Joseph Ath"
-
+publishDir = "../saintjosephath.github.io"
 languageCode = "fr-be"
 defaultContentLanguage = "fr"
 
