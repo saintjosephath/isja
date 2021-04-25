@@ -13,6 +13,8 @@ enableRobotsTXT = true
 paginate = 10
 summaryLength = 64
 
+contentDir = "site"
+
 [taxonomies]
 tag = "tags"
 

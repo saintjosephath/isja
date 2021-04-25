@@ -1,0 +1,10 @@
+members = [
+  {name = "Madame I. Pilatte", role="présidente",},
+  {name = "Madame N. Beauboire", role="",},
+  {name = "Madame S. De Kuyssche", role="",},
+  {name = "Madame C. De Potte", role="",},
+  {name = "Monsieur P. Cauchie", role="",},
+  {name = "Monsieur F. Hostraete ", role="",},
+  {name = "Monsieur O. Vlasschaert", role="",},
+  {name = "Monsieur E. Van Rysselberghe", role="",},
+]

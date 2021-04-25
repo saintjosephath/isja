@@ -1,5 +1,5 @@
 {{define "main"}}
-  {{range .Pages}}
+  {{range .Pages.ByWeight}}
     {{ if .Content }}
     <section class="mb-4" id="{{.File.UniqueID}}">
       <header>
