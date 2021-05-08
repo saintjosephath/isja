@@ -1,0 +1,15 @@
+{{define "main"}}
+  <header class="mb-5">
+    <h1 class="h3">{{.Title}}</h1>
+  </header>
+  <div>
+    {{.Content}}
+  </div>
+{{end}}
+
+{{ define "aside"}}
+{{partial "toc" .}}
+{{partial "apropos" .}}
+{{partial "latest" .}}
+{{partial "tags" .}}
+{{end}}

@@ -1,9 +1,0 @@
-place    = {latitude = 50.629226, longitude = 3.778429}
-address  = "rue des écriniers 4, 7800 ath"
-phone    = "00/00.00.00"
-email    = "saintjospephath@gmail.com"
-teachers = [
-  {class = "1ère", section = "primaire", name = "Mr Laurent", email="laurent@gmail.com"},
-  {class = "2ère", section = "primaire", name = "Mr Pelletier", email="patrick@gmail.com"},
-  {class = "4ère", section = "primaire", name = "Mme Valérie", email="valérie@gmail.com"},
-]

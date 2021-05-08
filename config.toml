@@ -13,14 +13,8 @@ enableRobotsTXT = true
 paginate = 10
 summaryLength = 64
 
-contentDir = "site"
-
 [taxonomies]
 tag = "tags"
 
 [params]
 # warning = "ceci est un message d'avertissement"
-
-gmap    = "https://maps.googleapis.com/maps/api/staticmap"
-# gkey    = "AIzaSyDKhgVgbkxcWNZFIyYewpxB0rjRpKB4Lxk"
-gkey    = "AIzaSyBoDjY60pcDcd8zWTi4aq0sBoWeQMVxrT4"

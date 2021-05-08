@@ -1,7 +1,0 @@
-place    = {latitude = 50.618365, longitude = 3.803968}
-address  = "route de soignies 308, Maffle"
-phone    = "00/00.00.00"
-email    = "saintjospephath@gmail.com"
-teachers = [
-  {class = "1ère", section = "primaire", name = "Mr Laurent", email="laurent@gmail.com"},
-]

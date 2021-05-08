@@ -1,12 +1,11 @@
 +++
-title       = "Informations générales"
-subtitle    = "Informations générales"
-date        = 2021-04-25T10:55:38+02:00
+title       = "Nos horaires"
+date        = 2021-05-08T17:08:11+02:00
 draft       = false
 author      = "direction"
 tags        = []
+weight      = 100
 description = "Cette page rassemble l’organisation interne de notre école : la grille horaire, les garderies et études, le sport..."
-weight      = 10
 +++
 
 ##### 1.	Education physique

@@ -1,13 +1,11 @@
 +++
-title       = "Actualités"
-subtitle    = "Une école qui bouge"
-date        = 2021-03-20T14:50:26+01:00
+title       = "Notre actualité"
+subtitle    = "Notre actualité"
+date        = 2021-04-25T10:55:50+02:00
 draft       = false
 author      = "direction"
 tags        = []
-description = ""
+description = "Suivez l’actualité, les événements, les actions mis en place dans l’école."
 menu        = "main"
-weight      = 600
+weight      = 750
 +++
-
-Contrairement à une opinion répandue, le Lorem Ipsum n'est pas simplement du texte aléatoire. Il trouve ses racines dans une oeuvre de la littérature latine classique datant de 45 av. J.-C., le rendant vieux de 2000 ans. Un professeur du Hampden-Sydney College, en Virginie, s'est intéressé à un des mots latins les plus obscurs, consectetur, extrait d'un passage du Lorem Ipsum, et en étudiant tous les usages de ce mot dans la littérature classique, découvrit la source incontestable du Lorem Ipsum. Il provient en fait des sections 1.10.32 et 1.10.33 du "De Finibus Bonorum et Malorum" (Des Suprêmes Biens et des Suprêmes Maux) de Cicéron. Cet ouvrage, très populaire pendant la Renaissance, est un traité sur la théorie de l'éthique. Les premières lignes du Lorem Ipsum, "Lorem ipsum dolor sit amet...", proviennent de la section 1.10.32.

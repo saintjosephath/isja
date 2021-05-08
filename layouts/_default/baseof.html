@@ -9,13 +9,11 @@
   </head>
   <body style="padding-top:56px">
     {{partial "nav.html" .}}
-    <header id="page-header" class="row" style="height:460px">
+    <header id="page-header">
       {{ block "header" . }}
-      <div>
-        <div class="container">
-          <div class="row" style="height:460px">
-            {{partial "header.html" .}}
-          </div>
+      <div class="container">
+        <div class="row" style="height:460px">
+          {{partial "header.html" .}}
         </div>
       </div>
       {{ end }}
@@ -34,7 +32,6 @@
           </div>
           <aside class="col-4" id="related-infos">
             {{ block "aside" .}}
-            {{partial "toc" .}}
             {{partial "apropos" .}}
             {{partial "latest" .}}
             {{partial "tags" .}}

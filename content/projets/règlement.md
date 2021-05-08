@@ -1,6 +1,6 @@
 +++
-title       = "L'Institut"
-date        = 2021-03-23T19:02:50+01:00
+title       = "Règlement d'ordre intérieur"
+date        = 2021-05-08T16:55:33+02:00
 draft       = false
 author      = "direction"
 tags        = []

@@ -1,13 +1,15 @@
 <article class="card border-0 mb-4">
   <div class="card-body p-0">
-    <h4 class="card-title">{{.Title}}</h4>
-    <div class="mb-3">
-      <em class="text-muted fs-6">publié {{if .Params.author}}par {{.Params.author}}{{end}} le {{.Date.Format "02-01-2006"}}</em>
+    <h4 class="card-title mb-0">{{.Title}}</h4>
+    <div class="card-subtitle my-2">
+      <small class="text-muted">
+        <em>publié {{if .Params.author}}par {{.Params.author}}{{end}} le {{.Date.Format "02-01-2006"}}</em>
+      </small>
     </div>
     <div class="text-justify">{{.Content}}</div>
     <ul class="list-inline text-right">
       {{ range (.GetTerms "tags") }}
-        <li class="list-inline-item">
+        <li class="list-inline-item mx-0">
           <a class="btn btn-sm btn-outline-tag" href="{{ .Permalink }}">{{ .LinkTitle }}</a>
         </li>
      {{ end }}

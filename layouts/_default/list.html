@@ -1,14 +1,28 @@
 {{define "main"}}
-  {{range .Pages.ByWeight}}
-    {{ if .Content }}
-    <section class="mb-4" id="{{.File.UniqueID}}">
-      <header>
-        <h1 class="h3">{{.Title}}</h1>
-      </header>
-      <div class="row">
-      {{.Content}}
+<div class="container">
+  {{with .Description}}
+  <section class="lead w-75 mx-auto my-4">
+    <p class="text-center">{{.}}</p>
+  </section>
+  {{end}}
+  <div class="row row-cols-1">
+    {{range $i, $p := .Pages.ByWeight}}
+    <section class="col-6 mb-3" id="{{$p.File.UniqueID}}">
+      <div class="card border-0">
+        <img src="https://via.placeholder.com/360x240" class="card-img-top">
+        <div class="card-body">
+          <h4 class="card-title">{{$p.Title}}</h4>
+          <p>{{$p.Description}}</p>
+        </div>
+        <footer class="text-center">
+          <a href="{{$p.Permalink}}" class="btn btn-sm btn-outline-tag">en savoir plus</a>
+        </footer>
       </div>
     </section>
+    {{if modBool (add $i 1) 2}}
+      <div class="w-100 my-3"></div>
     {{end}}
   {{end}}
+  </div>
+</div>
 {{end}}

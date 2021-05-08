@@ -1,31 +1,41 @@
 {{ define "body" }}
   {{ with $page := .GetPage "actualités" }}
-  <section class="mb-5 row">
+  <section class="mb-5 card-group">
     {{ range first 4 $page.Pages.ByPublishDate.Reverse }}
-    <article class="col story">
-      <h3 class="h5 text-center">
-        <a href="{{$page.Permalink}}">{{.Title}}</a>
+    <article class="card border-0 text-center">
+      <h3 class="h5 m-0">
+        <a href="{{$page.Permalink}}" class="text-decoration-none">
+          <span>{{.Title}}</span>
+        </a>
       </h3>
+      <p class="text-muted text-center">
+        <small class="fst-italic">publié le {{dateFormat "02-01-2006" .Date }}</small>
+      </p>
     </article>
     {{ end }}
   </section>
   {{ end }}
+  <section class="lead fs-5 fst-italic w-75 mx-auto mb-5 text-center">
+      <p>{{.Content}}</p>
+  </section>
   <section>
   {{ range $i, $p := .Pages }}
-    {{ if gt $i 0 }}
-    <hr class="w-25 mx-auto my-5">
+    {{ if $p.Params.home }}
+      {{ if gt $i 0 }}
+      <hr class="w-25 mx-auto my-5">
+      {{ end }}
+      <article class="row align-items-center text-center">
+        <div class="col-6">
+          <h1 class="h3"><em>{{ $p.Title }}</em></h1>
+          <p>{{ $p.Content }}</p>
+        </div>
+        <div class="col-6 {{if eq (mod $i 2) 0 }}order-first{{end}}">
+          <figure>
+            <img src="https://via.placeholder.com/420x360">
+          </figure>
+        </div>
+      </article>
     {{ end }}
-    <article class="row align-items-center">
-      <div class="col-7">
-      <h1 class="h3"><em>{{ $p.Title }}</em></h1>
-      <p style="text-indent:50px">{{ $p.Summary }}</p>
-      </div>
-      <div class="col {{if eq (mod $i 2) 0 }}order-first{{end}}">
-        <figure>
-          <img src="https://via.placeholder.com/420x240">
-        </figure>
-      </div>
-    </article>
   {{ end }}
   </section>
 {{ end }}

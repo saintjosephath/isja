@@ -1,11 +1,11 @@
 +++
-title       = "Notre histoire"
-date        = 2021-04-25T11:07:09+02:00
+title       = "Notre Histoire"
+date        = 2021-05-08T16:57:55+02:00
 draft       = false
 author      = "direction"
 tags        = []
-description = ""
 weight      = 100
+description = "Père Castor raconte nous l’Histoire de l’Institut Saint-Joseph depuis ses débuts. "
 +++
 
 **Dis, papa, au fait, pourquoi tu m’as inscrit à l’Institut Saint-Joseph quand j’ai pu aller à l’école ?**
