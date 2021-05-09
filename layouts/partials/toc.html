@@ -4,7 +4,7 @@
       <h1 class="w-50 h4 text-center mx-auto py-1 mb-3 border-top border-bottom">A lire</h1>
       <div class="list-group border-0">
         {{ range $page.Pages.ByWeight }}
-        <a class="list-group-item border-0 py-1" href="{{ $page.Permalink }}#{{.File.UniqueID}}">
+        <a class="list-group-item border-0 py-1" href="{{ .Permalink }}">
           <span>{{ .Title }}</span>
         </a>
         {{ end }}

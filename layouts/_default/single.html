@@ -1,4 +1,12 @@
 {{define "main"}}
+  <nav style="--bs-breadcrumb-divider: '>';">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item active">
+        <a href="{{.Parent.Permalink}}">{{.Parent.Title}}</a>
+      </li>
+      <li class="breadcrumb-item active">{{.Title}}</li>
+    </ol>
+  </nav>
   <header class="mb-5">
     <h1 class="h3">{{.Title}}</h1>
   </header>

@@ -1,7 +1,9 @@
 {{define "main"}}
 <div>
   {{ range (.Paginate (.Pages.ByPublishDate.Reverse )).Pages }}
+    <div id="{{.File.UniqueID}}">
     {{partial "article.html" .}}
+    </div>
   {{ end }}
   <footer>
     <nav class="mx-auto" style="width:240px">

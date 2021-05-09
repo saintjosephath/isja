@@ -1,5 +1,0 @@
-<div class="col" data-latitude="{{.place.latitude}}" data-longitude="{{.place.longitude}}">
-  <figure>
-    <img src="{{.ctx.Site.Params.gmap}}?zoom=15&markers=color:red%7Clabel:A%7C{{.place.latitude}},{{.place.longitude}}&size=350x240&center={{.place.latitude|safeHTML}},{{.place.longitude | safeHTML}}&key={{.ctx.Site.Params.gkey | safeHTML}}">
-  </figure>
-</div>

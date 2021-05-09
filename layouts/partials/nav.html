@@ -3,11 +3,24 @@
   <div class="container">
     <a class="navbar-brand" href="{{.Site.Home.Permalink}}">{{.Site.Title}}</a>
     <div class="collapse navbar-collapse">
-      <div class="navbar-nav ms-auto">
+      <ul class="navbar-nav ms-auto">
         {{ range .Site.Menus.main }}
-          <a href="{{.Page.Permalink}}" class="nav-link">{{ .Name }}</a>
+        <li class="nav-item {{if .Page.Params.dropdown}}dropdown{{end}}">
+          <a href="{{.Page.Permalink}}" class="nav-link {{if .Page.Params.dropdown}}dropdown-toggle{{end}}" {{if .Page.Params.dropdown}}role="button" data-bs-toggle="dropdown" aria-expanded="false"{{end}}>
+            <span>{{ .Name }}</span>
+          </a>
+          {{if .Page.Params.dropdown}}
+          <ul class="dropdown-menu">
+            {{range .Page.Pages}}
+            <li>
+              <a href="{{.Permalink}}" class="dropdown-item">{{.Title}}</a>
+            </li>
+            {{end}}
+          </ul>
+          {{end}}
+        </li>
         {{ end }}
-      </div>
+      </ul>
     </div>
   </div>
 </nav>

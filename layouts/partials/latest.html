@@ -3,7 +3,7 @@
   <h1 class="w-50 h4 text-center mx-auto py-1 mb-3 border-top border-bottom">A la une!</h1>
   <div class="list-group border-0">
     {{ range first 10 $page.Pages }}
-      <a class="list-group-item border-0 py-1" href="{{ $page.Permalink }}">{{ .Title }}</a>
+      <a class="list-group-item border-0 py-1" href="{{$page.Permalink}}#{{.File.UniqueID}}">{{ .Title }}</a>
     {{ end }}
   </div>
 </section>

@@ -1,0 +1,52 @@
+[[Maternelles]]
+
+location = "Ath"
+team = [
+  {class = "Accueil/M1", names = ["Mme Nathalie", "Tit Nat' (PUER)"]},
+  {class = "M1", names = ["Mme Cécile"]},
+  {class = "M2/3", names = ["A. Mme Stéphanie", "B. Mme Véronique"]},
+  {class = "Psychomot", names = ["Mme Ophélie D."]},
+  {class = "Fla", names = ["Mme Bérénice"]},
+]
+
+[[Maternelles]]
+location = "Maffle"
+team = [
+  {class = "Accueil/M1", names = ["Mme Barbara", "Mme Brigitte (PUER)"]},
+  {class = "M1", names = ["Mme Barbara", "Mme Brigitte (PUER)"]},
+  {class = "M2/M3", names = ["M. Bruno"]},
+  {class = "Psychomot", names = ["Mme Ophélie D."]},
+  {class = "FLA", names = ["Melle Ophélie T."]},
+]
+
+[[Primaires]]
+
+location = "Ath"
+team = [
+  {class = "P1", names = ["M. Laurent", "Mme Valérie G."]},
+  {class = "P2", names = ["Mme Carine", "M. Peltier"]},
+  {class = "P3", names = ["Mme Elodie", "Mme Hélène"]},
+  {class = "P4", names = ["Mme Valérie B.", "Mme Isabelle"]},
+  {class = "P5", names = ["M. Demain", "M. Lemaire"]},
+  {class = "P6", names = ["Mme Malherbe", "M. Mahaudens"]},
+  {class = "Polyvalents", names = ["M. Fromont", "Melle Aurélie", "Melle Tiffany"]},
+  {class = "Néerlandais", names = ["Mme Laure"]},
+  {class = "EPS", names = ["M. Brixy", "M. Ludovic"]},
+  {class = "FLA", names = ["Mme Bérénice", "Melle Aurélie"]},
+]
+
+[[Primaires]]
+
+location = "Maffle"
+team = [
+  {class = "P1", names = ["Mme Isabelle"]},
+  {class = "P2", names = ["Mme Marie"]},
+  {class = "P3", names = ["Mme Sarah"]},
+  {class = "P4", names = ["Mme Sarah"]},
+  {class = "P5", names = ["Mme Anne"]},
+  {class = "P6", names = ["Mme Anne"]},
+  {class = "Polyvalents", names = ["Véronique"]},
+  {class = "Néerlandais", names = ["Mme Laure"]},
+  {class = "EPS", names = ["M. Pierre", "M. Nicolas"]},
+  {class = "FLA", names = ["Melle Ophélie T."]},
+]
