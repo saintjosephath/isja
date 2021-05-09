@@ -1,0 +1,29 @@
+[[Address]]
+street  = "rue des Ecriniers, 4"
+zipcode = 7800
+town  = "Ath"
+phone = ""
+
+[[Address]]
+street  = "rue de Soignies, 308"
+zipcode = 7810
+town    = "Maffle"
+phone   = ""
+
+[[contact]]
+role  = "P.O."
+name  = "Mme Pillate"
+phone = ""
+email = "institutsaintjosephath@gmail.com"
+
+[[contact]]
+role  = "Direction"
+name  = "Mme Vandermeets"
+phone = "068/28.25.56"
+email = "institutsaintjosephath@gmail.com"
+
+[[contact]]
+role  = "Comptabilité"
+name  = "Mme Sieuw"
+phone = "068/28.38.47"
+email = "comptabilite.elfca@gmail.com"

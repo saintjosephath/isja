@@ -1,0 +1,34 @@
+{{with $.Site.Data.contact}}
+<div class="row row-cols-1">
+  {{range .Address}}
+  <div class="col-6">
+    <div class="card border-0">
+      <img src="https://via.placeholder.com/360x240" class="card-img-top">
+      <address class="card-body text-center">
+        <p>{{.street}}</p>
+        <p>{{.zipcode}}, {{.town}}</p>
+      </address>
+    </div>
+  </div>
+  {{end}}
+</div>
+{{with $.Site.Data.contact}}
+<div class="w-50 mx-auto">
+  {{range .contact}}
+  <div class="card border-0">
+    <address class="card-body py-1">
+      <h1 class="h4 card-title">{{.name}} ({{.role}})</h1>
+      <dl class="row">
+        <dt class="col-4">e-mail</dt>
+        <dd class="col-8">{{.email}}</dd>
+        {{if .phone}}
+        <dt class="col-4">téléphone</dt>
+        <dd class="col-8">{{.phone}}</dd>
+        {{end}}
+      </dl>
+    </address>
+  </div>
+  {{end}}
+</div>
+{{end}}
+{{end}}
