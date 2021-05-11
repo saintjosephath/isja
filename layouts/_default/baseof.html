@@ -10,6 +10,7 @@
   <body style="padding-top:56px">
     {{partial "nav.html" .}}
     <header id="page-header">
+      <div id="header-overlay">
       {{ block "header" . }}
       <div class="container">
         <div class="row" style="height:460px">
@@ -17,6 +18,7 @@
         </div>
       </div>
       {{ end }}
+      </div>
     </header>
     <main class="container">
       {{ if .Site.Params.warning }}
