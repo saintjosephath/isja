@@ -5,7 +5,8 @@ draft       = false
 author      = "direction"
 tags        = []
 weight      = 100
-description = "Père Castor raconte nous l’Histoire de l’Institut Saint-Joseph depuis ses débuts. "
+description = "Père Castor raconte nous l’Histoire de l’Institut Saint-Joseph depuis ses débuts."
+imglink = "/images/entrance_stair.png"
 +++
 
 **Dis, papa, au fait, pourquoi tu m’as inscrit à l’Institut Saint-Joseph quand j’ai pu aller à l’école ?**
@@ -14,7 +15,7 @@ Oh là, c’est une longue histoire ça…. Tu veux que je te raconte ?
 
 **Oui, oui...**
 
-Installe-toi bien et écoute….
+Installe-toi bien et écoute...
 
 Avant de commencer, il faut savoir que depuis de longues années tous les hommes de notre famille ont suivi leur scolarité dans cette école.
 
@@ -27,6 +28,8 @@ Mais reprenons au début.
 Il y a très, très longtemps, le 9 octobre 1838 pour être précis, débarquent à Ath, 3 prêtres : le Frère Bercaire, en qualité de premier directeur et les Frères Mémoire et Macorat, les deux premiers instituteurs. Dès le lendemain, deux classes sont ouvertes et aussitôt fréquentées par un grand nombre d'élèves.
 
 L’école n’est pas encore située à la rue des Ecriniers comme aujourd’hui mais à la rue de Gand, à côté de la piscine actuelle dans les locaux occupés à notre époque par les réthos du Collège Saint-Julien.
+
+{{< image source="/images/status.png" text="Saint-Joseph" float="end" height="960">}}
 
 **Mais pourquoi décident-ils d’ouvrir une école ? Il n’y en avait pas ?**
 

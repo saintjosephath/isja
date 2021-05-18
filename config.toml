@@ -17,4 +17,4 @@ summaryLength = 64
 tag = "tags"
 
 [params]
-# warning = "ceci est un message d'avertissement"
+#warning = "ceci est un message d'avertissement"

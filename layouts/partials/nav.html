@@ -1,7 +1,10 @@
 {{ $curr := .}}
-<nav class="navbar navbar-expand-lg navbar-light fixed-top bg-light border-bottom">
+<nav class="navbar navbar-expand-lg navbar-light fixed-top bg-light border-bottom p-1">
   <div class="container">
-    <a class="navbar-brand" href="{{.Site.Home.Permalink}}">{{.Site.Title}}</a>
+    <a class="navbar-brand" href="{{.Site.Home.Permalink}}">
+      <img src="/images/logo.png" alt="" width="25" height="30" class="d-inline-block align-text-top" style="position:relative; top:-5px">
+      <span class="ms-2">{{.Site.Title}}</span>
+    </a>
     <div class="collapse navbar-collapse">
       <ul class="navbar-nav ms-auto">
         {{ range .Site.Menus.main }}

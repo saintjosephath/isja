@@ -1,1 +1,4 @@
-<img src="{{ .Get "source" }}" alt="logo" class="mx-auto d-block">
+<img src="{{ .Get "source" }}"
+  alt="{{.Get  "text"}}"
+  class="mx-auto d-block {{ if eq (.Get "float") "end"}}ms-3 float-end{{end}}"
+  {{if ne (.Get "height") ""}}height="{{.Get "height"}}"{{end}}>

@@ -51,7 +51,7 @@ Pour les maternelles uniquement de 15h30 à 16h30.
 
 ##### 8.	Activités festives
 
-La Messe de rentrée, la chorale pendant les périodes saintes, le Cabaret, la célébration de Noël, la Saint- Joseph, différents repas de l’association des parents et de l’équipe éducative, les portes ouvertes,...
+La Messe de rentrée, la chorale pendant les périodes saintes, le Cabaret, la célébration de Noël, la Saint-Joseph, différents repas de l’association des parents et de l’équipe éducative, les portes ouvertes,...
 
 ##### 9.	Transports scolaires
 
