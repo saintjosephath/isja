@@ -28,6 +28,9 @@
         <div class="col-6">
           <h1 class="h3"><em>{{ $p.Title }}</em></h1>
           <p>{{ $p.Content }}</p>
+          <div class="text-center">
+            <a href="{{$p.Permalink}}" class="btn btn-link">en savoir plus</a>
+          </div>
         </div>
         <div class="col-6 {{if eq (mod $i 2) 0 }}order-first{{end}}">
           <figure>
