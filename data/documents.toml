@@ -1,6 +1,14 @@
-list = [
-  {name = "Projet d'établissement", location = "1. Projet d'établissement 31-08-11.pdf", summary = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec facilisis orci vitae massa accumsan maximus"},
-  {name = "Projet éducatif", location = "2. Projet éducatif 31-08-04.pdf", summary = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec facilisis orci vitae massa accumsan maximus"},
-  {name = "Règlement des études", location = "3. Règlement des études 31-08-08.pdf", summary = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec facilisis orci vitae massa accumsan maximus"},
-  {name = "Règlement d'ordre intérieur", location = "4. Règlement d'ordre intérieur 31-08-19.pdf", summary = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec facilisis orci vitae massa accumsan maximus"},
-]
+[[document]]
+name = "accord des parents"
+summary = ""
+location = "admin/ACCORD_DES_PARENTS.pdf"
+
+[[document]]
+name = "fichier d'inscription"
+summary = ""
+location = "admin/FICHE_INSCRIPTION.pdf"
+
+[[document]]
+name = "justificaf d'absence"
+summary = ""
+location = "admin/JUSTIFICATIF_ABSENCE.pdf"

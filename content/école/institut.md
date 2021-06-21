@@ -25,6 +25,8 @@ Si la pédagogie traditionnelle existe aujourd’hui c’est parce qu’elle a e
 
 L’un situé au cœur de la ville d’Ath, appelé aussi le centre.
 
+{{< image source="/images/ath_batiment.png" text="Ath" height="360">}}
+
 Une école à visage humain, ni trop grande ni trop petite. Toutes les infrastructures culturelles, historiques et sportives athoises sont accessibles à pieds, pour le plaisir des petits et des grands. Les trajets vers la gare, l’esplanade ou la plupart des lignes de bus se font en toute sécurité.
 Elle compte 290 élèves. Toutes les classes maternelles et primaires sont présentes. Elle se compose de 3 classes maternelles verticales (Accueil + M1 et M2+M3) et de 10 classes uniques et une classe verticale (P1/P2) en primaire.
 

@@ -1,11 +1,20 @@
-{{range $.Site.Data.documents.list}}
-  <ul class="list-group list-group-flush">
-    <li class="px-0 list-group-item d-flex justify-content-between align-items-start">
-      <div class="ms-2 me-auto">
-        <h4 class="h5 fw-bold text-dark">{{.name}}</h4>
-        <div>{{.summary}}</div>
+<div class="row justify-content-center">
+  {{range $i, $d := $.Site.Data.documents.document}}
+      <div class="col-md-3 col-lg-3 col-sm-1">
+        <div class="card mb-3" style="min-height:240px">
+          <img src="/images/icons/file-pdf.svg" class="card-img-top p-2 bg-light border-bottom" height="60"/>
+          <div class="card-body text-center">
+            <h5 class="card-title">{{$d.name}}</h5>
+            <p class="card-text">{{$d.summary}}</p>
+          </div>
+          <div class="card-body py-2 d-flex align-items-end text-center">
+            {{if $d.location}}
+            <a href="/documents/{{$d.location}}" class="btn stretched-link mx-auto" target="_blank">
+              <span>open</span>
+            </a>
+            {{end}}
+          </div>
+        </div>
       </div>
-      <a href="/documents/{{.location}}" class="badge bg-primary rounded-pill">télécharger</a>
-    </li>
-  </ul>
-{{ end }}
+  {{end}}
+</div>

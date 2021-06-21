@@ -7,3 +7,5 @@ tags        = []
 weight      = 600
 description = "Justificatifs d’absence, accords parentaux, autorisations..."
 +++
+
+{{< documents >}}
