@@ -1,0 +1,22 @@
+{{define "main"}}
+{{partial "breadcrumb.html" .}}
+<header class="mb-5">
+  <h1 class="h3">{{.Title}}</h1>
+</header>
+<div class="w-75 m-auto text-center" id="subscribe-intro">
+  {{.Content}}
+</div>
+<div class="mt-5 position-relative">
+  {{with .Site.GetPage "section" "inscriptions"}}
+    {{range $i, $p := .Pages.ByWeight}}
+    {{ $left := not (modBool $i 2)}}
+    <div class="col-6 {{if $left}}offset-6 border-start step-start{{else}}border-end step-end{{end}} border-3 border-primary d-flex align-items-center">
+      <h1 class="bg-primary text-white position-absolute">{{$p.Title}}</h1>
+      <div class="p-4 {{if $left}}step-start-body{{else}}step-end-body{{end}}">
+        {{$p.Content}}
+      </div>
+    </div>
+    {{end}}
+  {{end}}
+</div>
+{{end}}

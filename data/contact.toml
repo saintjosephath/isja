@@ -3,12 +3,14 @@ street  = "rue des Ecriniers, 4"
 zipcode = 7800
 town  = "Ath"
 phone = ""
+image = "/images/visit_ath.png"
 
 [[Address]]
 street  = "rue de Soignies, 308"
 zipcode = 7810
 town    = "Maffle"
 phone   = ""
+image = "/images/visit_maffle.png"
 
 [[contact]]
 role  = "P.O."

@@ -3,10 +3,10 @@
   {{range .Address}}
   <div class="col-6">
     <div class="card border-0">
-      <img src="https://via.placeholder.com/360x240" class="card-img-top">
+      <img src="{{.image}}" class="card-img-top">
       <address class="card-body text-center">
-        <p>{{.street}}</p>
-        <p>{{.zipcode}}, {{.town}}</p>
+        <p class="mb-1">{{.street}}</p>
+        <p class="mb-1">{{.zipcode}}, {{.town}}</p>
       </address>
     </div>
   </div>
