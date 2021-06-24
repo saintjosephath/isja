@@ -5,8 +5,5 @@ draft       = false
 author      = "direction"
 tags        = []
 description = ""
+dummy       = true
 +++
-
-Nous assurons une permanence pendant les congés et vacances scolaires en fonction de votre demande de rendez-vous.
-
-N'attendez plus, venez nous rencontrer!

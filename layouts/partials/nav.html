@@ -15,9 +15,11 @@
           {{if .Page.Params.dropdown}}
           <ul class="dropdown-menu">
             {{range .Page.Pages}}
+            {{ if not .Params.dummy }}
             <li>
               <a href="{{.Permalink}}" class="dropdown-item">{{.Title}}</a>
             </li>
+            {{end}}
             {{end}}
           </ul>
           {{end}}
