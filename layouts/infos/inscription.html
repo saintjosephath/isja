@@ -1,3 +1,4 @@
+
 {{define "main"}}
 {{partial "breadcrumb.html" .}}
 <header class="mb-5">
@@ -11,8 +12,9 @@
     {{range $i, $p := .Pages.ByWeight}}
     {{ $left := not (modBool $i 2)}}
     <div class="col-6 {{if $left}}offset-6 border-start step-start{{else}}border-end step-end{{end}} border-3 border-primary d-flex align-items-center">
-      <h1 class="bg-primary text-white position-absolute">{{$p.Title}}</h1>
+      <h1 class="bg-primary text-white position-absolute">{{add $i 1}}</h1>
       <div class="p-4 {{if $left}}step-start-body{{else}}step-end-body{{end}}">
+        <h1 class="h4">{{$p.Title}}</h1>
         {{$p.Content}}
       </div>
     </div>
