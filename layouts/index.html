@@ -15,9 +15,6 @@
     {{ end }}
   </section>
   {{ end }}
-  <section class="lead fs-5 fst-italic w-75 mx-auto mb-5 text-center">
-      <p>{{.Content}}</p>
-  </section>
   <section>
   {{ range $i, $p := .Pages }}
     {{ if $p.Params.home }}
@@ -26,10 +23,10 @@
       {{ end }}
       <article class="row align-items-center text-center">
         <div class="col-6">
-          <h1 class="h3"><em>{{ $p.Title }}</em></h1>
-          <p>{{ $p.Content }}</p>
           <div class="text-center">
-            <a href="{{$p.Permalink}}" class="btn btn-link">en savoir plus</a>
+            <a href="{{$p.Permalink}}" class="text-reset text-decoration-none">
+              <h1><em>{{ $p.Title }}</em></h1>
+            </a>
           </div>
         </div>
         <div class="col-6 {{if eq (mod $i 2) 0 }}order-first{{end}}">

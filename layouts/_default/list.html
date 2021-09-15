@@ -1,32 +1,10 @@
 {{define "main"}}
 <div class="container">
   {{with .Description}}
-  <section class="lead w-75 mx-auto my-4">
+  <section class="lead mx-auto my-5">
     <p class="text-center">{{.}}</p>
   </section>
   {{end}}
-  <div class="row row-cols-2">
-    {{range $i, $p := .Pages.ByWeight}}
-    <section class="col-6 mb-3" id="{{$p.File.UniqueID}}">
-      <div class="card">
-        {{if $p.Params.imglink}}
-        <img src="{{$p.Params.imglink}}" class="card-img-top">
-        {{else}}
-        <img src="https://via.placeholder.com/360x240" class="card-img-top">
-        {{end}}
-        <div class="card-body py-1">
-          <h4 class="card-title">{{$p.Title}}</h4>
-          <p>{{$p.Description}}</p>
-          <footer class="text-center">
-            <a href="{{$p.Permalink}}" class="btn btn-link">en savoir plus</a>
-          </footer>
-        </div>
-      </div>
-    </section>
-    {{if modBool (add $i 1) 2}}
-      <div class="w-100 my-3"></div>
-    {{end}}
-  {{end}}
-  </div>
+  {{partial "list.html" .}}
 </div>
 {{end}}
