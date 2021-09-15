@@ -4,7 +4,8 @@
 
 body {
   /* font-family: 'Droid Sans' !important; */
-  font-family: 'sans-serif' !important;
+  /* font-family: 'sans-serif' !important; */
+  font-family: muli,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
 }
 
 p {

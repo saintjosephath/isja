@@ -9,6 +9,6 @@ description = ""
 menu        = "main"
 weight      = 500
 home        = true
-dropdown    = true
+dropdown    = false
 imglink     = "/images/enfants 003.png"
 +++
