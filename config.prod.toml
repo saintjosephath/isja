@@ -1,0 +1,20 @@
+baseURL = "https://www.institutsaintjosephath.be"
+title = "Institut Saint-Joseph Ath"
+publishDir = "../wwww.isja.be"
+languageCode = "fr-be"
+defaultContentLanguage = "fr"
+
+canonifyURLs = true
+
+disableKinds = ["RSS"]
+
+enableRobotsTXT = true
+
+paginate = 10
+summaryLength = 64
+
+[taxonomies]
+tag = "tags"
+
+[params]
+#warning = "ceci est un message d'avertissement"

@@ -1,0 +1,18 @@
+{{ with $info := $.Site.Data.ephemerides }}
+  {{ range $info.trimestre }}
+    <div class="row mb-3">
+      <h3>{{.title}}</h3>
+      <table class="table">
+        <tbody>
+          {{ range .ephemeride }}
+          <tr>
+            <th>{{.title}}</th>
+            <td>{{.date}}</td>
+            <td>{{.note}}</td>
+          </tr>
+          {{ end }}
+        </tbody>
+      </table>
+    </div>
+  {{ end }}
+{{ end }}
