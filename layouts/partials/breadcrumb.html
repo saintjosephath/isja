@@ -3,9 +3,11 @@
     <li class="breadcrumb-item">
       <a href="{{.Site.Home.Permalink}}">Institut Saint-Joseph</a>
     </li>
+    {{if .Parent.Title}}
     <li class="breadcrumb-item">
       <a href="{{.Parent.Permalink}}">{{.Parent.Title}}</a>
     </li>
+    {{end}}
     <li class="breadcrumb-item active">{{.Title}}</li>
   </ol>
 </nav>

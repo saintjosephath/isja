@@ -5,7 +5,10 @@
       <img src="/images/logo.png" alt="" width="25" height="30" class="d-inline-block align-text-top" style="position:relative; top:-5px">
       <span class="ms-2">{{.Site.Title}}</span>
     </a>
-    <div class="collapse navbar-collapse">
+    <button class="navbar-toggler" style="border: 0!important" type="button" data-bs-toggle="collapse" data-bs-target="#nav-site" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span style="width:45px;height:45px" class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="nav-site">
       <ul class="navbar-nav ms-auto">
         {{ range .Site.Menus.main }}
         <li class="nav-item {{if .Page.Params.dropdown}}dropdown{{end}}">
@@ -25,6 +28,13 @@
           {{end}}
         </li>
         {{ end }}
+        {{with $.Site.Params.facebook}}
+        <li class="nav-item">
+          <a href="{{.}}" class="nav-link" target="_blank">
+            <img src="/images/icons/facebook.svg" height="24"/>
+          </a>
+        </li>
+        {{end}}
       </ul>
     </div>
   </div>

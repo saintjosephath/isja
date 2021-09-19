@@ -4,7 +4,7 @@ summary = ""
 location = "admin/ACCORD_DES_PARENTS.pdf"
 
 [[document]]
-name = "fichier d'inscription"
+name = "fiche d'inscription"
 summary = ""
 location = "admin/FICHE_INSCRIPTION.pdf"
 

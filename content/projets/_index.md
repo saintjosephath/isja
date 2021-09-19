@@ -12,3 +12,5 @@ home        = true
 dropdown    = false
 imglink     = "/images/enfants 003.png"
 +++
+
+{{< rules >}}

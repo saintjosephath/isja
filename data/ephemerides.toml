@@ -133,7 +133,7 @@ date = "date à convenir"
 note = "pour les P2-P4-P6"
 
 [[trimestre.ephemeride]]
-title = "Bulltin P2, p4, P6"
+title = "Bulletin P2, p4, P6"
 date = "vendredi 10 juin 2022"
 note = "avant les examens"
 
@@ -158,6 +158,6 @@ date = "date à convenir"
 note = ""
 
 [[trimestre.ephemeride]]
-title = "Buleetin de P1 à P5"
+title = "Bulletin de P1 à P5"
 date = "mardi 28 juin"
 note = ""
