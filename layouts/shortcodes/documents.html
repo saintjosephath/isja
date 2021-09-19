@@ -1,5 +1,6 @@
 <div class="row justify-content-center">
-  {{range $i, $d := $.Site.Data.documents.document}}
+  {{with $doc := index $.Site.Data (.Get "file")}}
+  {{range $i, $d := $doc.document}}
       <div class="col-md-3 col-lg-3 col-sm-1">
         <div class="card mb-3" style="min-height:240px">
           <img src="/images/icons/file-pdf.svg" class="card-img-top p-2 bg-light border-bottom" height="60"/>
@@ -16,5 +17,6 @@
           </div>
         </div>
       </div>
+  {{end}}
   {{end}}
 </div>
