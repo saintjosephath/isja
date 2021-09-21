@@ -1,6 +1,6 @@
 baseURL = "https://www.institutsaintjosephath.be"
 title = "Institut Saint-Joseph Ath"
-publishDir = "../wwww.isja.be"
+publishDir = "../www.isja.be"
 languageCode = "fr-be"
 defaultContentLanguage = "fr"
 
