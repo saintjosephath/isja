@@ -30,11 +30,11 @@
       {{ end }}
       <div id="page-body" class="row mt-5">
         {{ block "body" .}}
-          <div class="col-9" id="main-infos">
+          <div class="col-xs-12 col-sm-12 col-xl-9" id="main-infos">
             {{ block "main" .}}
             {{ end }}
           </div>
-          <aside class="col-3" id="related-infos">
+          <aside class="col-xs-12 col-sm-12 col-xl-3" id="related-infos">
             {{ block "aside" .}}
             {{partial "apropos" .}}
             {{partial "latest" .}}
