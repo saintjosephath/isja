@@ -1,0 +1,23 @@
+<div class="row justify-content-center">
+  {{with $doc := index $.Site.Data (.Get "file")}}
+  {{range $i, $d := $doc.document}}
+      <div class="col-md-6 col-lg-6 col-sm-1">
+        <div class="card mb-3 border-0" style="min-height:240px">
+          <img src="/images/buttons/{{$d.image}}" class="card-img" alt="">
+          <!-- <img src="/images/icons/file-pdf.svg" class="card-img-top p-2 bg-light border-bottom" height="60"/>
+          <div class="card-body text-center">
+            <h5 class="card-title">{{$d.name}}</h5>
+            <p class="card-text">{{$d.summary}}</p>
+          </div> -->
+          <div class="card-body py-2 d-flex align-items-end text-center card-img-overlay">
+            {{if $d.location}}
+            <a href="/documents/{{$d.location}}" class="btn stretched-link mx-auto btn-outline-tag" target="_blank">
+              <span>ouvrir</span>
+            </a>
+            {{end}}
+          </div>
+        </div>
+      </div>
+  {{end}}
+  {{end}}
+</div>

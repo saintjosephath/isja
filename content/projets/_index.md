@@ -13,4 +13,4 @@ dropdown    = false
 imglink     = "/images/enfants 003.png"
 +++
 
-{{< documents file="reglements" >}}
+{{< documents2 file="reglements" >}}

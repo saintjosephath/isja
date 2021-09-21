@@ -1,5 +1,5 @@
 +++
-title       = "Nos horaires"
+title       = "Horaires"
 date        = 2021-05-08T17:08:11+02:00
 draft       = false
 author      = "direction"

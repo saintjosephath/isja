@@ -1,5 +1,5 @@
 +++
-title       = "Comment s'inscrire? Mode d'emploi"
+title       = "Inscriptions"
 date        = 2021-05-08T17:08:48+02:00
 draft       = false
 author      = "direction"
@@ -9,6 +9,6 @@ description = "Quelles sont les démarches à suivre pour inscrire votre enfant 
 layout = "inscription"
 +++
 
-Nous assurons une permanence pendant les congés et vacances scolaires en fonction de votre demande de rendez-vous.
+Nous assurons une permanence toute l'année ainsi que pendant **les congés et vacances scolaires** en fonction de votre demande de rendez-vous.
 
 N'attendez plus, venez nous rencontrer!

@@ -1,5 +1,5 @@
 +++
-title       = "Notre Histoire"
+title       = "Notre histoire"
 date        = 2021-05-08T16:57:55+02:00
 draft       = false
 author      = "direction"

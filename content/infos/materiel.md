@@ -1,5 +1,5 @@
 +++
-title       = "Nos listes de Matériel scolaire"
+title       = "Listes de Matériel scolaire"
 date        = 2021-05-08T17:08:56+02:00
 draft       = true
 author      = "direction"
