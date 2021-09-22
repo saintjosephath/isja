@@ -43,7 +43,7 @@ De 15h30 à 16h30, l’Institut met en place deux types d’études, pour les pr
 
 ##### 7.	Garderie
 
-La garderie est ouverte à 6h30 à Ath et à 7h à Maffle. Elle ferme ses portes à 18h.
+La garderie est ouverte à 6h30 à Ath et à Maffle. Elle ferme ses portes à 18h.
 
 La gratuité est maintenue de 7h30 à 16h. Au-delà, un forfait d’1€ la demi-heure entamée sera exigée (une seule fois par famille).
 
