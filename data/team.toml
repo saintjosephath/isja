@@ -21,13 +21,14 @@ team = [
 
 location = "Ath"
 team = [
-  {class = "P1", names = ["M. Laurent S.", "Mme Nathalie W.", "Mme Stéphanie G."]},
+  {class = "P1", names = ["M. Laurent S.", "Mme Nathalie W."]},
   {class = "P2", names = ["Mme Carine C.", "M. P. Peltier"]},
   {class = "P3", names = ["Mme Elodie W.", "Mme Hélène D."]},
-  {class = "P4", names = ["M. FX Fromont", "Mme Isabelle L.", "Mme Virginie B.", "Mme Valérie G."]},
-  {class = "P5", names = ["Mme C. Malherbe", "Mme Valérie B.", "M P. Lemaire"]},
+  {class = "P4", names = ["M. FX Fromont", "Mme Isabelle L."]},
+  {class = "P5", names = ["Mme C. Malherbe", "Mme Valérie B."]},
   {class = "P6", names = ["M. B. Deman", "M. P. Mahaudens"]},
   {class = "Maitre spéciaux", names = ["M. Pierre B.", "M. Ludovic V", "Mme Laure D."]},
+  {class = "Aides", names= ["Mme Stéphanie G.", "M. P. Lemaire", "Mme Virginie B.", "Mme Valérie G."]}
 ]
 
 [[Primaires]]
@@ -35,7 +36,8 @@ team = [
 location = "Maffle"
 team = [
   {class = "P1/2", names = ["Mme Marie F.", "Mme Isabelle F."]},
-  {class = "P3/4A", names = ["Mme Sarah V.", "Mme Véronique P."]},
-  {class = "P5/6A", names = ["Mme Anne B.", "Mme Valérie G.", "Mme Virginie B."]},
+  {class = "P3/4A", names = ["Mme Sarah V."]},
+  {class = "P5/6A", names = ["Mme Anne B."]},
   {class = "Maitre spéciaux", names = ["M. Pierre B.", "M. Ludovic V", "Mme Laure D."]},
+  {class = "Aides", names = ["Mme Véronique P.", "Mme Valérie G.", "Mme Virginie B."]}
 ]
