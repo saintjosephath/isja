@@ -2,51 +2,40 @@
 
 location = "Ath"
 team = [
-  {class = "Accueil/M1", names = ["Mme Nathalie", "Tit Nat' (PUER)"]},
-  {class = "M1", names = ["Mme Cécile"]},
-  {class = "M2/3", names = ["A. Mme Stéphanie", "B. Mme Véronique"]},
-  {class = "Psychomot", names = ["Mme Ophélie D."]},
-  {class = "Fla", names = ["Mme Bérénice"]},
+  {class = "Accueil/M1A", names = ["Mme Nathalie B.", "Mme Laurence F."]},
+  {class = "M1B/M2A", names = ["Mme Cécile B."]},
+  {class = "M2B/3", names = ["Mme Véronique C.", "Mme Stéphanie G."]},
+  {class = "Maitre spécial", names = ["Mme Ophélie D."]},
 ]
 
 [[Maternelles]]
 location = "Maffle"
 team = [
-  {class = "Accueil/M1", names = ["Mme Barbara", "Mme Brigitte (PUER)"]},
+  {class = "Accueil/M1A", names = ["Mme Aline C.", "Mme Barbara H.", "Mme Nathalie D.", "Melle Sarah L."]},
   {class = "M1", names = ["Mme Barbara", "Mme Brigitte (PUER)"]},
-  {class = "M2/M3", names = ["M. Bruno"]},
-  {class = "Psychomot", names = ["Mme Ophélie D."]},
-  {class = "FLA", names = ["Melle Ophélie T."]},
+  {class = "M2/M3A", names = ["M. Bruno B."]},
+  {class = "Maitre spécial", names = ["Mme Ophélie D."]},
 ]
 
 [[Primaires]]
 
 location = "Ath"
 team = [
-  {class = "P1", names = ["M. Laurent", "Mme Valérie G."]},
-  {class = "P2", names = ["Mme Carine", "M. Peltier"]},
-  {class = "P3", names = ["Mme Elodie", "Mme Hélène"]},
-  {class = "P4", names = ["Mme Valérie B.", "Mme Isabelle"]},
-  {class = "P5", names = ["M. Deman", "M. Lemaire"]},
-  {class = "P6", names = ["Mme Malherbe", "M. Mahaudens"]},
-  {class = "Polyvalents", names = ["M. Fromont", "Melle Aurélie", "Melle Tiffany"]},
-  {class = "Néerlandais", names = ["Mme Laure"]},
-  {class = "EPS", names = ["M. Brixy", "M. Ludovic"]},
-  {class = "FLA", names = ["Mme Bérénice", "Melle Aurélie"]},
+  {class = "P1", names = ["M. Laurent S.", "Mme Nathalie W.", "Mme Stéphanie G."]},
+  {class = "P2", names = ["Mme Carine C.", "M. P. Peltier"]},
+  {class = "P3", names = ["Mme Elodie W.", "Mme Hélène D."]},
+  {class = "P4", names = ["M. FX Fromont", "Mme Isabelle L.", "Mme Virginie B.", "Mme Valérie G."]},
+  {class = "P5", names = ["Mme C. Malherbe", "Mme Valérie B.", "M P. Lemaire"]},
+  {class = "P6", names = ["M. B. Deman", "M. P. Mahaudens"]},
+  {class = "Maitre spéciaux", names = ["M. Pierre B.", "M. Ludovic V", "Mme Laure D."]},
 ]
 
 [[Primaires]]
 
 location = "Maffle"
 team = [
-  {class = "P1", names = ["Mme Isabelle"]},
-  {class = "P2", names = ["Mme Marie"]},
-  {class = "P3", names = ["Mme Sarah"]},
-  {class = "P4", names = ["Mme Sarah"]},
-  {class = "P5", names = ["Mme Anne"]},
-  {class = "P6", names = ["Mme Anne"]},
-  {class = "Polyvalents", names = ["Mme Véronique"]},
-  {class = "Néerlandais", names = ["Mme Laure"]},
-  {class = "EPS", names = ["M. Pierre", "M. Nicolas"]},
-  {class = "FLA", names = ["Melle Ophélie T."]},
+  {class = "P1/2", names = ["Mme Marie F.", "Mme Isabelle F."]},
+  {class = "P3/4A", names = ["Mme Sarah V.", "Mme Véronique P."]},
+  {class = "P5/6A", names = ["Mme Anne B.", "Mme Valérie G.", "Mme Virginie B."]},
+  {class = "Maitre spéciaux", names = ["M. Pierre B.", "M. Ludovic V", "Mme Laure D."]},
 ]
