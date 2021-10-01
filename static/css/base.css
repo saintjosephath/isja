@@ -104,3 +104,13 @@ h4:first-letter, h5:first-letter, h6:first-letter,
 .step-end>h1{
   right: -37px;
 }
+
+img.enlarge {
+    transition:transform 0.25s ease;
+}
+
+img.enlarge:hover {
+    -webkit-transform:scale(2, 2); /* or some other value */
+    transform:scale(2, 2);
+    z-index: 10000;
+}

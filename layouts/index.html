@@ -4,7 +4,7 @@
     {{ range first 4 $page.Pages.ByPublishDate.Reverse }}
     <article class="card border-0 text-center">
       <h3 class="h5 m-0">
-        <a href="{{$page.Permalink}}" class="text-decoration-none">
+        <a href="{{$page.Permalink}}#{{.File.UniqueID}}" class="text-decoration-none">
           <span>{{.Title}}</span>
         </a>
       </h3>

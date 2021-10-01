@@ -1,5 +1,5 @@
 <article class="card border-0 mb-4">
-  <div class="card-body p-0">
+  <div class="card-body p-0" id="{{.File.UniqueID}}">
     <h4 class="card-title mb-0">{{.Title}}</h4>
     <div class="card-subtitle my-2">
       <small class="text-muted">
@@ -7,7 +7,14 @@
       </small>
     </div>
     <div class="text-justify">{{.Content}}</div>
-    <ul class="list-inline text-right">
+    {{ with .Resources.ByType "image" }}
+	<div class="d-flex justify-content-center align-items-center">
+  	{{ range . }}
+  		<img src="{{ .RelPermalink }}" class="img-thumbnail enlarge mx-2" width="360">
+  	{{ end }}
+  	</div>
+  {{ end }}
+    <ul class="list-inline text-right mt-4">
       {{ range (.GetTerms "tags") }}
         <li class="list-inline-item mx-0">
           <a class="btn btn-sm btn-outline-tag" href="{{ .Permalink }}">{{ .LinkTitle }}</a>

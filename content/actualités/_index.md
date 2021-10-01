@@ -1,8 +1,8 @@
 +++
-title       = "Notre actualité"
-subtitle    = "Notre actualité"
+title       = "Actualités"
+subtitle    = "Actualités"
 date        = 2021-04-25T10:55:50+02:00
-draft       = true
+draft       = false
 author      = "direction"
 tags        = []
 description = "Suivez l’actualité, les événements, les actions mis en place dans l’école."
