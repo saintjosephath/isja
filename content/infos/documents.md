@@ -8,4 +8,4 @@ weight      = 600
 description = "Justificatifs d’absence, accords parentaux, autorisations..."
 +++
 
-{{< documents file="documents" >}}
+{{< documents2 file="documents" >}}

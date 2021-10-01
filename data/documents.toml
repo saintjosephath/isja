@@ -2,13 +2,17 @@
 name = "accord des parents"
 summary = ""
 location = "admin/ACCORD_DES_PARENTS.pdf"
+image = "accord_parents.png"
+
 
 [[document]]
 name = "fiche d'inscription"
 summary = ""
 location = "admin/FICHE_INSCRIPTION.pdf"
+image = "fiche_inscription.png"
 
 [[document]]
 name = "justificaf d'absence"
 summary = ""
 location = "admin/JUSTIFICATIF_ABSENCE.pdf"
+image = "justificatif_absence.png"

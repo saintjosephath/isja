@@ -47,7 +47,7 @@ La garderie est ouverte à 6h30 à Ath et à Maffle. Elle ferme ses portes à 18
 
 La gratuité est maintenue de 7h30 à 16h. Au-delà, un forfait d’1€ la demi-heure entamée sera exigée (une seule fois par famille).
 
-Pour les maternelles uniquement de 15h30 à 16h30.
+De 15h30 à 16h30, la garderie n'est ouverte que pour les maternelles uniquement.
 
 ##### 8.	Activités festives
 

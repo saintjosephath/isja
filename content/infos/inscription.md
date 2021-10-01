@@ -5,7 +5,7 @@ draft       = false
 author      = "direction"
 tags        = []
 weight      = 400
-description = "Quelles sont les démarches à suivre pour inscrire votre enfant chez nous ? Mode d’emploi IKEA"
+description = "Quelles sont les démarches à suivre pour inscrire votre enfant chez nous ? Mode d’emploi"
 layout = "inscription"
 +++
 
