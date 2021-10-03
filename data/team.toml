@@ -5,7 +5,7 @@ team = [
   {class = "Accueil/M1A", names = ["Mme Nathalie B.", "Mme Laurence F."]},
   {class = "M1B/M2A", names = ["Mme Cécile B."]},
   {class = "M2B/3", names = ["Mme Véronique C.", "Mme Stéphanie G."]},
-  {class = "Maitre spécial", names = ["Mme Ophélie D. (Psychomotricité)"]},
+  {class = "Maître spécial", names = ["Mme Ophélie D. (Psychomotricité)"]},
 ]
 
 [[Maternelles]]
@@ -13,7 +13,7 @@ location = "Maffle"
 team = [
   {class = "Accueil/M1A", names = ["Mme Aline C.", "Mme Barbara H.", "Mme Nathalie D.", "Melle Sarah L."]},
   {class = "M2/M3A", names = ["Mr Bruno B."]},
-  {class = "Maitre spécial", names = ["Mme Ophélie D. (Psychomotricité)"]},
+  {class = "Maître spécial", names = ["Mme Ophélie D. (Psychomotricité)"]},
 ]
 
 [[Primaires]]
@@ -26,7 +26,7 @@ team = [
   {class = "P4", names = ["Mr FX Fromont", "Mme Isabelle L."]},
   {class = "P5", names = ["Mme C. Malherbe", "Mme Valérie B."]},
   {class = "P6", names = ["Mr B. Deman", "Mr P. Mahaudens"]},
-  {class = "Maitre spéciaux", names = ["Mr P. Brixy (Education Physique)", "Mr Ludovic V. (Education Physique)", "Mme Laure D. (Néerlandais)"]},
+  {class = "Maître spéciaux", names = ["Mr P. Brixy (Education Physique)", "Mr Ludovic V. (Education Physique)", "Mme Laure D. (Néerlandais)"]},
   {class = "Aides", names= ["Mme Stéphanie G.", "Mr P. Lemaire", "Mme Virginie B.", "Mme Valérie G."]}
 ]
 
@@ -37,6 +37,6 @@ team = [
   {class = "P1/2", names = ["Mme Marie F.", "Mme Isabelle F."]},
   {class = "P3/4A", names = ["Mme Sarah V."]},
   {class = "P5/6A", names = ["Mme Anne B."]},
-  {class = "Maitre spéciaux", names = ["Mr Pierre B. (Education Physique)", "Mr Ludovic V. (Education Physique)", "Mme Laure D. (Néerlandais)"]},
+  {class = "Maître spéciaux", names = ["Mr Pierre B. (Education Physique)", "Mr Ludovic V. (Education Physique)", "Mme Laure D. (Néerlandais)"]},
   {class = "Aides", names = ["Mme Véronique P.", "Mme Valérie G.", "Mme Virginie B."]}
 ]
