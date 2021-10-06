@@ -8,5 +8,4 @@ weight      = 300
 description = ""
 +++
 
-{{< imagefluid source="/images/repas/current.jpg" text="" >}}
 {{< imagefluid source="/images/repas/next.jpg" text="" >}}
