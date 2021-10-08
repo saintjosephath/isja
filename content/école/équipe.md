@@ -10,3 +10,5 @@ description = "Les enseignants sont les premières personnes avec lesquels vous 
 
 {{< image source="/images/team.png" text="Ath" height="360">}}
 {{< team >}}
+
+Pour contacter l'un de nos enseignants, vous pouvez utiliser son adresse e-mail: **&lt;prénom&gt;.&lt;nom&gt;.instit[at]gmail.com**
