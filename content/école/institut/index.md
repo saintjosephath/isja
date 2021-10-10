@@ -25,14 +25,14 @@ Si la pédagogie traditionnelle existe aujourd’hui c’est parce qu’elle a e
 
 L’une située au cœur de la ville d’Ath, appelée aussi le centre.
 
-{{< image source="/images/ath_batiment.png" text="Ath" height="360">}}
+{{< resimg name="images/ath_batiment.png" height="360" >}}
 
 Une école à visage humain, ni trop grande ni trop petite. Toutes les infrastructures culturelles, historiques et sportives athoises sont accessibles à pieds, pour le plaisir des petits et des grands. Les trajets vers la gare, l’esplanade ou la plupart des lignes de bus se font en toute sécurité.
 Elle compte 290 élèves. Toutes les classes maternelles et primaires sont présentes. Elle se compose de 3 classes maternelles verticales (Accueil + M1 et M2+M3) et de 11 classes uniques en primaire.
 
 L’autre nichée dans un village, à Maffle.
 
-{{< image source="/images/maffle_batiment.png" text="Maffle" height="360">}}
+{{< resimg name="images/maffle_batiment.png" height="360" >}}
 
 C’est une petite école de village, à l’écart de la ville. Ici si tout le monde la connaît, c’est parce que son caractère familial, à taille humaine, nous fait oublier que nous sommes à deux kilomètres seulement de la ville d’Ath.
 
