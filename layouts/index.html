@@ -32,9 +32,7 @@
         <div class="col-6 {{if eq (mod $i 2) 0 }}order-first{{end}}">
           <figure>
             {{if $p.Params.imglink}}
-            <img src="{{$p.Params.imglink}}" width="420">
-            {{else}}
-            <img src="https://via.placeholder.com/420x360">
+              <img src="{{$p.Params.imglink}}" width="420">
             {{end}}
           </figure>
         </div>

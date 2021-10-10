@@ -4,13 +4,12 @@
   {{ end }}
   {{ if not $p.Params.dummy}}
   <article class="align-items-center text-center">
-    <div class="">
-      <div class="text-center">
-        <a href="{{$p.Permalink}}" class="text-reset text-decoration-none">
-          <h1 class="h4"><em>{{ $p.Title }}</em></h1>
-        </a>
-      </div>
+    <div class="text-center">
+      <a href="{{$p.Permalink}}" class="text-reset text-decoration-none">
+        <h1 class="h4"><em>{{ $p.Title }}</em></h1>
+      </a>
     </div>
   </article>
   {{end}}
 {{ end }}
+<div class="mb-5"></div>
