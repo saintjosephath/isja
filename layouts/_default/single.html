@@ -1,11 +1,15 @@
 {{define "main"}}
   {{partial "breadcrumb.html" .}}
-  <header class="mb-5">
+  <header class="mb-3">
     <h1 class="h3">{{.Title}}</h1>
   </header>
-  <div class="">
+  <div class="page-desc">
+    <p>{{.Description}}</p>
+  </div>
+  <div>
     {{.Content}}
   </div>
+  <div class="w-100 mb-3"></div>
 {{end}}
 
 {{ define "aside"}}

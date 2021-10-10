@@ -1,6 +1,6 @@
 {{ define "body" }}
   {{ with $page := .GetPage "actualités" }}
-  <section class="mb-5 card-group">
+  <section class="mb-3 card-group" id="latest-news">
     {{ range first 4 $page.Pages.ByPublishDate.Reverse }}
     <article class="card border-0 text-center">
       <h3 class="h5 m-0">
@@ -8,7 +8,7 @@
           <span>{{.Title}}</span>
         </a>
       </h3>
-      <p class="text-muted text-center">
+      <p class="text-muted text-center published">
         <small class="fst-italic">publié le {{dateFormat "02-01-2006" .Date }}</small>
       </p>
     </article>

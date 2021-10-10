@@ -1,7 +1,7 @@
 {{with $.Site.Data.contact}}
 <div class="row row-cols-1">
   {{range .Address}}
-  <div class="col-6">
+  <div class="col-lg-6 col-12">
     <div class="card border-0">
       <img src="{{.image}}" class="card-img-top">
       <address class="card-body text-center">
@@ -13,7 +13,7 @@
   {{end}}
 </div>
 {{with $.Site.Data.contact}}
-<div class="w-50 mx-auto">
+<div class="w-75 mx-auto">
   {{range .contact}}
   <div class="card border-0">
     <address class="card-body py-1">
