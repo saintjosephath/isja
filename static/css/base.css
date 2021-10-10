@@ -83,40 +83,6 @@ h4:first-letter, h5:first-letter, h6:first-letter,
   text-align: center !important;
 }
 
-.step-start, .step-end {
-  position: relative;
-  min-height: 220px;
-}
-
-.step-start {
-  right: 1.35px;
-}
-
-.step-end {
-  left: 1.35px;
-}
-
-.step-start-body {
-  padding-left: 70px !important;
-}
-
-.step-end-body {
-  padding-right: 70px !important;
-}
-
-.step-start>h1, .step-end>h1 {
-  border-radius: 50px !important;
-  padding: 10px 25px;
-}
-
-.step-start>h1{
-  left: -37px;
-}
-
-.step-end>h1{
-  right: -37px;
-}
-
 img.enlarge {
     transition:transform 0.25s ease;
 }
@@ -125,4 +91,52 @@ img.enlarge:hover {
     -webkit-transform:scale(2, 2); /* or some other value */
     transform:scale(2, 2);
     z-index: 10000;
+}
+
+.step-start>h1, .step-end>h1, .step>h1 {
+  border-radius: 50px !important;
+  padding: 10px 25px;
+}
+
+@media screen and (max-width: 1024px) {
+  #subscribe-std {
+    display: none;
+  }
+  .step>h1 {
+    left: -7px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  #subscribe-mobile {
+    display: none;
+  }
+  .step-start, .step-end {
+    position: relative;
+    min-height: 220px;
+  }
+
+  .step-start {
+    right: 1.35px;
+  }
+
+  .step-end {
+    left: 1.35px;
+  }
+
+  .step-start-body {
+    padding-left: 70px !important;
+  }
+
+  .step-end-body {
+    padding-right: 70px !important;
+  }
+
+  .step-start>h1{
+    left: -37px;
+  }
+
+  .step-end>h1{
+    right: -37px;
+  }
 }
