@@ -8,7 +8,7 @@ weight = 1000
 description = "Les enseignants sont les premières personnes avec lesquels vous serez en contact pour suivre la scolarité de votre enfant mais Qui est qui ? Qui fait quoi ? Qui est où ?"
 +++
 
-{{< imagefluid source="/images/team.png" >}}
+{{< resimg name="images/team.png" height="360" >}}
 {{< team >}}
 
 Pour contacter l'un de nos enseignants, vous pouvez utiliser son adresse e-mail: **&lt;prénom&gt;.&lt;nom&gt;.instit[at]gmail.com**
