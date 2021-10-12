@@ -18,10 +18,6 @@ p {
   header .page-desc, .published {
     display: none;
   }
-  img {
-    max-width: 100%;
-    height: auto;
-  }
 }
 @media screen and (min-width: 768px) {
   main .page-desc {
@@ -110,6 +106,10 @@ img.enlarge-sm:hover {
   }
   .step>h1 {
     left: -7px;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
   }
 }
 

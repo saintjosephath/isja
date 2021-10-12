@@ -10,12 +10,12 @@
     {{ with .Resources.ByType "image" }}
 	<div class="d-flex justify-content-center align-items-center image-screen">
   	{{ range . }}
-  		<img src="{{ .RelPermalink }}" class="img-thumbnail enlarge mx-2" width="360">
+  		<img src="{{ .RelPermalink }}" class="img-thumbnail enlarge mx-2">
   	{{ end }}
 	</div>
 	<div class="image-mobile">
   	{{ range . }}
-  		<img src="{{ .RelPermalink }}" class="img-thumbnail enlarge-sm my-2" width="360">
+  		<img src="{{ .RelPermalink }}" class="img-thumbnail enlarge-sm my-2 d-block mx-auto" width="360">
   	{{ end }}
 	</div>
   {{ end }}
