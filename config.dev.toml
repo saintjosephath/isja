@@ -5,6 +5,7 @@ languageCode = "fr-be"
 defaultContentLanguage = "fr"
 
 canonifyURLs = true
+buildExpired = true
 
 disableKinds = ["RSS"]
 

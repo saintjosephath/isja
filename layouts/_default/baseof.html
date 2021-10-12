@@ -22,29 +22,31 @@
       {{ end }}
       </div>
     </header>
-    <div class="d-flex flex-shrink-0">
-    <main class="container">
-      {{ if .Site.Params.warning }}
-        <aside class="alert alert-info my-5 w-75 mx-auto">
-          <p class="text-center">{{.Site.Params.warning}}</p>
-        </aside>
-      {{ end }}
-      <div id="page-body" class="row mt-5">
-        {{ block "body" .}}
-          <div class="col-xs-12 col-sm-12 col-xl-9" id="main-infos">
-            {{ block "main" .}}
-            {{ end }}
-          </div>
-          <aside class="col-xs-12 col-sm-12 col-xl-3" id="related-infos">
-            {{ block "aside" .}}
-            {{partial "apropos" .}}
-            {{partial "latest" .}}
-            {{partial "tags" .}}
-            {{end}}
+    <div class="d-flex flex-column flex-shrink-0">
+      {{ block "latest" .}}
+      {{end}}
+      <main class="container">
+        {{ if .Site.Params.warning }}
+          <aside class="alert alert-info my-5 w-75 mx-auto">
+            <p class="text-center">{{.Site.Params.warning}}</p>
           </aside>
         {{ end }}
-      </div>
-    </main>
+        <div id="page-body" class="row mt-5">
+          {{ block "body" .}}
+            <div class="col-xs-12 col-sm-12 col-xl-9" id="main-infos">
+              {{ block "main" .}}
+              {{ end }}
+            </div>
+            <aside class="col-xs-12 col-sm-12 col-xl-3" id="related-infos">
+              {{ block "aside" .}}
+              {{partial "apropos" .}}
+              {{partial "latest" .}}
+              {{partial "tags" .}}
+              {{end}}
+            </aside>
+          {{ end }}
+        </div>
+      </main>
     </div>
     <div class="mt-auto">
       <footer id="page-footer" style="height:280px" class="d-flex align-items-end mt-5">

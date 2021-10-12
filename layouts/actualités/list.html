@@ -1,14 +1,21 @@
 {{define "main"}}
-<div>
-  {{ range (.Paginate (.Pages.ByPublishDate.Reverse )).Pages }}
-    <div id="{{.File.UniqueID}}">
-    {{partial "article.html" .}}
-    </div>
-  {{ end }}
-  <footer>
-    <nav class="mx-auto" style="width:240px">
-      {{ template "_internal/pagination.html" .}}
-    </nav>
-  </footer>
+{{ $set := where .Pages.ByPublishDate.Reverse "ExpiryDate" "<" "now" }}
+{{ if len $set }}
+  <div>
+    {{ range (.Paginate ($set)).Pages }}
+      <div id="{{.File.UniqueID}}">
+      {{partial "article.html" .}}
+      </div>
+    {{ end }}
+    <footer>
+      <nav class="mx-auto" style="width:240px">
+        {{ template "_internal/pagination.html" .}}
+      </nav>
+    </footer>
+  </div>
+{{end}}
+<p>Vous avez manqué l'une de nos actualités ou vous voulez vous souvenir un d'un événement passé, venez découvrir ou redécouvrir nos archives</p>
+<div class="text-center">
+  <a href="{{(.GetPage "archives").Permalink}}">archives</a>
 </div>
 {{end}}

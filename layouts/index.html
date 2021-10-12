@@ -1,20 +1,8 @@
+{{ define "latest" }}
+  {{ partial "latest_home.html" . }}
+{{ end }}
+
 {{ define "body" }}
-  {{ with $page := .GetPage "actualités" }}
-  <section class="mb-3 card-group" id="latest-news">
-    {{ range first 4 $page.Pages.ByPublishDate.Reverse }}
-    <article class="card border-0 text-center">
-      <h3 class="h5 m-0">
-        <a href="{{$page.Permalink}}#{{.File.UniqueID}}" class="text-decoration-none">
-          <span>{{.Title}}</span>
-        </a>
-      </h3>
-      <p class="text-muted text-center published">
-        <small class="fst-italic">publié le {{dateFormat "02-01-2006" .Date }}</small>
-      </p>
-    </article>
-    {{ end }}
-  </section>
-  {{ end }}
   <section>
   {{ range $i, $p := .Pages }}
     {{ if $p.Params.home }}

@@ -83,7 +83,7 @@ h4:first-letter, h5:first-letter, h6:first-letter,
   text-align: center !important;
 }
 
-img.enlarge {
+img.enlarge, img.enlarge-sm {
     transition:transform 0.25s ease;
 }
 
@@ -93,14 +93,20 @@ img.enlarge:hover {
     z-index: 10000;
 }
 
+img.enlarge-sm:hover {
+    -webkit-transform:scale(1.5, 1.5); /* or some other value */
+    transform:scale(1.5, 1.5);
+    z-index: 10000;
+}
+
 .step-start>h1, .step-end>h1, .step>h1 {
   border-radius: 50px !important;
   padding: 10px 25px;
 }
 
 @media screen and (max-width: 1024px) {
-  #subscribe-std {
-    display: none;
+  #subscribe-std, .image-screen {
+    display: none !important;
   }
   .step>h1 {
     left: -7px;
@@ -108,8 +114,8 @@ img.enlarge:hover {
 }
 
 @media screen and (min-width: 1024px) {
-  #subscribe-mobile {
-    display: none;
+  #subscribe-mobile, .image-mobile {
+    display: none !important;
   }
   .step-start, .step-end {
     position: relative;

@@ -1,0 +1,19 @@
+{{define "main"}}
+  {{partial "breadcrumb.html" .}}
+  <header class="mb-3">
+    <h1 class="h3">{{.Title}}</h1>
+  </header>
+  <div class="mb-3">
+    {{ with $page := .GetPage "actualités"}}
+      {{ $set := $page.Pages.GroupByDate "Jan. 2006" }}
+      {{range $set}}
+        <h3>{{.Key}}</h3>
+        <ul>
+          {{range .Pages.ByPublishDate.Reverse}}
+          <li><span>{{.PublishDate.Format "02/01"}}</span> &#8212; <a href="{{.Permalink}}" class="text-decoration-none">{{.Title}}</a></li>
+          {{end}}
+        </ul>
+      {{end}}
+    {{end}}
+  </div>
+{{end}}

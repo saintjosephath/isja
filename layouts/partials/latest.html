@@ -1,12 +1,17 @@
 {{ with $page := .GetPage "actualités" }}
-{{if not $page.Draft}}
-<section class="mb-3">
-  <h1 class="w-50 h4 text-center mx-auto py-1 mb-3 border-top border-bottom">A la une!</h1>
-  <div class="list-group border-0">
-    {{ range first 10 $page.Pages }}
-      <a class="list-group-item border-0 py-1" href="{{$page.Permalink}}#{{.File.UniqueID}}">{{ .Title }}</a>
-    {{ end }}
-  </div>
-</section>
-{{end}}
+  {{if not $page.Draft}}
+    {{ $set := where $page.Pages "ExpiryDate" "lt" "now" }}
+    {{ if len $set}}
+      <section class="mb-3">
+        <h1 class="w-50 h4 text-center mx-auto py-1 mb-3 border-top border-bottom">A la une!</h1>
+        <div class="list-group border-0">
+          {{ range first 10 $page.Pages }}
+          <a class="list-group-item border-0 py-1" href="{{$page.Permalink}}#{{.File.UniqueID}}">
+            <span>{{ .Title }}</span>
+          </a>
+          {{ end }}
+        </div>
+      </section>
+    {{end}}
+  {{ end }}
 {{ end }}

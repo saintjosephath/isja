@@ -1,6 +1,7 @@
 +++
 title       = "Les activités extra scolaires sont de retour"
 date        = 2021-10-01T19:51:14+02:00
+expirydate  = 2021-10-11T23:59:59+02:00
 draft       = false
 author      = "direction"
 tags        = ["activités"]
