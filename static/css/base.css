@@ -3,8 +3,6 @@
 }
 
 body {
-  /* font-family: 'Droid Sans' !important; */
-  /* font-family: 'sans-serif' !important; */
   font-family: muli,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
 }
 
@@ -13,16 +11,8 @@ p {
   margin-bottom: 12px;
 }
 
-@media screen and (max-width: 768px) {
-  #latest-news, #isja-title, #isja-breadcrumb,
-  header .page-desc, .published {
-    display: none;
-  }
-}
-@media screen and (min-width: 768px) {
-  main .page-desc {
-    display: none;
-  }
+header p {
+  text-align: center !important;
 }
 
 h1:first-letter, h2:first-letter, h3:first-letter,
@@ -44,7 +34,6 @@ h4:first-letter, h5:first-letter, h6:first-letter,
 }
 
 #page-title {
-  /* background: rgba(40, 40, 40, 0.3); */
   color: white;
   font-weight: bold !important;
 }
@@ -75,10 +64,6 @@ h4:first-letter, h5:first-letter, h6:first-letter,
   color: #ffffff !important;
 }
 
-#subscribe-intro>p {
-  text-align: center !important;
-}
-
 img.enlarge, img.enlarge-sm {
     transition:transform 0.25s ease;
 }
@@ -100,7 +85,7 @@ img.enlarge-sm:hover {
   padding: 10px 25px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
   #subscribe-std, .image-screen {
     display: none !important;
   }
@@ -144,5 +129,17 @@ img.enlarge-sm:hover {
 
   .step-end>h1{
     right: -37px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #latest-news, #isja-title, #isja-breadcrumb,
+  header .page-desc, .published {
+    display: none;
+  }
+}
+@media screen and (min-width: 769px) {
+  main .page-desc {
+    display: none;
   }
 }

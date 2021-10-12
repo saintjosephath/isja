@@ -3,10 +3,10 @@
 {{partial "breadcrumb.html" .}}
 <header class="mb-3">
   <h1 class="h3">{{.Title}}</h1>
+  <div class="w-75 m-auto">
+    {{.Content}}
+  </div>
 </header>
-<div class="w-75 m-auto text-center" id="subscribe-intro">
-  {{.Content}}
-</div>
 
 <div class="mt-5 position-relative" id="subscribe-std">
   {{with .Site.GetPage "section" "inscriptions"}}
