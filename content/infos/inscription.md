@@ -1,7 +1,7 @@
 +++
 title       = "Inscriptions"
 date        = 2021-05-08T17:08:48+02:00
-draft       = false
+draft       = true
 author      = "direction"
 tags        = []
 weight      = 400

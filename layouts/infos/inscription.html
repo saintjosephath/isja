@@ -38,3 +38,10 @@
   {{end}}
 </div>
 {{end}}
+
+{{ define "aside"}}
+{{partial "toc" .}}
+{{partial "apropos" .}}
+{{partial "latest" .}}
+{{partial "tags" .}}
+{{end}}
