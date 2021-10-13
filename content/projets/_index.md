@@ -11,6 +11,7 @@ weight      = 500
 home        = true
 dropdown    = false
 imglink     = "/images/enfants 003.png"
+summary     = "le projet d'établissement, éducatif et pédagogique ainsi que le règlement"
 +++
 
 {{< documents2 file="reglements" >}}

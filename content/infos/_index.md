@@ -11,4 +11,5 @@ weight      = 250
 home        = true
 dropdown    = true
 imglink     = "/images/enfants 002.png"
+summary     = "la vie à l'école, les horaires, les repas et bien d'autre choses"
 +++

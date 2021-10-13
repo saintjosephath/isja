@@ -1,31 +1,23 @@
-{{ define "latest" }}
-  {{ partial "latest_home.html" . }}
-{{ end }}
-
 {{ define "body" }}
-  <section>
-  {{ range $i, $p := .Pages }}
-    {{ if $p.Params.home }}
-      {{ if gt $i 0 }}
-      <hr class="w-25 mx-auto my-5">
-      {{ end }}
-      <article class="row align-items-center text-center">
-        <div class="col-6">
-          <div class="text-center">
+  <header class="w-50 mx-auto text-center mb-5">
+    <h1 class="h2">Venez découvrir l'Institut Saint Joseph (Ath-Maffle)</h1>
+    <p class="text-muted fs-3"><em>Notre école, Votre école</em></p>
+  </header>
+  <section class="row my-5">
+  {{ range $p := .Pages }}
+    {{if $p.Params.home}}
+      <div class="col-12 col-lg-4">
+        <article class="card my-2">
+          <img src="{{$p.Params.imglink}}" class="card-img-top">
+          <div class="card-body">
             <a href="{{$p.Permalink}}" class="text-reset text-decoration-none">
-              <h1><em>{{ $p.Title }}</em></h1>
+              <h3 class="card-title text-center"><em>{{ $p.Title }}</em></h3>
+              <p class="card-text">{{$p.Summary}}</p>
             </a>
           </div>
-        </div>
-        <div class="col-6 {{if eq (mod $i 2) 0 }}order-first{{end}}">
-          <figure>
-            {{if $p.Params.imglink}}
-              <img src="{{$p.Params.imglink}}" width="420">
-            {{end}}
-          </figure>
-        </div>
-      </article>
-    {{ end }}
-  {{ end }}
+        </article>
+      </div>
+    {{end}}
+  {{end}}
   </section>
-{{ end }}
+{{end}}
