@@ -1,0 +1,25 @@
+[[partner]]
+abbr = "PMS"
+name = "Centre psycho-médico-sociaux"
+link = "http://www.pmslibreho.be/"
+
+[[partner]]
+abbr = "PSE"
+name = "Centre de promotion de la santé à l'école"
+link = ""
+category = ""
+
+[[partner]]
+abbr = "AP"
+name = "l'Association des parents"
+link = ""
+
+[[partner]]
+name = "Institut Saint-François"
+link = "http://www.saintfrancoisath.be/"
+category = "école"
+
+[[partner]]
+abbr = "ELFCA"
+name = "ASBL école libre fondamentales catholiques d'Ath"
+link = "https://www.elfca.be"

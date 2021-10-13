@@ -1,0 +1,7 @@
+<ul>
+{{range $.Site.Data.partners.partner}}
+<li>
+  {{if .link}}<a href="{{.link}}">{{.name}}{{if .abbr}} ({{.abbr}}){{end}}</a>{{else}}<span>{{.name}}{{if .abbr}} ({{.abbr}}){{end}}</span>{{end}}
+</li>
+{{end}}
+</ul>
