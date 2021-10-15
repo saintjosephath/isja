@@ -1,23 +1,15 @@
-{{ with $page := .GetPage "actualités" }}
-{{ $set := where $page.Pages.ByPublishDate.Reverse "ExpiryDate" ">=" "now" }}
-{{ if ge (len $set) 4 }}
-<div class="p-2">
-  <div class="container">
-    <section class="card-group" id="latest-news">
-      {{ range first 4 $set }}
-      <article class="card border-0 text-center">
-        <h3 class="h5 m-0">
-          <a href="{{$page.Permalink}}#{{.File.UniqueID}}" class="text-decoration-none text-white">
-            <span>{{.Title}}</span>
-          </a>
-        </h3>
-        <p class="text-center published text-white">
-          <small class="fst-italic">publié le {{dateFormat "02-01-2006" .Date }}</small>
-        </p>
-      </article>
-      {{ end }}
-    </section>
-    {{ end }}
-  </div>
+<div class="col-12 col-lg-8 mb-3">
+  <h3 class="h5">les dernières actualités</h3>
+  {{$page := .GetPage "actualités"}}
+  {{with $list := first 10 (where $page.Pages.ByPublishDate.Reverse "ExpiryDate" ">=" "now")}}
+  <ul class="list-group">
+    {{range $list}}
+    <li>{{.PublishDate}}: <a href="{{$page.Permalink}}#{{.File.UniqueID}}">{{.Title}}</a>
+    {{end}}
+  </ul>
+  {{else}}
+    <p>tout va bien! vous n'avez rien raté!</p>
+    {{$page := .GetPage "archives"}}
+    <p>n'hésitez pas à découvrir et/ou redécouvrir nos <a href="{{$page.Permalink}}">archives</a></p>
+  {{end}}
 </div>
-{{ end }}

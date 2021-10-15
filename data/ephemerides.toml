@@ -5,16 +5,19 @@ title = "1er trimestre"
 title = "Réunion des parents (Ath)"
 date = "vendredi 03 septembre 2021"
 note = "accueil des MA 1 à P4 à 18h et des P5-P6 à 18h30 dans la cour suivi d'une réunion en classe"
+godate = "2021-09-03"
 
 [[trimestre.ephemeride]]
 title = "Réunion des parents (Maffle)"
 date = "lundi 06 septembre 2021"
 note = "accueil des MA 1 à P4 à 18h et des P5-P6 à 18h30 dans la cour suivi d'une réunion en classe"
+godate = "2021-09-06"
 
 [[trimestre.ephemeride]]
 title = "Congé - Fête de la FWB"
 date = "lundi 27 septembre"
 note = ""
+godate = "2021-09-27"
 
 [[trimestre.ephemeride]]
 title = "Célébration de la rentrée"
@@ -25,41 +28,49 @@ note = ""
 title = "Congé de Toussaint"
 date = "du lundi 01 novembre 2021 au vendredi 05 novembre 2021"
 note = ""
+godate = "2021-11-01"
 
 [[trimestre.ephemeride]]
 title = "Congé de l'Armistice"
 date = "le jeudi 11 novembre"
 note = ""
+godate = "2021-11-11"
 
 [[trimestre.ephemeride]]
 title = "Classes vertes P2 Ath"
 date = "du lundi 15 novembre au vendredi 19 novembre 2021"
 note = ""
+godate = "2021-11-15"
 
 [[trimestre.ephemeride]]
 title = "Bulletin 1 + Réunion individuelle"
 date = "vendredi 19 novembre 2021"
 note = ""
+godate = "2021-11-19"
 
 [[trimestre.ephemeride]]
 title = "Visite de Saint-Nicolas"
 date = "vendredi 03 décembre 2021"
 note = "Ath"
+godate = "2021-12-03"
 
 [[trimestre.ephemeride]]
 title = "Visite de Saint-Nicolas"
 date = "vendredi 08 décembre 2021"
 note = "Maffle"
+godate = "2021-12-08"
 
 [[trimestre.ephemeride]]
 title = "Marché de Noël"
 date = "vendredi 17 décembre 2021"
 note = ""
+godate = "2021-12-17"
 
 [[trimestre.ephemeride]]
 title = "Congés de Noël/Hiver"
 date = "du lundi 27 décembre 2021 au vendredi 07 janvier 2022"
 note = ""
+godate = "2021-12-27"
 
 [[trimestre]]
 title = "2ème trimestre"
@@ -68,46 +79,55 @@ title = "2ème trimestre"
 title = "Classe de neige P6"
 date = "du lundi 10 janvier 2022 au mecredi 19 janvier 2022"
 note = ""
+godate = "2022-01-10"
 
 [[trimestre.ephemeride]]
 title = "Cabaret P3-P4"
 date = "vendredi 04 février 2022"
 note = ""
+godate = "2022-02-04"
 
 [[trimestre.ephemeride]]
 title = "Congé de Carnaval/Détente"
 date = "du lundi 28 février au vendredi 04 mars 2022"
 note = ""
+godate = "2022-02-28"
 
 [[trimestre.ephemeride]]
 title = "Bulletin 2 + Réunion individuelle"
 date = "11 mars 2022"
 note = "sur rendez-vous pendant la semaine"
+godate = "2022-03-11"
 
 [[trimestre.ephemeride]]
 title = "Souper Suisse"
 date = "samedi 12 mars 2022"
 note = ""
+godate = "2022-03-12"
 
 [[trimestre.ephemeride]]
 title = "Célébration de Saint-Joseph"
 date = "vendredi 18 mars 2022"
 note = ""
-
-[[trimestre.ephemeride]]
-title = "Congés de Pâques/Printemps"
-date = "du lundi 04 avril 2022 au lundi 18 avril 2022"
-note = ""
+godate = "2022-03-18"
 
 [[trimestre.ephemeride]]
 title = "Photo individuelle/classe"
 date = "24 mars 2022"
 note = "Ath"
+godate = "2022-03-24"
 
 [[trimestre.ephemeride]]
 title = "Photo individuelle/classe"
 date = "25 mars 2022"
 note = "Maffle"
+godate = "2022-03-25"
+
+[[trimestre.ephemeride]]
+title = "Congés de Pâques/Printemps"
+date = "du lundi 04 avril 2022 au lundi 18 avril 2022"
+note = ""
+godate = "2022-04-04"
 
 [[trimestre]]
 title = "3ème trimestre"
@@ -116,16 +136,19 @@ title = "3ème trimestre"
 title = "Fête scolaire"
 date = "21 mai 2022"
 note = ""
+godate = "2022-05-21"
 
 [[trimestre.ephemeride]]
 title = "Congé de l'Ascension"
 date = "26 mai 2022"
 note = ""
+godate = "2022-05-26"
 
 [[trimestre.ephemeride]]
 title = "Congé de Pentecôte"
 date = "06 juin 2022"
 note = ""
+godate = "2022-06-06"
 
 [[trimestre.ephemeride]]
 title = "Examens"
@@ -136,6 +159,7 @@ note = "pour les P2-P4-P6"
 title = "Bulletin P2, p4, P6"
 date = "vendredi 10 juin 2022"
 note = "avant les examens"
+godate = "2022-06-10"
 
 [[trimestre.ephemeride]]
 title = "Remise des CEB"
@@ -146,11 +170,13 @@ note = ""
 title = "Marche parrainée à Maffle"
 date = "dimanche 26 juin 2022"
 note = ""
+godate = "2022-06-26"
 
 [[trimestre.ephemeride]]
 title = "Voyage scolaire"
 date = "lundi 27 juin 2022"
 note = ""
+godate = "2022-06-27"
 
 [[trimestre.ephemeride]]
 title = "Remise des diplômes en 3ème MAT"
@@ -161,3 +187,4 @@ note = ""
 title = "Bulletin de P1 à P5"
 date = "mardi 28 juin"
 note = ""
+godate = "2022-06-28"

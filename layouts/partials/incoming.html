@@ -1,0 +1,27 @@
+<div class="mb-3">
+  <h3 class="h5">prochainement</h3>
+    {{$today := now.Format "2006-01-02"}}
+    {{$local := newScratch}}
+    {{range $.Site.Data.ephemerides.trimestre}}
+    {{range .ephemeride}}
+    {{if and .godate (ge .godate $today)}}
+      {{$local.SetInMap "events" .godate .title}}
+      {{if gt (len ($local.Get "events")) 5 }}
+        {{$local.DeleteInMap "events" .godate}}
+      {{end}}
+    {{end}}
+    {{end}}
+    {{end}}
+    <table class="table table-calendar table-sm">
+      <tbody>
+        {{range $k, $v := $local.Get "events"}}
+        <tr>
+          <td>{{time.Format "02-01-2006" $k}}</td>
+          <td>{{$v}}</td>
+        </tr>
+        {{end}}
+      </tbody>
+    </table>
+    {{$page := .GetPage "infos/ephemerides"}}
+    <p class="text-center">voir toutes les <a href="{{$page.Permalink}}">éphémérides</a></p>
+</div>

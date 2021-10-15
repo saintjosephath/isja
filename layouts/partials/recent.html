@@ -1,0 +1,15 @@
+<div class="mb-3">
+  <h3 class="h5">mises à jour récentes</h3>
+  <table class="table table-calendar table-sm">
+    <tbody>
+      {{range first 5 $.Site.AllPages.ByLastmod.Reverse}}
+      <tr>
+        <td width="30%">{{.Lastmod.Format "02-01-2006"}}</td>
+        <td>
+          <a href="{{.Permalink}}" class="text-decoration-none">{{.Title}}</a>
+        </td>
+      </tr>
+      {{end}}
+    </tbody>
+  </table>
+</div>

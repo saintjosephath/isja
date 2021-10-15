@@ -1,0 +1,33 @@
+{{define "main"}}
+{{partial "breadcrumb.html" .}}
+<header class="mb-3">
+  <h1 class="h3">{{.Title}}</h1>
+</header>
+<div id="meal" class="carousel carousel-dark slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    {{ with .Resources.ByType "image" }}
+      {{range $i, $r := sort . "Name" "desc"}}
+      <div class="carousel-item {{if eq $i 0}}active{{end}}" data-bs-interval="60000">
+        <img src="{{$r.RelPermalink}}" class="d-block w-100">
+      </div>
+      {{end}}
+    {{end}}
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#meal" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#meal" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+{{end}}
+
+{{ define "aside"}}
+{{partial "toc" .}}
+{{partial "apropos" .}}
+{{partial "latest" .}}
+{{partial "tags" .}}
+{{end}}

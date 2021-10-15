@@ -3,7 +3,7 @@
     <h1 class="h2">Venez découvrir l'Institut Saint Joseph (Ath-Maffle)</h1>
     <p class="text-muted fs-3"><em>Notre école, Votre école</em></p>
   </header>
-  <section class="row my-5">
+  <section class="row mt-5 mb-4">
   {{ range $p := .Pages }}
     {{if $p.Params.home}}
       <div class="col-12 col-lg-4">
@@ -19,5 +19,12 @@
       </div>
     {{end}}
   {{end}}
+  </section>
+  <section class="row mb-4">
+    {{partial "latest_home.html" .}}
+    <aside class="col-12 col-lg-4">
+      {{partial "recent.html" .}}
+      {{partial "incoming.html" .}}
+    </aside>
   </section>
 {{end}}

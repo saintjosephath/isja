@@ -8,9 +8,11 @@
     </div>
     <div class="text-justify">{{.Content}}</div>
     {{ with .Resources.ByType "image" }}
-	<div class="d-flex justify-content-center align-items-center image-screen">
+	<div class="row d-flex justify-content-center align-items-center image-screen">
   	{{ range . }}
-  		<img src="{{ .RelPermalink }}" class="img-thumbnail enlarge mx-2">
+      <div class="col">
+		    <img src="{{ .RelPermalink }}" class="img-thumbnail enlarge mx-2">
+      </div>
   	{{ end }}
 	</div>
 	<div class="image-mobile">

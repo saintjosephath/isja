@@ -2,6 +2,7 @@
 title       = "Nos projets"
 subtitle    = "Nos projets"
 date        = 2021-04-25T10:55:32+02:00
+lastmod     = 2021-10-15
 draft       = false
 author      = "direction"
 tags        = []
@@ -11,7 +12,7 @@ weight      = 500
 home        = true
 dropdown    = false
 imglink     = "/images/enfants 003.png"
-summary     = "le projet d'établissement, éducatif et pédagogique ainsi que le règlement"
+summary     = "le projet d'établissement, éducatif et pédagogique et le règlement"
 +++
 
 {{< documents2 file="reglements" >}}

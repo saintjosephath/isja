@@ -137,6 +137,13 @@ img.enlarge-sm:hover {
   header .page-desc, .published {
     display: none;
   }
+  .table-calendar tbody td:first-child {
+    width: 40%;
+  }
+
+  #ephemerides tbody>tr>td:last-child {
+    display: none;
+  }
 }
 @media screen and (min-width: 769px) {
   main .page-desc {

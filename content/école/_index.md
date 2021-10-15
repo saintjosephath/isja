@@ -11,5 +11,5 @@ weight      = 100
 home        = true
 dropdown    = true
 imglink     = "/images/enfants 001.png"
-summary     = "son histoire, sa pédagogique et ses enseignants"
+summary     = "l'école, son histoire, sa pédagogique et ses enseignants"
 +++
