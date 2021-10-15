@@ -8,8 +8,9 @@ description = ""
 weight      = 400
 +++
 
-* photo d'identité de l'enfant
-* carte d'identité du responsable légal/chef de famille
-* en cas de jugement rendu, une copie du prononcé
+* Photo d'identité de l'enfant
+* Carte d'identité du responsable légal et de l'enfant + photocopie de celles-ci
+* Copie d'une composition de ménage (gratuite si vous dites que c'est pour l'école)
+* En cas de jugement rendu, une copie du prononcé
 
 et pour les maternelles, 2 vignettes de mutuelle.

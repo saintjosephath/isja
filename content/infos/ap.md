@@ -14,4 +14,4 @@ Elle a pour mission d’épauler l’école dans un domaine particulièrement sy
 
 Si, vous aussi, vous souhaitez faire partie de cette équipe pour réaliser des projets enthousiasmants venez nous rejoindre, nous avons besoin de vous!
 
-contact: ap.stjoseph.ath@gmail.com
+contact: <a href="mailto:ap.stjoseph.ath@gmail.com">ap.stjoseph.ath@gmail.com</a>
