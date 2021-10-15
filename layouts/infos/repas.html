@@ -5,9 +5,11 @@
 </header>
 <div id="meal" class="carousel carousel-dark slide" data-bs-ride="carousel">
   <div class="carousel-inner">
-    {{ with .Resources.ByType "image" }}
-      {{range $i, $r := sort . "Name" "desc"}}
-      <div class="carousel-item {{if eq $i 0}}active{{end}}" data-bs-interval="60000">
+    {{ with $list := .Resources.ByType "image" }}
+      {{$last :=  index (last 1 $list) 0}}
+      {{$last}}
+      {{range $i, $r := sort $list "Name" "asc"}}
+      <div class="carousel-item {{if eq $last.Name $r.Name}}active{{end}}" data-bs-interval="60000">
         <img src="{{$r.RelPermalink}}" class="d-block w-100">
       </div>
       {{end}}
