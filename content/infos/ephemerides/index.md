@@ -7,6 +7,5 @@ author      = "direction"
 tags        = []
 description = ""
 weight      = 150
+layout      = "ephemerides"
 +++
-
-{{< ephemerides >}}

@@ -1,0 +1,26 @@
+{{range .}}
+<div class="col-12 col-lg-6">
+  <table class="table table-sm">
+    <caption class="text-center text-capitalize caption-top fw-bold">{{.location}}</caption>
+    <thead>
+      <tr>
+      </tr>
+    </thead>
+    <tbody>
+      {{range .team}}
+      <tr>
+        <th>{{.class}}
+        </th>
+        <td>
+          <ul class="list-unstyled">
+            {{range .names}}
+              <li>{{.}}</li>
+            {{end}}
+          </ul>
+        </td>
+      </tr>
+      {{end}}
+    </tbody>
+  </table>
+</div>
+{{end}}

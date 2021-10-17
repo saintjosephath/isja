@@ -188,3 +188,9 @@ title = "Bulletin de P1 à P5"
 date = "mardi 28 juin"
 note = ""
 godate = "2022-06-28"
+
+[[trimestre.ephemeride]]
+title = "Vacances d'été"
+date = "Vendredi 1 juillet"
+note = ""
+godate = "2022-07-01"

@@ -1,9 +1,0 @@
-{{ with $info := .Get "data" }}
-  {{ with $data := index $.Site.Data $info }}
-    <ul>
-      {{range $data.members}}
-      <li>{{.name}}{{if .role}}, {{.role}}{{end}}</li>
-      {{end}}
-    </ul>
-  {{ end }}
-{{ end }}

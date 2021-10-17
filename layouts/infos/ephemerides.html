@@ -1,0 +1,31 @@
+{{define "main"}}
+{{partial "breadcrumb.html" .}}
+<header class="mb-3">
+  <h1 class="h3">{{.Title}}</h1>
+</header>
+
+{{$info := .Resources.GetMatch "list.toml" | transform.Unmarshal}}
+{{range $info.trimestre}}
+  <div class="row mb-3">
+    <h3>{{.title}}</h3>
+    <table class="table" id="ephemerides">
+      <tbody>
+        {{range .ephemeride}}
+        <tr>
+          <th width="30%">{{.title}}</th>
+          <td width="40%">{{.date}}</td>
+          <td>{{.note}}</td>
+        </tr>
+        {{end}}
+      </tbody>
+    </table>
+  </div>
+{{end}}
+{{end}}
+
+{{ define "aside"}}
+{{partial "toc" .}}
+{{partial "apropos" .}}
+{{partial "latest" .}}
+{{partial "tags" .}}
+{{end}}

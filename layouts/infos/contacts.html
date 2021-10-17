@@ -1,6 +1,13 @@
-{{with $.Site.Data.contact}}
+{{define "main"}}
+{{partial "breadcrumb.html" .}}
+<header class="mb-3">
+  <h1 class="h3">{{.Title}}</h1>
+</header>
+
+{{ $res := .Resources.GetMatch "list.toml" | transform.Unmarshal }}
+{{with $res.Address}}
 <div class="row row-cols-1">
-  {{range .Address}}
+  {{range .}}
   <div class="col-lg-6 col-12">
     <div class="card border-0">
       <img src="{{.image}}" class="card-img-top">
@@ -12,9 +19,11 @@
   </div>
   {{end}}
 </div>
-{{with $.Site.Data.contact}}
+{{end}}
+
+{{with $res.Contact}}
 <div class="w-75 mx-auto">
-  {{range .contact}}
+  {{range .}}
   <div class="card border-0">
     <address class="card-body py-1">
       <h1 class="h4 card-title">{{.name}} ({{.role}})</h1>
@@ -31,4 +40,11 @@
   {{end}}
 </div>
 {{end}}
+{{end}}
+
+{{ define "aside"}}
+{{partial "toc" .}}
+{{partial "apropos" .}}
+{{partial "latest" .}}
+{{partial "tags" .}}
 {{end}}

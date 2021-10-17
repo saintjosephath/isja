@@ -1,0 +1,30 @@
+{{define "main"}}
+{{partial "breadcrumb.html" .}}
+<header class="mb-3">
+  <h1 class="h3">{{.Title}}</h1>
+</header>
+{{$res := .Resources.GetMatch "images/team.png"}}
+<img src="{{$res.RelPermalink}}" class="mx-auto d-block my-3" height="360">
+
+
+{{ with $team := .Resources.GetMatch "team.toml" | transform.Unmarshal }}
+<div class="row mb-3">
+  <h5 class="text-center">Maternelles</h5>
+  {{partial "team.html" $team.Maternelles}}
+</div>
+<div class="row">
+  <h5 class="text-center">Primaires</h5>
+  {{partial "team.html" $team.Primaires}}
+</div>
+{{ end }}
+
+
+{{.Content}}
+{{end}}
+
+{{ define "aside"}}
+{{partial "toc" .}}
+{{partial "apropos" .}}
+{{partial "latest" .}}
+{{partial "tags" .}}
+{{end}}

@@ -6,5 +6,5 @@ author      = "direction"
 tags        = []
 weight      = 10000
 description = "Vous souhaitez entrer en contact avec un enseignant, téléphoner à l’école, adresser un courrier à un comité ? Ne cherchez pas plus loin, c’est ici."
+layout      = "contacts"
 +++
-{{< address >}}
