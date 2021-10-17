@@ -1,0 +1,16 @@
+<div class="row justify-content-center">
+  {{range $i, $d := .}}
+      <div class="col-md-6 col-lg-6 col-sm-1">
+        <div class="card mb-3 border-0" style="min-height:240px">
+          <img src="images/{{$d.image}}" class="card-img" alt="">
+          <div class="card-body py-2 d-flex align-items-end text-center card-img-overlay">
+            {{if $d.location}}
+            <a href="{{$d.location}}" class="btn stretched-link mx-auto btn-outline-tag" target="_blank">
+              <span>ouvrir</span>
+            </a>
+            {{end}}
+          </div>
+        </div>
+      </div>
+  {{end}}
+</div>

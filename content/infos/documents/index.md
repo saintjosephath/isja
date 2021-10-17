@@ -6,6 +6,5 @@ author      = "direction"
 tags        = []
 weight      = 600
 description = "Justificatifs d’absence, accords parentaux, autorisations..."
+layout      = "documents"
 +++
-
-{{< documents2 file="documents" >}}

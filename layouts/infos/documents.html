@@ -1,0 +1,16 @@
+{{define "main"}}
+{{partial "breadcrumb.html" .}}
+<header class="mb-3">
+  <h1 class="h3">{{.Title}}</h1>
+</header>
+
+{{$doc := .Resources.GetMatch "list.toml" | transform.Unmarshal}}
+  {{partial "documents.html" $doc.document}}
+{{end}}
+
+{{ define "aside"}}
+{{partial "toc" .}}
+{{partial "apropos" .}}
+{{partial "latest" .}}
+{{partial "tags" .}}
+{{end}}
