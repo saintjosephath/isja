@@ -6,6 +6,7 @@ author      = "direction"
 tags        = []
 description = ""
 weight      = 1100
+layout      = "partners"
 +++
 
 {{< partners >}}

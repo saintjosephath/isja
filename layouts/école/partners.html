@@ -1,0 +1,21 @@
+{{define "main"}}
+{{partial "breadcrumb.html" .}}
+<header class="mb-3">
+  <h1 class="h3">{{.Title}}</h1>
+</header>
+{{$list := .Resources.GetMatch "list.toml" | transform.Unmarshal}}
+<ul>
+{{range $list.partner}}
+<li>
+  {{if .link}}<a href="{{.link}}">{{.name}}{{if .abbr}} ({{.abbr}}){{end}}</a>{{else}}<span>{{.name}}{{if .abbr}} ({{.abbr}}){{end}}</span>{{end}}
+</li>
+{{end}}
+</ul>
+{{end}}
+
+{{ define "aside"}}
+{{partial "toc" .}}
+{{partial "apropos" .}}
+{{partial "latest" .}}
+{{partial "tags" .}}
+{{end}}

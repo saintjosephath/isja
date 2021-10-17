@@ -3,9 +3,9 @@
   <header class="mb-5">
     <h1 class="h3">{{.Title}}</h1>
   </header>
-  <div class="">
-    {{.Content}}
-  </div>
+
+  {{$doc := .Resources.GetMatch "list.toml" | transform.Unmarshal}}
+  {{partial "documents.html" $doc.document}}
 {{end}}
 
 {{ define "aside"}}
