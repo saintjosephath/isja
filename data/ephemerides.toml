@@ -49,10 +49,28 @@ note = ""
 godate = "2021-11-19"
 
 [[trimestre.ephemeride]]
+title = "Réunion de l'association des parents"
+date = "jeudi 02 décembre 2021"
+note = ""
+godate = "2021-12-02"
+
+[[trimestre.ephemeride]]
 title = "Visite de Saint-Nicolas"
 date = "vendredi 03 décembre 2021"
 note = "Ath"
 godate = "2021-12-03"
+
+[[trimestre.ephemeride]]
+title = "Spectacle pour les maternelles"
+date = "lundi 06 décembre 2021"
+note = "spectacle offert par la feuille d'Etain"
+godate = "2021-12-06"
+
+[[trimestre.ephemeride]]
+title = "diner de Saint-Nicolas"
+date = "lundi 06 décembre 2021"
+note = "couques et cacao offert par l'école. Ne réservez pas de repas chaud"
+godate = "2021-12-06"
 
 [[trimestre.ephemeride]]
 title = "Visite de Saint-Nicolas"
@@ -133,6 +151,12 @@ godate = "2022-04-04"
 title = "3ème trimestre"
 
 [[trimestre.ephemeride]]
+title = "conférence pédagogique"
+date = "lundi 09 et mardi 10 mai 2022"
+note = "Ath et Maffle"
+godate = "2022-05-09"
+
+[[trimestre.ephemeride]]
 title = "Fête scolaire"
 date = "21 mai 2022"
 note = ""
@@ -160,6 +184,12 @@ title = "Bulletin P2, p4, P6"
 date = "vendredi 10 juin 2022"
 note = "avant les examens"
 godate = "2022-06-10"
+
+[[trimestre.ephemeride]]
+title = "Epreuves du CEB"
+date = "16, 17, 20 et 21 juin 2022"
+note = ""
+godate = "2022-06-16"
 
 [[trimestre.ephemeride]]
 title = "Remise des CEB"

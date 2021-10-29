@@ -1,15 +1,15 @@
 <div class="col-12 col-lg-8 mb-3">
   <h3 class="h5">les dernières actualités</h3>
   {{$page := .GetPage "actualités"}}
-  {{with $list := first 10 (where $page.Pages.ByPublishDate.Reverse "ExpiryDate" ">=" "now")}}
-  <ul class="list-group">
+  {{with $list := first 10 (where $page.Pages.ByPublishDate.Reverse "ExpiryDate" "ge" now)}}
+  <ul class="list-group border-0">
     {{range $list}}
-    <li>{{.PublishDate}}: <a href="{{$page.Permalink}}#{{.File.UniqueID}}">{{.Title}}</a>
+    <li class="list-group-item border-0">{{.PublishDate.Format "01-02-2006"}}: <a href="{{$page.Permalink}}#{{.File.UniqueID}}">{{.Title}}</a>
     {{end}}
   </ul>
   {{else}}
     <p>tout va bien! vous n'avez rien raté!</p>
     {{$page := .GetPage "archives"}}
-    <p>n'hésitez pas à découvrir et/ou redécouvrir nos <a href="{{$page.Permalink}}">archives</a></p>
   {{end}}
+  <p>n'hésitez pas à découvrir et/ou redécouvrir nos <a href="{{$page.Permalink}}">archives</a></p>
 </div>

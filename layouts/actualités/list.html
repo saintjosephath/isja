@@ -1,5 +1,5 @@
 {{define "main"}}
-{{ $set := where .Pages.ByPublishDate.Reverse "ExpiryDate" "<" "now" }}
+{{ $set := where .Pages.ByPublishDate.Reverse "ExpiryDate" "ge" now }}
 {{ if len $set }}
   <div>
     {{ range (.Paginate ($set)).Pages }}

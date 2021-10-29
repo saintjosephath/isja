@@ -1,0 +1,5 @@
+{{ with $klass := .Get "class"}}
+<span class="{{$klass}}">{{$.Inner}}</span>
+{{else}}
+{{.Inner}}
+{{end}}
