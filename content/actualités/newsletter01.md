@@ -1,5 +1,5 @@
 +++
-title       = "Newsletter septembre/octobre 2021"
+title       = "Newsletter Sept/Oct 2021"
 date        = 2021-10-29T20:03:52+02:00
 lastmod     = 2021-10-29T20:03:52+02:00
 expirydate  = 2022-10-29T23:59:59+02:00

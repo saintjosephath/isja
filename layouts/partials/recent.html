@@ -2,7 +2,7 @@
   <h3 class="h5">mises à jour récentes</h3>
   <table class="table table-calendar table-sm">
     <tbody>
-      {{range first 5 $.Site.AllPages.ByLastmod.Reverse}}
+      {{range first 5 $.Site.RegularPages.ByLastmod.Reverse}}
       <tr>
         <td width="30%">{{.Lastmod.Format "02-01-2006"}}</td>
         <td>
