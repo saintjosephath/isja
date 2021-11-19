@@ -1,0 +1,38 @@
+{{define "main"}}
+{{partial "breadcrumb.html" .}}
+<header class="mb-3">
+  <h1 class="h3">{{.Title}}</h1>
+</header>
+
+<section class="mb-4">
+  <h1 class="h4">Les maternelles</h1>
+  <div class="row g-1 justify-content-center">
+    {{range .Resources.Match "images/maternelles/*"}}
+    <div class="col-12 col-lg-4">
+      {{ $img := .Resize "600x png" }}
+      <img src="{{$img.RelPermalink}}" width="600" class="img-thumbnail enlarge">
+    </div>
+    {{end}}
+  </div>
+</section>
+
+<section class="mb-4">
+  <h1 class="h4">Les primaires</h1>
+  <div class="row g-1 justify-content-center">
+  {{range .Resources.Match "images/primaires/*"}}
+    <div class="col-12 col-lg-4">
+      {{ $img := .Resize "600x png" }}
+      <img src="{{$img.RelPermalink}}" width="600" class="img-thumbnail enlarge">
+    </div>
+  {{end}}
+  </div>
+</section>
+
+{{end}}
+
+{{ define "aside"}}
+{{partial "toc" .}}
+{{partial "apropos" .}}
+{{partial "latest" .}}
+{{partial "tags" .}}
+{{end}}

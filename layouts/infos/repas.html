@@ -10,7 +10,8 @@
       {{$last}}
       {{range $i, $r := sort $list "Name" "asc"}}
       <div class="carousel-item {{if eq $last.Name $r.Name}}active{{end}}" data-bs-interval="60000">
-        <img src="{{$r.RelPermalink}}" class="d-block w-100">
+        {{$img := $r.Resize "x800 png"}}
+        <img src="{{$img.RelPermalink}}" class="d-block w-100">
       </div>
       {{end}}
     {{end}}
