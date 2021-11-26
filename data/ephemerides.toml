@@ -91,6 +91,12 @@ note = ""
 godate = "2021-12-17"
 
 [[trimestre.ephemeride]]
+title = "Fin des cours à 12h"
+date = "vendredi 24 décembre 2021"
+note = "par décision du gouvernement, les cours prendront fin à 12h dans les écoles de l'enseignment obligatoire de la FWB"
+godate = "2021-12-24"
+
+[[trimestre.ephemeride]]
 title = "Congés de Noël/Hiver"
 date = "du lundi 27 décembre 2021 au vendredi 07 janvier 2022"
 note = ""

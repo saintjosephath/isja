@@ -1,0 +1,12 @@
++++
+title       = "Fermeture des écoles le 24 décembre 2021 à 12h"
+date        = 2021-11-25T15:38:42+01:00
+lastmod     = 2021-11-25T15:38:42+01:00
+expirydate  = 2022-01-01T23:59:59+02:00
+draft       = false
+author      = "direction"
+tags        = ["école", "agenda"]
+description = ""
++++
+
+Le gourvernement de la Fédération Wallonie-Bruxelles a décidé de suspendre les cours le vendredi 24 décembre 2021 après-midi dans les établissements scolaires d'enseignement obligatoire. De même, il a décidé de dispenser de service les membres du personnel de l'enseignement obligatoire. De ce fait, aucune garderie ne sera organisé l'après midi.
