@@ -49,12 +49,6 @@ note = ""
 godate = "2021-11-19"
 
 [[trimestre.ephemeride]]
-title = "Formation enseignants P1 et P2"
-date = "lundi 29 novembre 2021"
-note = "Les cours seront suspendus uniquement pour les classes de P1 et P2 (Ath - Maffle). Les cours auront lieu normalement pour les autres classes"
-godate = "2021-11-29"
-
-[[trimestre.ephemeride]]
 title = "Réunion de l'association des parents"
 date = "jeudi 02 décembre 2021"
 note = ""
