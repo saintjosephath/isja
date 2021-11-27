@@ -4,7 +4,7 @@
   {{with $list := first 10 (where $page.Pages.ByPublishDate.Reverse "ExpiryDate" "ge" now)}}
   <ul class="list-group border-0">
     {{range $list}}
-    <li class="list-group-item border-0">{{.PublishDate.Format "01-02-2006"}}: <a href="{{$page.Permalink}}#{{.File.UniqueID}}">{{.Title}}</a>
+    <li class="list-group-item border-0">{{.PublishDate.Format "02-01-2006"}}: <a href="{{$page.Permalink}}#{{.File.UniqueID}}">{{.Title}}</a>
     {{end}}
   </ul>
   {{else}}
