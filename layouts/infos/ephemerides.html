@@ -11,10 +11,10 @@
     <table class="table" id="ephemerides">
       <tbody>
         {{range .ephemeride}}
-        <tr>
+        <tr {{if .cancelled}}class="text-decoration-line-through"{{end}}>
           <th width="30%">{{.title}}</th>
           <td width="40%">{{.date}}</td>
-          <td>{{.note}}</td>
+          <td>{{if not .cancelled}}{{.note}}{{else}}<strong class="text-decoration-none">annulé</strong>{{end}}</td>
         </tr>
         {{end}}
       </tbody>

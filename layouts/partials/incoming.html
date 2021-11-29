@@ -4,7 +4,7 @@
     {{$local := newScratch}}
     {{range $.Site.Data.ephemerides.trimestre}}
     {{range .ephemeride}}
-    {{if and .godate (ge .godate $today)}}
+    {{if and .godate (ge .godate $today) (not .cancelled)}}
       {{$local.SetInMap "events" .godate .title}}
       {{if gt (len ($local.Get "events")) 5 }}
         {{$local.DeleteInMap "events" .godate}}

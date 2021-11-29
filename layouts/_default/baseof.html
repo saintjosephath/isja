@@ -22,15 +22,15 @@
       {{ end }}
       </div>
     </header>
+    {{ if .Site.Params.warning }}
+      <aside class="alert alert-warning py-3 w-100 mx-auto">
+        <p class="text-center fs-4">{{.Site.Params.warning}}</p>
+      </aside>
+    {{ end }}
     <div class="d-flex flex-column flex-shrink-0">
       {{ block "latest" .}}
       {{end}}
       <main class="container">
-        {{ if .Site.Params.warning }}
-          <aside class="alert alert-info my-5 w-75 mx-auto">
-            <p class="text-center">{{.Site.Params.warning}}</p>
-          </aside>
-        {{ end }}
         <div id="page-body" class="row mt-5">
           {{ block "body" .}}
             <div class="col-xs-12 col-sm-12 col-xl-9" id="main-infos">

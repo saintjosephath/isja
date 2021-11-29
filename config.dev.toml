@@ -18,5 +18,5 @@ summaryLength = 64
 tag = "tags"
 
 [params]
-#warning = "ceci est un message d'avertissement"
+warning = "Nouvelles mesures COVID en application à partir du 01/12/2021"
 facebook = "https://www.facebook.com/search/top?q=institut%20saint-joseph%20ath-maffle"

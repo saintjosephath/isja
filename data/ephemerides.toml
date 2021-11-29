@@ -83,6 +83,7 @@ title = "Marché de Noël"
 date = "vendredi 17 décembre 2021"
 note = ""
 godate = "2021-12-17"
+cancelled = true
 
 [[trimestre.ephemeride]]
 title = "Fin des cours à 12h"
