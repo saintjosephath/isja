@@ -5,6 +5,7 @@
   <ul class="list-group border-0">
     {{range $list}}
     <li class="list-group-item border-0">{{.PublishDate.Format "02-01-2006"}}: <a href="{{$page.Permalink}}#{{.File.UniqueID}}">{{.Title}}</a>
+      {{if and .Params.showmore .Summary}}<div class="my-2 summaries">{{.Summary}}</div>{{end}}
     {{end}}
   </ul>
   {{else}}

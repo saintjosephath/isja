@@ -7,8 +7,9 @@ draft       = false
 author      = "direction"
 tags        = ["école", "agenda"]
 description = ""
+showmore    = true
 +++
 
-Suite au CODECO tenu ce jour (26/11/2021), la formation en présentiel des enseignants de première et deuxième primaire a été annulée.
+Suite au CODECO tenu ce jour (26/11/2021), la formation en présentiel des enseignants de première et deuxième primaire a été annulée.<!--more-->
 
 De ce fait, les cours reprendront de façon normale le 29 novembre 2021 pour tous les élèves de P1 et P2.
