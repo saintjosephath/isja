@@ -10,7 +10,7 @@ description = ""
 showmore    = true
 +++
 
-Voici la liste des nouvelles mesures qui seront d'application à l'institut Saint-Joseph dès le **mecredi 1er décembre 2021** suite à la parution de la [circulaire 8362](http://www.enseignement.be/upload/circulaires/000000000003/FWB%20-%20Circulaire%208362%20(8617_20211127_102555).pdf) émise par le gouvernement de la Fédération Wallonie Bruxelles<!--more-->:
+Voici la liste des nouvelles mesures qui seront d'application à l'institut Saint-Joseph dès le **mecredi 1er décembre 2021** suite à la parution de la [circulaire 8362](http://www.enseignement.be/upload/circulaires/000000000003/FWB%20-%20Circulaire%208362%20(8617_20211127_102555).pdf) émise par le gouvernement de la Fédération Wallonie Bruxelles<!--more-->
 
 * Les sorties, activités, animations internes et externes d'un jour sont autorisées,
 
