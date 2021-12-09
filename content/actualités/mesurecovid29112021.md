@@ -5,7 +5,7 @@ lastmod     = 2021-11-29T11:54:04+01:00
 expirydate  = 2022-03-01T11:54:04+01:00
 draft       = false
 author      = "direction"
-tags        = ["école"]
+tags        = ["école", "COVID-19"]
 description = ""
 showmore    = true
 +++
