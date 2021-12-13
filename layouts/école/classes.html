@@ -10,7 +10,9 @@
     {{range .Resources.Match "images/maternelles/*"}}
     <div class="col-12 col-lg-4">
       {{ $img := .Resize "600x png" }}
-      <img src="{{$img.RelPermalink}}" width="600" class="img-thumbnail enlarge">
+      <a href="{{.Permalink}}" target="_blank" title="cliquer sur l'image pour voir l'image original">
+        <img src="{{$img.RelPermalink}}" width="600" class="img-thumbnail">
+      </a>
     </div>
     {{end}}
   </div>
@@ -22,7 +24,9 @@
   {{range .Resources.Match "images/primaires/*"}}
     <div class="col-12 col-lg-4">
       {{ $img := .Resize "600x png" }}
-      <img src="{{$img.RelPermalink}}" width="600" class="img-thumbnail enlarge">
+      <a href="{{.Permalink}}" target="_blank" title="cliquer sur l'image pour voir l'image original">
+        <img src="{{$img.RelPermalink}}" width="600" class="img-thumbnail">
+      </a>
     </div>
   {{end}}
   </div>
