@@ -32,7 +32,7 @@ De plus, la procédure a à nouveau changé!
 
 A ce jour, le call center est débordé, raison pour laquelle l'école ne reçoit pas les informations à temps.  Dès lors, vous l'aurez compris, une anticipation et une responsabilisation collective s'imposent.
 
-Il est demandé de prévenir la direction si votre enfant est positif de façon à ce que nous puissions réagir à temps. Pour ce faire, les informations suivantes sont nécesaaires:
+Il est demandé de prévenir la direction si votre enfant est positif de façon à ce que nous puissions réagir à temps. Pour ce faire, les informations suivantes sont nécesaires:
 
 * le nom,
 * le prénom,
