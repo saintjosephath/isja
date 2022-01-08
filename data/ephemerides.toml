@@ -100,11 +100,11 @@ godate = "2021-12-27"
 [[trimestre]]
 title = "2ème trimestre"
 
-[[trimestre.ephemeride]]
-title = "Classe de neige P6"
-date = "du lundi 10 janvier 2022 au mecredi 19 janvier 2022"
-note = ""
-godate = "2022-01-10"
+# [[trimestre.ephemeride]]
+# title = "Classe de neige P6"
+# date = "du lundi 10 janvier 2022 au mecredi 19 janvier 2022"
+# note = ""
+# godate = "2022-01-10"
 
 [[trimestre.ephemeride]]
 title = "Cabaret P3-P4"
