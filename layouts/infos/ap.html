@@ -1,0 +1,66 @@
+{{define "main"}}
+  {{partial "breadcrumb.html" .}}
+  <header class="mb-3">
+    <h1 class="h3">{{.Title}}</h1>
+  </header>
+  {{with .Description}}
+  <div class="page-desc">
+    <p>{{.Description}}</p>
+  </div>
+  {{end}}
+  <div>
+    {{.Content}}
+  </div>
+  <div class="w-100 my-5"></div>
+  <div class="row">
+    <div class="col">
+      <div class="card h-100">
+        <div class="card-body">
+          {{with .GetPage "repr.md" }}
+          <h4 class="card-title">{{.Title}}</h4>
+          {{.Content}}
+          {{end}}
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <div class="card-body">
+          {{with .GetPage "fonc.md" }}
+          <h4 class="card-title">{{.Title}}</h4>
+          {{.Content}}
+          {{end}}
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row mt-3">
+    <div class="col">
+      <div class="card h-100">
+        <div class="card-body">
+          {{with .GetPage "actions.md" }}
+          <h4 class="card-title">{{.Title}}</h4>
+          {{.Content}}
+          {{end}}
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <div class="card-body">
+          {{with .GetPage "finances.md" }}
+          <h4 class="card-title">{{.Title}}</h4>
+          {{.Content}}
+          {{end}}
+        </div>
+      </div>
+    </div>
+  </div>
+{{end}}
+
+{{ define "aside"}}
+{{partial "toc" .}}
+{{partial "apropos" .}}
+{{partial "latest" .}}
+{{partial "tags" .}}
+{{end}}
