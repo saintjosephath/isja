@@ -8,8 +8,8 @@ tags        = []
 description = ""
 +++
 
-Le Comité se compose de quatre membres interchangeables qui assument tous ensembles les fonctions de présidentes, vice-présidentes, secrétaires et trésorière.
+Le Comité se compose de quatre membres interchangeables qui assument tous ensembles les fonctions de président.e.s, vice-président.e.s, secrétaires et trésorier.ère.
 
 Le Comité organise les réunions, gère les contacts avec l’école, coordonne les groupes de travail, etc.
 
-Outre le Comité, l’équipe est constituée d’un groupe de parents extrêmement motivés et venant des deux sites
+Outre le Comité, l’équipe est constituée d’un groupe de parents extrêmement motivés et venant des deux sites.
