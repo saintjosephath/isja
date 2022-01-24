@@ -1,0 +1,21 @@
+.card-body h4 {
+  margin-top: 100px;
+  transition: opacity 1500ms, visibility 1500ms, margin-top 1500ms;
+}
+
+.card-body:hover h4 {
+  opacity: 0;
+  visibility: hidden;
+  margin-top: 0;
+}
+
+.card-body p, .card-body ul {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 1500ms, visibility 1500ms;
+}
+
+.card-body:hover p, .card-body:hover ul {
+  opacity: 100;
+  visibility: visible;
+}

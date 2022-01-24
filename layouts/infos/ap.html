@@ -1,3 +1,6 @@
+{{define "style"}}
+<link rel="stylesheet" href="/css/ap.css"/>
+{{end}}
 {{define "main"}}
   {{partial "breadcrumb.html" .}}
   <header class="mb-3">
@@ -12,50 +15,23 @@
     {{.Content}}
   </div>
   <div class="w-100 my-5"></div>
-  <div class="row">
-    <div class="col">
+  {{ $all := slice (slice "repr.md" "fonc.md") (slice "actions.md" "finances.md")}}
+  {{range $grp := $all}}
+  <div class="row mb-3">
+    {{range $grp}}
+    <div class="col-12 col-lg-6 mb-2">
       <div class="card h-100">
         <div class="card-body">
-          {{with .GetPage "repr.md" }}
-          <h4 class="card-title">{{.Title}}</h4>
+          {{with $.GetPage . }}
+          <h4 class="card-title text-center">{{.Title}}</h4>
           {{.Content}}
           {{end}}
         </div>
       </div>
     </div>
-    <div class="col">
-      <div class="card h-100">
-        <div class="card-body">
-          {{with .GetPage "fonc.md" }}
-          <h4 class="card-title">{{.Title}}</h4>
-          {{.Content}}
-          {{end}}
-        </div>
-      </div>
-    </div>
+    {{end}}
   </div>
-  <div class="row mt-3">
-    <div class="col">
-      <div class="card h-100">
-        <div class="card-body">
-          {{with .GetPage "actions.md" }}
-          <h4 class="card-title">{{.Title}}</h4>
-          {{.Content}}
-          {{end}}
-        </div>
-      </div>
-    </div>
-    <div class="col">
-      <div class="card h-100">
-        <div class="card-body">
-          {{with .GetPage "finances.md" }}
-          <h4 class="card-title">{{.Title}}</h4>
-          {{.Content}}
-          {{end}}
-        </div>
-      </div>
-    </div>
-  </div>
+  {{end}}
 {{end}}
 
 {{ define "aside"}}
