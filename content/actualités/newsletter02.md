@@ -40,14 +40,6 @@ revenus (épuisés mais) enchantés !
 - Le calendrier de l’Avent spécialement conçu par nos élèves nous a tous permis de nous rassembler autour de moments de partage et de joie (tout en respectant les mesures sanitaires),
 - Le Flash mob de l’Institut Saint-Joseph est publié sur la page FB, je vous invite à le visionner avec vos enfants.
 
-### {{< iconify icon="journal-text.svg" >}}Les changements{{< /iconify >}}
-
-Afin d’apporter un climat serein et un changement positif et constructif dans l’espace éducatif de nos deux écoles, M. Pascal Kiesecoms, Directeur diocésain et accompagnateur des Pouvoir Organisateurs du diocèse, et ses services ont proposé de mandater auprès des Pouvoir Organisateurs "Comité scolaire des écoles chrétiennes fondamentales d’Ath" et "ASBL Ecole fondamentale Saint-François" Monsieur Stéphane Debrabandère en tant qu’accompagnateur à la mise en œuvre de la décision de transfert d’activité des ASBL existantes vers la nouvelle ASBL "Ecoles fondamentales libres catholiques d’Ath". Ce mandat devra être confirmé lors du conseil d’administration de chacun des PO qui se tiendra le 03/02/2022 en présence de Monsieur Debrabandère et d’un membre de nos services diocésains. Cette décision sera ensuite présentée aux A.G. respectives.
-
-Par la suite, et dès que ce transfert sera effectué, leurs services inviteront l’assemblée générale de l’ASBL "Ecoles fondamentales libres catholiques d’Ath" à nommer Monsieur Debrabandère comme administrateur temporaire de la nouvelle ASBL. Sa mission consistera alors, en bonne entente avec les autres administrateurs, à consolider la nouvelle ASBL et à mettre en route les bases d’une gouvernance optimale au sein de l’ASBL.
-
-Les services diocésains continueront l’accompagnement du Pouvoir Organisateur et des directions dans la mise en place de ce projet.
-
 ### {{< iconify icon="newspaper.svg" >}}Les dernières informations{{< /iconify >}}
 
 - {{< spanify class="text-danger" >}}Les directives de décembre sont toujours d’application. De plus, suite à la montée des chiffres et à l’assouplissement du protocole sanitaire quant aux mises en quarantaine et aux fermetures des classes, LES REPAS CHAUDS SONT ANNULÉS!{{< /spanify >}} Merci de prévoir des tartines et des boissons pour les enfants.
