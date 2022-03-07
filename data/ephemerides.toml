@@ -100,12 +100,6 @@ godate = "2021-12-27"
 [[trimestre]]
 title = "2ème trimestre"
 
-# [[trimestre.ephemeride]]
-# title = "Classe de neige P6"
-# date = "du lundi 10 janvier 2022 au mecredi 19 janvier 2022"
-# note = ""
-# godate = "2022-01-10"
-
 [[trimestre.ephemeride]]
 title = "Cabaret P3-P4"
 date = "vendredi 04 février 2022"
@@ -137,16 +131,10 @@ note = ""
 godate = "2022-03-18"
 
 [[trimestre.ephemeride]]
-title = "Photo individuelle/classe"
-date = "24 mars 2022"
-note = "Ath"
-godate = "2022-03-24"
-
-[[trimestre.ephemeride]]
-title = "Photo individuelle/classe"
-date = "25 mars 2022"
-note = "Maffle"
-godate = "2022-03-25"
+title = "Classe de neige P6"
+date = "du mecredi 23 mars 2022 au vendredi 01 avril 2022"
+note = ""
+godate = "2022-03-23"
 
 [[trimestre.ephemeride]]
 title = "Congés de Pâques/Printemps"
@@ -156,6 +144,18 @@ godate = "2022-04-04"
 
 [[trimestre]]
 title = "3ème trimestre"
+
+[[trimestre.ephemeride]]
+title = "Photo individuelle/classe"
+date = "02 mai 2022"
+note = "Ath"
+godate = "2022-05-02"
+
+[[trimestre.ephemeride]]
+title = "Photo individuelle/classe"
+date = "03 mai 2022"
+note = "Maffle"
+godate = "2022-05-03"
 
 [[trimestre.ephemeride]]
 title = "conférence pédagogique"
