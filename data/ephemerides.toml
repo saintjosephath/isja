@@ -176,6 +176,12 @@ note = ""
 godate = "2022-05-26"
 
 [[trimestre.ephemeride]]
+title = "conférence pédagogique"
+date = "27 mai 2022"
+note = "Ath et Maffle"
+godate = "2022-05-27"
+
+[[trimestre.ephemeride]]
 title = "Congé de Pentecôte"
 date = "06 juin 2022"
 note = ""
