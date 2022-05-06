@@ -1,0 +1,24 @@
+{{define "main"}}
+{{partial "breadcrumb.html" .}}
+<header class="mb-3">
+  <h1 class="h3">{{.Title}}</h1>
+</header>
+
+<table class="table table-striped" id="fruits">
+  <tbody>
+    {{range $.Site.Data.fruits.week}}
+    <tr>
+      <th width="15%">{{.date}}</th>
+      <td>{{.fruit}}</td>
+    </tr>
+    {{end}}
+  </tbody>
+</table>
+{{end}}
+
+{{ define "aside"}}
+{{partial "toc" .}}
+{{partial "apropos" .}}
+{{partial "latest" .}}
+{{partial "tags" .}}
+{{end}}
