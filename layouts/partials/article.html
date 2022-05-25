@@ -7,20 +7,27 @@
       </small>
     </div>
     <div class="text-justify">{{.Content}}</div>
+    {{ with .Resources.Match "documents/*"}}
+      <ul>
+        {{range .}}
+        <li><a href="{{.Permalink}}" target="_blank">{{.Title}}</a></li>
+        {{end}}
+      </ul>
+    {{end}}
     {{ with .Resources.ByType "image" }}
-	<div class="row d-flex justify-content-center align-items-center image-screen">
-  	{{ range . }}
-      <div class="col">
-		    <img src="{{ .RelPermalink }}" class="img-thumbnail mx-2">
-      </div>
-  	{{ end }}
-	</div>
-	<div class="image-mobile">
-  	{{ range . }}
-  		<img src="{{ .RelPermalink }}" class="img-thumbnail enlarge-sm my-2 d-block mx-auto" width="360">
-  	{{ end }}
-	</div>
-  {{ end }}
+    	<div class="row d-flex justify-content-center align-items-center image-screen">
+      	{{ range . }}
+          <div class="col">
+    		    <img src="{{ .RelPermalink }}" class="img-thumbnail mx-2">
+          </div>
+      	{{ end }}
+    	</div>
+    	<div class="image-mobile">
+      	{{ range . }}
+      		<img src="{{ .RelPermalink }}" class="img-thumbnail enlarge-sm my-2 d-block mx-auto" width="360">
+      	{{ end }}
+    	</div>
+    {{ end }}
     <ul class="list-inline text-right mt-4">
       {{ range (.GetTerms "tags") }}
         <li class="list-inline-item mx-0">
