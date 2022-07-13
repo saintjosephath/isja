@@ -2,7 +2,11 @@
   {{range $i, $d := .}}
       <div class="col-md-6 col-lg-6 col-sm-1">
         <div class="card mb-3 border-0" style="min-height:240px">
+          {{if $d.image}}
           <img src="images/{{$d.image}}" class="card-img" alt="">
+          {{else}}
+          <h1 class="h3 text-center">{{$d.name}}</h1>
+          {{end}}
           <div class="card-body py-2 d-flex align-items-end text-center card-img-overlay">
             {{if $d.location}}
             <a href="{{$d.location}}" class="btn stretched-link mx-auto btn-outline-tag" target="_blank">

@@ -12,6 +12,12 @@ location = "docs/FICHE_INSCRIPTION.pdf"
 image = "fiche_inscription.png"
 
 [[document]]
+name = "paiement par application"
+summary = ""
+location = "docs/APSCHOOL.pdf"
+image = "apschool.png"
+
+[[document]]
 name = "justificaf d'absence"
 summary = ""
 location = "docs/JUSTIFICATIF_ABSENCE.pdf"
