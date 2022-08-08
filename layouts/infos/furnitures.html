@@ -1,0 +1,37 @@
+{{define "main"}}
+{{partial "breadcrumb.html" .}}
+<header class="mb-3">
+  <h1 class="h3">{{.Title}}</h1>
+</header>
+<section>
+  {{.Content}}
+</section>
+
+<section>
+  <h1 class="h4">Fournitures classes Ath</h1>
+  {{$doc := .Resources.GetMatch "ath.toml" | transform.Unmarshal}}
+  <ul>
+    {{range $doc.document}}
+      <li><a target="_blank" href="{{.location}}">{{.name}}</a></li>
+    {{end}}
+  </ul>
+</section>
+
+<section>
+  <h1 class="h4">Fournitures classes Maffle</h1>
+  {{$doc := .Resources.GetMatch "maffle.toml" | transform.Unmarshal}}
+  <ul>
+    {{range $doc.document}}
+      <li><a target="_blank" href="{{.location}}">{{.name}}</a></li>
+    {{end}}
+  </ul>
+</section>
+
+{{end}}
+
+{{ define "aside"}}
+{{partial "toc" .}}
+{{partial "apropos" .}}
+{{partial "latest" .}}
+{{partial "tags" .}}
+{{end}}
