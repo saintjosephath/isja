@@ -22,3 +22,9 @@ name = "justificaf d'absence"
 summary = ""
 location = "docs/JUSTIFICATIF_ABSENCE.pdf"
 image = "justificatif_absence.png"
+
+[[document]]
+name = "déclaration de protection des données personnelles"
+summary = ""
+location = "docs/PROTECT.pdf"
+image = ""
