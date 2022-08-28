@@ -28,3 +28,21 @@ name = "déclaration de protection des données personnelles"
 summary = ""
 location = "docs/PROTECT.pdf"
 image = ""
+
+[[document]]
+name = "éstimation des frais pour l'année scolaire"
+summary = ""
+location = "docs/COST.pdf"
+image = ""
+
+[[document]]
+name = "utilisation des plateformes numériques"
+summary = ""
+location = "docs/PLATEFORM.pdf"
+image = ""
+
+[[document]]
+name = "droit à l'image"
+summary = ""
+location = "docs/IMAGE.pdf"
+image = ""

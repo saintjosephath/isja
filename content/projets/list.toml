@@ -19,5 +19,5 @@ image    = "projet_peda.png"
 [[document]]
 name     = "Règlement des études"
 summary  = ""
-location = "docs/regle2021.pdf"
+location = "docs/regle.pdf"
 image    = "projet_regle.png"

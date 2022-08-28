@@ -1,6 +1,7 @@
 +++
 title       = "Notre équipe pédagogique"
 date        = 2021-05-08T16:58:18+02:00
+lastmod     = 2022-08-28T16:58:18+02:00
 draft       = false
 author      = "direction"
 tags        = []
