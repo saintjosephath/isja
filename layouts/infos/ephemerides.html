@@ -4,6 +4,12 @@
   <h1 class="h3">{{.Title}}</h1>
 </header>
 
+{{if .Content}}
+<section class="mb-3">
+  {{.Content}}
+</section>
+{{end}}
+
 {{$info := $.Site.Data.ephemerides}}
 {{range $info.trimestre}}
   <div class="row mb-3">

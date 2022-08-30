@@ -13,6 +13,11 @@ description = "Cette page rassemble l’organisation interne de notre école : l
 
 {{< schedule >}}
 
+les grilles sont ouvertes:
+
+* le mecredi à **12h15**
+* le lundi, mardi, jeudi et vendredi à **15h15**.
+
 ##### 2.	Education physique
 
 À Ath dans la salle de psychomotricité (Accueil à P2) et dans la salle de sport (P3 à P6), dans la cour ou à l’esplanade.
