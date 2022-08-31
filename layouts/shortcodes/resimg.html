@@ -1,4 +1,4 @@
 {{$name := .Get "name"}}
 <img src="{{(.Page.Resources.GetMatch $name).RelPermalink}}"
   class="mx-auto d-block my-3{{ if eq (.Get "float") "end"}} ms-3 float-end{{end}}{{ if eq (.Get "float") "start"}} me-3 float-start{{end}}"
-  {{if ne (.Get "height") ""}}height="{{.Get "height"}}"{{end}}>>
+  {{if ne (.Get "height") ""}}height="{{.Get "height"}}"{{end}}>

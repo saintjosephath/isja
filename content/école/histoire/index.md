@@ -29,7 +29,7 @@ Il y a très, très longtemps, le 9 octobre 1838 pour être précis, débarquent
 
 L’école n’est pas encore située à la rue des Ecriniers comme aujourd’hui mais à la rue de Gand, à côté de la piscine actuelle dans les locaux occupés à notre époque par les réthos du Collège Saint-Julien.
 
-{{< resimg name="images/status.png" text="Saint-Joseph" float="end" height="480">}}
+{{< resimg name="images/status.png" text="Saint-Joseph" float="end" height="480" >}}
 
 **Mais pourquoi décident-ils d’ouvrir une école ? Il n’y en avait pas ?**
 
