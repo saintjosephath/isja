@@ -27,22 +27,22 @@ image = "justificatif_absence.png"
 name = "déclaration de protection des données personnelles"
 summary = ""
 location = "docs/PROTECT.pdf"
-image = ""
+image = "rgpd.png"
 
 [[document]]
 name = "éstimation des frais pour l'année scolaire"
 summary = ""
 location = "docs/COST.pdf"
-image = ""
+image = "cost.png"
 
 [[document]]
 name = "utilisation des plateformes numériques"
 summary = ""
 location = "docs/PLATEFORM.pdf"
-image = ""
+image = "plateform.png"
 
 [[document]]
 name = "droit à l'image"
 summary = ""
 location = "docs/IMAGE.pdf"
-image = ""
+image = "image.png"
