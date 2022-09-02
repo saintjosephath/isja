@@ -1,7 +1,7 @@
 +++
 title       = "Horaires"
 date        = 2021-05-08T17:08:11+02:00
-lastmod     = 2022-03-07T18:03:52+02:00
+lastmod     = 2022-09-02T18:03:52+02:00
 draft       = false
 author      = "direction"
 tags        = []
@@ -69,10 +69,21 @@ Les transports scolaires et le Tec desservent les implantations.
 
 [Renseignements](http://mobilite.wallonie.be/je-suis/un-citoyen/en-bus-tram-ou-metro/services-et-solutions/transport-scolaire.html)
 
-##### 11.	Echanges avec le secondaire
+##### 11. Rangs
+
+uniquement pour Ath.
+
+2 rangs sont organisés par l'école:
+
+* un rang vers l'académie uniquement les lundis et vendredis à partir de 15h20. Ce rang est assuré par un(e) enseignant(e) de l'académie qui vient chercher les élèves qui se sont inscrits aux cours de musique.
+* le rang de l'esplanade est organisé tout les jours à 15h15 (12h15 le mecredi). Un enseignant de l'école conduit les enfants à l'esplanade (via la rue du Bouchain) d'où ils pourront être récupéré par les parents ou continuer leurs chemins seuls.
+
+A l'avenir, si un parent le propose et le gère, un rang vers la gare pourrait être organisé. Appel à candidature est lancé!
+
+##### 12.	Echanges avec le secondaire
 
 Nos sixièmes primaires passent une journée dans chaque école secondaire à citer
 
-##### 12.	Partenaires
+##### 13.	Partenaires
 
 ALE, PSE, CPMS, PARI, Ecole de Sainte-Gertrude de Brugelette, logopèdes, Maison Culturelle d’Ath, bibliothèque d’Ath, Académie de Musique, ADEPS (cross), etc.
