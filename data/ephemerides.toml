@@ -50,6 +50,11 @@ date = "lundi 03 octobre 2022"
 godate = "2022-10-03"
 
 [[trimestre.ephemeride]]
+title = "Conférence pédagogique"
+date = "lundi 10 octobre 2022"
+godate = "2022-10-10"
+
+[[trimestre.ephemeride]]
 title = "marche gourmande"
 date = "dimanche 16 octobre 2022"
 godate = "2022-10-16"
@@ -109,6 +114,11 @@ godate = "2022-12-26"
 title = "2ème trimestre"
 
 [[trimestre.ephemeride]]
+title = "Conférence pédagogique"
+date = "mercredi 11 janvier 2023"
+godate = "2023-01-11"
+
+[[trimestre.ephemeride]]
 title = "Classe de neige P6"
 date = "du mecredi 25 janvier 2022 au vendredi 03 février 2023"
 godate = "2023-01-25"
@@ -156,6 +166,11 @@ godate = "2023-05-01"
 
 [[trimestre]]
 title = "3ème trimestre"
+
+[[trimestre.ephemeride]]
+title = "Conférence pédagogique"
+date = "mercredi 17 mai 2023"
+godate = "2023-05-17"
 
 [[trimestre.ephemeride]]
 title = "jeudi de l'ascension"
