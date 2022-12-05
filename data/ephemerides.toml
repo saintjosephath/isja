@@ -71,6 +71,12 @@ note = "célébration par les P6"
 godate = "2022-11-11"
 
 [[trimestre.ephemeride]]
+title = "diner de Saint-Nicolas"
+date = "mardi 06 décembre 2022"
+note = "couques et cacao offert par l'école à Ath et Maffle. Ne réservez pas de repas chaud!"
+godate = "2022-12-06"
+
+[[trimestre.ephemeride]]
 title = "Visite de Saint-Nicolas"
 date = "mardi 06 décembre 2022"
 note = "Ath"
@@ -87,18 +93,6 @@ title = "Bulletin 1 + Réunion individuelle"
 date = "vendredi 9 décembre 2022"
 note = "à partir du lundi 12 décembre 2022"
 godate = "2022-12-09"
-
-[[trimestre.ephemeride]]
-title = "diner de Saint-Nicolas"
-date = "lundi 06 décembre 2022"
-note = "couques et cacao offert par l'école. Ne réservez pas de repas chaud"
-godate = "2022-12-06"
-
-[[trimestre.ephemeride]]
-title = "Visite de Saint-Nicolas"
-date = "vendredi 08 décembre 2022"
-note = "Maffle"
-godate = "2022-12-08"
 
 [[trimestre.ephemeride]]
 title = "Marché de Noël"

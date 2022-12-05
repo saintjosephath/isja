@@ -3,17 +3,29 @@
 <header class="mb-3">
   <h1 class="h3">{{.Title}}</h1>
 </header>
-
-<table class="table table-striped" id="fruits">
-  <tbody>
-    {{range $.Site.Data.fruits.week}}
-    <tr>
-      <th width="15%">{{.date}}</th>
-      <td>{{.fruit}}</td>
-    </tr>
+<div id="meal" class="carousel carousel-dark slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    {{ with $list := .Resources.ByType "image" }}
+      {{$last :=  index (last 1 $list) 0}}
+      {{$last}}
+      {{range $i, $r := sort $list "Name" "asc"}}
+      <div class="carousel-item {{if eq $last.Name $r.Name}}active{{end}}" data-bs-interval="900000">
+        {{$img := $r.Resize "x800 png"}}
+        <img src="{{$img.RelPermalink}}" class="d-block w-100">
+      </div>
+      {{end}}
     {{end}}
-  </tbody>
-</table>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#meal" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#meal" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
 {{end}}
 
 {{ define "aside"}}
