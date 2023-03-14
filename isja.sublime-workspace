@@ -7,6 +7,210 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "content/infos/fournitures/ath.toml",
+			"settings":
+			{
+				"buffer_size": 453,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			},
+			"undo_stack":
+			[
+				[
+					4,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYGJA"
+				],
+				[
+					6,
+					2,
+					"insert_snippet",
+					{
+						"contents": "[$0]"
+					},
+					"AgAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAQAAAAAAAAADAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+				],
+				[
+					7,
+					1,
+					"insert",
+					{
+						"characters": "dc"
+					},
+					"AgAAAAIAAAAAAAAAAwAAAAAAAAAAAAAAAwAAAAAAAAAEAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAAgAAAAAAAAACAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					8,
+					1,
+					"left_delete",
+					null,
+					"AQAAAAMAAAAAAAAAAwAAAAAAAAABAAAAYw",
+					"AQAAAAAAAAABAAAABAAAAAAAAAAEAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					9,
+					1,
+					"insert",
+					{
+						"characters": "ocument"
+					},
+					"BwAAAAMAAAAAAAAABAAAAAAAAAAAAAAABAAAAAAAAAAFAAAAAAAAAAAAAAAFAAAAAAAAAAYAAAAAAAAAAAAAAAYAAAAAAAAABwAAAAAAAAAAAAAABwAAAAAAAAAIAAAAAAAAAAAAAAAIAAAAAAAAAAkAAAAAAAAAAAAAAAkAAAAAAAAACgAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAAwAAAAAAAAADAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					11,
+					1,
+					"insert",
+					{
+						"characters": "\nname"
+					},
+					"BQAAAAwAAAAAAAAADQAAAAAAAAAAAAAADQAAAAAAAAAOAAAAAAAAAAAAAAAOAAAAAAAAAA8AAAAAAAAAAAAAAA8AAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAARAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAADAAAAAAAAAAMAAAAAAAAAP///////+9/"
+				],
+				[
+					12,
+					1,
+					"insert",
+					{
+						"characters": " ="
+					},
+					"AgAAABEAAAAAAAAAEgAAAAAAAAAAAAAAEgAAAAAAAAATAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAEQAAAAAAAAARAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					13,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAABMAAAAAAAAAFAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAEwAAAAAAAAATAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					14,
+					1,
+					"insert_snippet",
+					{
+						"contents": "\"$0\""
+					},
+					"AQAAABQAAAAAAAAAFgAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAFAAAAAAAAAAUAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					15,
+					1,
+					"insert",
+					{
+						"characters": "materne"
+					},
+					"BwAAABUAAAAAAAAAFgAAAAAAAAAAAAAAFgAAAAAAAAAXAAAAAAAAAAAAAAAXAAAAAAAAABgAAAAAAAAAAAAAABgAAAAAAAAAGQAAAAAAAAAAAAAAGQAAAAAAAAAaAAAAAAAAAAAAAAAaAAAAAAAAABsAAAAAAAAAAAAAABsAAAAAAAAAHAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAFQAAAAAAAAAVAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					16,
+					1,
+					"insert",
+					{
+						"characters": "lle"
+					},
+					"AwAAABwAAAAAAAAAHQAAAAAAAAAAAAAAHQAAAAAAAAAeAAAAAAAAAAAAAAAeAAAAAAAAAB8AAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAHAAAAAAAAAAcAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					18,
+					1,
+					"insert",
+					{
+						"characters": "\nlocation"
+					},
+					"CQAAACAAAAAAAAAAIQAAAAAAAAAAAAAAIQAAAAAAAAAiAAAAAAAAAAAAAAAiAAAAAAAAACMAAAAAAAAAAAAAACMAAAAAAAAAJAAAAAAAAAAAAAAAJAAAAAAAAAAlAAAAAAAAAAAAAAAlAAAAAAAAACYAAAAAAAAAAAAAACYAAAAAAAAAJwAAAAAAAAAAAAAAJwAAAAAAAAAoAAAAAAAAAAAAAAAoAAAAAAAAACkAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAIAAAAAAAAAAgAAAAAAAAAP///////+9/"
+				],
+				[
+					19,
+					1,
+					"insert",
+					{
+						"characters": " ="
+					},
+					"AgAAACkAAAAAAAAAKgAAAAAAAAAAAAAAKgAAAAAAAAArAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAKQAAAAAAAAApAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					20,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAACsAAAAAAAAALAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAKwAAAAAAAAArAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					21,
+					1,
+					"insert_snippet",
+					{
+						"contents": "\"$0\""
+					},
+					"AQAAACwAAAAAAAAALgAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAALAAAAAAAAAAsAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					22,
+					1,
+					"insert",
+					{
+						"characters": "docs/mat_a"
+					},
+					"CgAAAC0AAAAAAAAALgAAAAAAAAAAAAAALgAAAAAAAAAvAAAAAAAAAAAAAAAvAAAAAAAAADAAAAAAAAAAAAAAADAAAAAAAAAAMQAAAAAAAAAAAAAAMQAAAAAAAAAyAAAAAAAAAAAAAAAyAAAAAAAAADMAAAAAAAAAAAAAADMAAAAAAAAANAAAAAAAAAAAAAAANAAAAAAAAAA1AAAAAAAAAAAAAAA1AAAAAAAAADYAAAAAAAAAAAAAADYAAAAAAAAANwAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAALQAAAAAAAAAtAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					23,
+					1,
+					"insert",
+					{
+						"characters": "th.pdf"
+					},
+					"BgAAADcAAAAAAAAAOAAAAAAAAAAAAAAAOAAAAAAAAAA5AAAAAAAAAAAAAAA5AAAAAAAAADoAAAAAAAAAAAAAADoAAAAAAAAAOwAAAAAAAAAAAAAAOwAAAAAAAAA8AAAAAAAAAAAAAAA8AAAAAAAAAD0AAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAANwAAAAAAAAA3AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					27,
+					4,
+					"left_delete",
+					null,
+					"BAAAACcBAAAAAAAAJwEAAAAAAAABAAAAKSYBAAAAAAAAJgEAAAAAAAABAAAAQSUBAAAAAAAAJQEAAAAAAAABAAAAKCQBAAAAAAAAJAEAAAAAAAABAAAAIA",
+					"AQAAAAAAAAABAAAAKAEAAAAAAAAoAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					30,
+					1,
+					"left_delete",
+					null,
+					"AQAAADkBAAAAAAAAOQEAAAAAAAABAAAAYQ",
+					"AQAAAAAAAAABAAAAOgEAAAAAAAA6AQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					36,
+					2,
+					"left_delete",
+					null,
+					"AgAAAEMBAAAAAAAAQwEAAAAAAABGAAAAW1tkb2N1bWVudF1dCm5hbWUgPSAiNMOobWUgcHJpbWFpcmUgKEIpIgpsb2NhdGlvbiA9ICJkb2NzL3A0Yl9hdGgucGRmIkIBAAAAAAAAQgEAAAAAAAABAAAACg",
+					"AQAAAAAAAAABAAAAiAEAAAAAAABDAQAAAAAAAAAAAAAAAAAA"
+				]
+			]
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -40,10 +244,15 @@
 	},
 	"expanded_folders":
 	[
-		"/home/nico/Devel/Play/src/isja"
+		"/home/nico/Devel/Play/src/isja",
+		"/home/nico/Devel/Play/src/isja/content",
+		"/home/nico/Devel/Play/src/isja/content/infos",
+		"/home/nico/Devel/Play/src/isja/content/infos/fournitures"
 	],
 	"file_history":
 	[
+		"/home/nico/Devel/Play/src/isja/content/actualités/2022_marché_noel_ath/index.md",
+		"/home/nico/Devel/Play/src/isja/content/actualités/2022_marché_noel_maffle/index.md",
 		"/home/nico/Devel/Play/src/midbel/query/filter.go",
 		"/home/nico/Devel/Play/src/midbel/slices/combine_test.go",
 		"/home/nico/Devel/Play/src/midbel/slices/slices.go",
@@ -169,9 +378,7 @@
 		"/home/nico/Devel/Play/src/midbel/buddy/builtins/array.go",
 		"/home/nico/Devel/Play/src/midbel/buddy/builtins/io.go",
 		"/home/nico/Devel/Play/src/midbel/buddy/eval/modules.go",
-		"/home/nico/Devel/Play/src/midbel/slices/stack.go",
-		"/home/nico/Devel/Play/src/midbel/buddy/builtins/time.go",
-		"/home/nico/Devel/Play/src/midbel/buddy/call.go"
+		"/home/nico/Devel/Play/src/midbel/slices/stack.go"
 	],
 	"find":
 	{
@@ -210,6 +417,36 @@
 		{
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "content/infos/fournitures/ath.toml",
+					"selected": true,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 453,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								322,
+								322
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -290,7 +527,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 187.0,
+	"side_bar_width": 314.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

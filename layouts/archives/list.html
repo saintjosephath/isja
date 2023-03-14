@@ -5,7 +5,7 @@
   </header>
   <div class="mb-3">
     {{ with $page := .GetPage "actualités"}}
-      {{ $set := $page.Pages.GroupByDate "Jan. 2006" }}
+      {{ $set := $page.Pages.GroupByDate "Jan 2006" }}
       {{range $set}}
         <h3>{{.Key}}</h3>
         <ul>
