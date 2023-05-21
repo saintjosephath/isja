@@ -40,6 +40,6 @@ Il est demandé de prévenir la direction si votre enfant est positif de façon 
 * son dernier jour à l'école
 * et le prénom des enfants avec lequel il était en contact étroit.
 
-Il est demandé que toutes ces informations soient envoyées à l'école par mail (institutsaintjosephath@gmail.com) et non par téléphone.
+Il est demandé que toutes ces informations soient envoyées à l'école par mail (direction@isjam.be) et non par téléphone.
 
 Ceci nous permettra d'éviter d'aggraver la situation déjà bien compliquée.

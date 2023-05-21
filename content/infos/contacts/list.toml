@@ -14,15 +14,15 @@ image = "images/visit_maffle.png"
 
 [[Contact]]
 role  = "P.O."
-name  = "Mme Pillate"
+name  = "Xavier Muller"
 phone = ""
-email = "institutsaintjosephath@gmail.com"
+email = "P.O@ceflca.be"
 
 [[Contact]]
 role  = "Direction"
 name  = "Mme Vandermeets"
 phone = "068/28.25.56"
-email = "institutsaintjosephath@gmail.com"
+email = "direction@isjam.be"
 
 [[Contact]]
 role  = "Comptabilité"
