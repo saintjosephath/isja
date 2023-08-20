@@ -7,6 +7,17 @@
   {{.Content}}
 </section>
 
+
+<section>
+  <h1 class="h4">Gratuité à l'école 1er cycle</h1>
+  {{$doc := .Resources.GetMatch "commons.toml" | transform.Unmarshal}}
+  <ul>
+    {{range $doc.document}}
+      <li><a target="_blank" href="{{.location}}">{{.name}}</a></li>
+    {{end}}
+  </ul>
+</section>
+
 <section>
   <h1 class="h4">Fournitures classes Ath</h1>
   {{$doc := .Resources.GetMatch "ath.toml" | transform.Unmarshal}}

@@ -5,14 +5,14 @@ location = "docs/mat_ath.pdf"
 name = "1ère Primaire"
 location = "docs/p1_ath.pdf"
 [[document]]
-name = "2ème Primaire"
-location = "docs/p2_ath.pdf"
-[[document]]
 name = "3ème Primaire"
 location = "docs/p3_ath.pdf"
 [[document]]
-name = "4ème primaire"
-location = "docs/p4_ath.pdf"
+name = "4ème primaire (A)"
+location = "docs/p4a_ath.pdf"
+[[document]]
+name = "4ème primaire (B)"
+location = "docs/p4b_ath.pdf"
 [[document]]
 name = "5ème primaire"
 location = "docs/p5_ath.pdf"

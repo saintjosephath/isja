@@ -10,4 +10,10 @@ description = "Les enseignants sont les premières personnes avec lesquels vous 
 layout      = "team"
 +++
 
-Pour contacter l'un de nos enseignants, vous pouvez utiliser son adresse e-mail: **&lt;prénom&gt;.&lt;nom&gt;.instit[at]gmail.com**
+Pour les enseignants, la plupart communiquent avec le journal de classe. 
+
+Il leur a été, cependant, attribué une adresse professionnelle avec la forme &tl;prenom&gt;.&lt;nom&gt;<strong>[at]isjam.be</strong>. 
+
+Ils ne vous la communiqueront que s'ils l'utilisent. Ce qui n'est pas une obligation dans le règlement de travail. 
+
+

@@ -7,74 +7,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "content/infos/contacts/list.toml",
-			"settings":
-			{
-				"buffer_size": 560,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			},
-			"undo_stack":
-			[
-				[
-					5,
-					1,
-					"insert",
-					{
-						"characters": "Xavbie"
-					},
-					"BwAAABgBAAAAAAAAGQEAAAAAAAAAAAAAGQEAAAAAAAAZAQAAAAAAAAsAAABNbWUgUGlsbGF0ZRkBAAAAAAAAGgEAAAAAAAAAAAAAGgEAAAAAAAAbAQAAAAAAAAAAAAAbAQAAAAAAABwBAAAAAAAAAAAAABwBAAAAAAAAHQEAAAAAAAAAAAAAHQEAAAAAAAAeAQAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAGAEAAAAAAAAjAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					6,
-					3,
-					"left_delete",
-					null,
-					"AwAAAB0BAAAAAAAAHQEAAAAAAAABAAAAZRwBAAAAAAAAHAEAAAAAAAABAAAAaRsBAAAAAAAAGwEAAAAAAAABAAAAYg",
-					"AQAAAAAAAAABAAAAHgEAAAAAAAAeAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					7,
-					1,
-					"insert",
-					{
-						"characters": "ier"
-					},
-					"AwAAABsBAAAAAAAAHAEAAAAAAAAAAAAAHAEAAAAAAAAdAQAAAAAAAAAAAAAdAQAAAAAAAB4BAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAGwEAAAAAAAAbAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					8,
-					1,
-					"insert",
-					{
-						"characters": " Muller"
-					},
-					"BwAAAB4BAAAAAAAAHwEAAAAAAAAAAAAAHwEAAAAAAAAgAQAAAAAAAAAAAAAgAQAAAAAAACEBAAAAAAAAAAAAACEBAAAAAAAAIgEAAAAAAAAAAAAAIgEAAAAAAAAjAQAAAAAAAAAAAAAjAQAAAAAAACQBAAAAAAAAAAAAACQBAAAAAAAAJQEAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAHgEAAAAAAAAeAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					14,
-					1,
-					"insert",
-					{
-						"characters": "P.O"
-					},
-					"BAAAADsBAAAAAAAAPAEAAAAAAAAAAAAAPAEAAAAAAAA8AQAAAAAAAAkAAABkaXJlY3Rpb248AQAAAAAAAD0BAAAAAAAAAAAAAD0BAAAAAAAAPgEAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAARAEAAAAAAAA7AQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					20,
-					1,
-					"",
-					null,
-					"AgAAAD8BAAAAAAAARQEAAAAAAAAAAAAARQEAAAAAAABFAQAAAAAAAAUAAABpc2phbQ",
-					"AQAAAAAAAAABAAAAPwEAAAAAAABEAQAAAAAAAAAAAAAAAPC/"
-				]
-			]
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -111,19 +43,27 @@
 		"/home/nico/Devel/Play/src/isja",
 		"/home/nico/Devel/Play/src/isja/content",
 		"/home/nico/Devel/Play/src/isja/content/infos",
-		"/home/nico/Devel/Play/src/isja/content/infos/contacts"
+		"/home/nico/Devel/Play/src/isja/content/infos/fournitures",
+		"/home/nico/Devel/Play/src/isja/layouts",
+		"/home/nico/Devel/Play/src/isja/layouts/infos"
 	],
 	"file_history":
 	[
+		"/home/nico/Devel/Play/src/isja/content/infos/fournitures/ath.toml",
+		"/home/nico/Devel/Play/src/isja/content/infos/fournitures/commons.toml",
+		"/home/nico/Devel/Play/src/isja/content/infos/fournitures/maffle.toml",
+		"/home/nico/Devel/Play/src/isja/layouts/infos/furnitures.html",
+		"/home/nico/Devel/Play/src/isja/content/infos/inscriptions/formalités.md",
+		"/home/nico/Devel/Play/src/isja/content/infos/contacts/list.toml",
+		"/home/nico/Devel/Play/src/isja/content/école/équipe/index.md",
+		"/home/nico/Devel/Play/src/isja/content/infos/inscriptions/rdv.md",
 		"/home/nico/Devel/Play/src/elfca/content/organigramme.md",
 		"/home/nico/Devel/Play/src/elfca/data/po.toml",
 		"/home/nico/Devel/Play/src/elfca/layouts/shortcodes/members.html",
 		"/home/nico/Devel/Play/src/isja/build.sh",
 		"/home/nico/Devel/Play/src/elfca/prod.toml",
-		"/home/nico/Devel/Play/src/isja/content/infos/fournitures/ath.toml",
 		"/home/nico/Devel/Play/src/isja/content/actualités/20211029_newsletter01.md",
 		"/home/nico/Devel/Play/src/isja/content/actualités/20211229_mesure_covid.md",
-		"/home/nico/Devel/Play/src/isja/content/infos/contacts/list.toml",
 		"/home/nico/Devel/Play/src/isja/content/actualités/2022_marché_noel_ath/index.md",
 		"/home/nico/Devel/Play/src/isja/content/actualités/2022_marché_noel_maffle/index.md",
 		"/home/nico/Devel/Play/src/midbel/query/filter.go",
@@ -236,17 +176,11 @@
 		"/home/nico/Devel/Play/src/midbel/buddy/tmp/simple.bud",
 		"/home/nico/Devel/Play/src/midbel/buddy/visitors/variables.go",
 		"/home/nico/Devel/Play/src/midbel/buddy/visitors/visitors.go",
-		"/home/nico/Devel/Play/src/midbel/buddy/cmd/debug/main.go",
-		"/home/nico/Devel/Play/src/midbel/charts/dsl/config.go",
-		"/home/nico/Devel/Play/src/midbel/buddy/faults/faults.go",
-		"/home/nico/Devel/Play/src/midbel/slices/counter.go",
-		"/home/nico/Devel/Play/src/midbel/buddy/visitors/visit.go",
-		"/home/nico/Devel/Play/src/midbel/buddy/types/types.go",
-		"/home/nico/Devel/Play/tmp/dump.txt"
+		"/home/nico/Devel/Play/src/midbel/buddy/cmd/debug/main.go"
 	],
 	"find":
 	{
-		"height": 38.0
+		"height": 24.0
 	},
 	"find_in_files":
 	{
@@ -285,36 +219,6 @@
 		{
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "content/infos/contacts/list.toml",
-					"selected": true,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 560,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								325,
-								325
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"stack_multiselect": false,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -357,7 +261,7 @@
 	"project": "isja.sublime-project",
 	"replace":
 	{
-		"height": 68.0
+		"height": 44.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -371,12 +275,16 @@
 	},
 	"select_project":
 	{
-		"height": 0.0,
+		"height": 500.0,
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"",
+				"~/Devel/Play/src/midbel/query/query.sublime-project"
+			]
 		],
-		"width": 0.0
+		"width": 380.0
 	},
 	"select_symbol":
 	{

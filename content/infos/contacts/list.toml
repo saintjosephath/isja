@@ -16,7 +16,7 @@ image = "images/visit_maffle.png"
 role  = "P.O."
 name  = "Xavier Muller"
 phone = ""
-email = "P.O@ceflca.be"
+email = "po@ceflca.be"
 
 [[Contact]]
 role  = "Direction"
@@ -25,7 +25,13 @@ phone = "068/28.25.56"
 email = "direction@isjam.be"
 
 [[Contact]]
-role  = "Comptabilité"
+role  = "Secrétariat"
+name  = "Secrétariat"
+phone = "068/28.25.56"
+email = "secretariat@isjam.be"
+
+[[Contact]]
+role  = "factures et service comptabilité"
 name  = "Mme Céline"
-phone = "068/28.38.47"
-email = "comptabilite.elfca@gmail.com"
+phone = "0490/44.56.21"
+email = "comptabilite@isjam.be"

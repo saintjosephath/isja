@@ -8,4 +8,4 @@ description = ""
 weight      = 300
 +++
 
-{{< iconify icon="pencil.svg" >}}Téléchargez le <a href="{{< ref "documents" >}}">formulaire d'inscription</a> et pré-complétez le{{< /iconify >}}
+{{< iconify icon="pencil.svg" >}}Téléchargez le <a href="/infos/documents/docs/FICHE_INSCRIPTION.pdf" target="_blank">formulaire d'inscription</a> et pré-complétez le{{< /iconify >}}
