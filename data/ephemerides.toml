@@ -3,242 +3,325 @@ title = "1er trimestre"
 
 [[trimestre.ephemeride]]
 title = "Conférence pédagogique"
-date = "lundi 29 aout 2022"
-godate = "2022-08-29"
-
-[[trimestre.ephemeride]]
-title = "Réunion des parents (Ath)"
-date = "jeudi 01 septembre 2022"
-note = "accueil des MA 1 à P4 à 18h et des P5-P6 à 18h30 dans la cour suivi d'une réunion en classe"
-godate = "2022-09-01"
+date = "lundi 28 aout 2023"
+godate = "2023-08-28"
 
 [[trimestre.ephemeride]]
 title = "Réunion des parents (Maffle)"
-date = "vendredi 02 septembre 2022"
+date = "jeudi 31 aout 2023"
 note = "accueil des MA 1 à P4 à 18h et des P5-P6 à 18h30 dans la cour suivi d'une réunion en classe"
-godate = "2022-09-02"
+godate = "2023-08-31"
 
 [[trimestre.ephemeride]]
-title = "24h Cross interscolaire"
-date  = "dimanche 18 septembre 2022"
-godate = "2022-09-18"
-
-[[trimestre.ephemeride]]
-title = "début des repas chaud"
-date = "lundi 19 septembre 2022"
-godate = "2022-09-19"
-
-[[trimestre.ephemeride]]
-title = "Célébration de la rentrée"
-date = "lundi 26 septembre 2022"
-godate = "2022-09-26"
-
-[[trimestre.ephemeride]]
-title = "Congé - Fête de la FWB"
-date = "mardi 27 septembre 2022"
-godate = "2022-09-27"
-
-[[trimestre.ephemeride]]
-title = "Formation tronc commun P1/P2"
-date  = "vendredi 30 septembre 2022"
-note = "seuls les cours de P1/P2 sont suspendus"
-godate = "2022-09-30"
-
-[[trimestre.ephemeride]]
-title = "début des activités extrascolaire"
-date = "lundi 03 octobre 2022"
-godate = "2022-10-03"
+title = "Réunion des parents (Ath)"
+date = "vendredi 01 septembre 2023"
+note = "accueil des MA 1 à P4 à 18h et des P5-P6 à 18h30 dans la cour suivi d'une réunion en classe"
+godate = "2023-09-01"
 
 [[trimestre.ephemeride]]
 title = "Conférence pédagogique"
-date = "lundi 10 octobre 2022"
-godate = "2022-10-10"
+date = "mardi 12 septembre 2023"
+godate = "2023-09-12"
 
 [[trimestre.ephemeride]]
-title = "marche gourmande"
-date = "dimanche 16 octobre 2022"
-godate = "2022-10-16"
+title = "24h Cross interscolaire"
+date  = "samedi 16 septembre 2023"
+note = "enseignants et parents"
+godate = "2023-09-16"
+
+[[trimestre.ephemeride]]
+title = "24h Cross interscolaire"
+date  = "dimanche 17 septembre 2023"
+note = "élèves"
+godate = "2023-09-17"
+
+[[trimestre.ephemeride]]
+title = "Congé - Fête de la FWB"
+date = "mercredi 27 septembre 2023"
+godate = "2023-09-27"
+
+[[trimestre.ephemeride]]
+title = "début des activités extrascolaire"
+date = "lundi 02 octobre 2023"
+godate = "2023-10-02"
+
+[[trimestre.ephemeride]]
+title = "initiation au rugby"
+date = "mardi 03 octobre 2023"
+note = "P5/P6 Ath"
+godate = "2023-10-03"
+
+[[trimestre.ephemeride]]
+title = "messe de rentrée"
+date = "mecredi 04 octobre 2023"
+godate = "2023-10-04"
+
+[[trimestre.ephemeride]]
+title = "JCPF"
+date = "vendredi 20 octobre 2023"
+note = "P3 à P6 Ath, Maffle"
+godate = "2023-10-20"
+
+[[trimestre.ephemeride]]
+title = "Animation Halloween"
+date = "vendredi 20 octobre 2023"
+note = "organisé par l'association des parents"
+godate = "2023-10-20"
 
 [[trimestre.ephemeride]]
 title = "Congé de Toussaint/d'automne"
-date = "du lundi 24 octobre 2022 au vendredi 04 novembre 2022"
-godate = "2022-10-24"
+date = "du lundi 24 octobre 2023 au vendredi 04 novembre 2023"
+godate = "2023-10-24"
 
 [[trimestre.ephemeride]]
 title = "Congé de l'Armistice"
-date = "vendredi 11 novembre 2022"
-note = "célébration par les P6"
-godate = "2022-11-11"
+date = "vendredi 11 novembre 2023"
+godate = "2023-11-11"
 
 [[trimestre.ephemeride]]
-title = "diner de Saint-Nicolas"
-date = "mardi 06 décembre 2022"
-note = "couques et cacao offert par l'école à Ath et Maffle. Ne réservez pas de repas chaud!"
-godate = "2022-12-06"
+title = "Bulletin 1 + Réunion individuelle des parents"
+date = "du lundi 20 novembre au vendredi 24 novembre 2023"
+godate = "2023-11-20"
+
+[[trimestre.ephemeride]]
+title = "tournoi de basket"
+date = "vendredi 24 novembre 2023"
+note = "P5, P6 Ath et Maffle"
+godate = "2023-11-24"
 
 [[trimestre.ephemeride]]
 title = "Visite de Saint-Nicolas"
-date = "mardi 06 décembre 2022"
+date = "mardi 05 décembre 2023"
 note = "Ath"
-godate = "2022-12-06"
+godate = "2023-12-05"
 
 [[trimestre.ephemeride]]
 title = "Visite de Saint-Nicolas"
-date = "mecredi 07 décembre 2022"
+date = "mecredi 06 décembre 2023"
 note = "Maffle"
-godate = "2022-12-07"
-
-[[trimestre.ephemeride]]
-title = "Bulletin 1 + Réunion individuelle"
-date = "vendredi 9 décembre 2022"
-note = "à partir du lundi 12 décembre 2022"
-godate = "2022-12-09"
+godate = "2023-12-06"
 
 [[trimestre.ephemeride]]
 title = "Marché de Noël"
-date = "vendredi 16 décembre 2022"
-godate = "2022-12-16"
+date = "vendredi 15 décembre 2023"
+godate = "2023-12-15"
+
+[[trimestre.ephemeride]]
+title = "championnat interclasse natation"
+date = "vendredi 22 décembre 2023"
+note = "P5, P6 Ath et Maffle"
+godate = "2023-12-22"
 
 [[trimestre.ephemeride]]
 title = "Congés de Noël/Hiver"
-date = "du lundi 26 décembre 2022 au vendredi 06 janvier 2023"
-godate = "2022-12-26"
+date = "du lundi 23 décembre 2023 au vendredi 05 janvier 2024"
+godate = "2023-12-23"
 
 [[trimestre]]
 title = "2ème trimestre"
 
 [[trimestre.ephemeride]]
-title = "Conférence pédagogique"
-date = "mercredi 11 janvier 2023"
-godate = "2023-01-11"
+title = "Classe de neige P6"
+date = "du lundi 08 janvier 2024 au mecredi 17 janvier 2024"
+godate = "2024-01-08"
 
 [[trimestre.ephemeride]]
-title = "Classe de neige P6"
-date = "du mecredi 25 janvier 2022 au vendredi 03 février 2023"
-godate = "2023-01-25"
+title = "initiation au golf"
+date = "du lundi 08 janvier 2024 au mecredi 17 janvier 2024"
+note = "P1 à P5 Ath et Maffle"
+godate = "2024-01-08"
+
+[[trimestre.ephemeride]]
+title = "initiation au tennis"
+date = "mardi 23 janvier"
+note = "P2/P3/P5 Ath"
+godate = "2024-01-23"
+
+[[trimestre.ephemeride]]
+title = "initiation au tennis"
+date = "mardi 30 janvier"
+note = "P1/P4/P6 Ath"
+godate = "2024-01-30"
+
+[[trimestre.ephemeride]]
+title = "initiation au tennis"
+date = "mardi 02 février"
+note = "Maffle"
+godate = "2024-02-02"
+
+[[trimestre.ephemeride]]
+title = "tournoi de foot interclasse"
+date = "vendredi 23 février"
+note = "P1 à P6 Ath et Maffle"
+godate = "2024-02-23"
 
 [[trimestre.ephemeride]]
 title = "Carnaval dans la ville"
-date = "vendredi 17 février 2023"
-godate = "2023-02-17"
+date = "vendredi 23 février 2024"
+note = "avec l'aide de l'association des parents"
+godate = "2024-02-23"
 
 [[trimestre.ephemeride]]
 title = "Congé de Carnaval/Détente"
-date = "du lundi 20 février au vendredi 03 mars 2023"
-godate = "2023-02-20"
+date = "du lundi 26 février au vendredi 08 mars 2024"
+godate = "2024-02-26"
+
+[[trimestre.ephemeride]]
+title = "classe verte P2"
+date = "du lundi 11 mars au vendredi 15 mars 2024"
+godate = "2024-03-11"
+
+[[trimestre.ephemeride]]
+title = "Cross"
+date = "mardi 19 mars 2024"
+note = "P1 à P6 Ath et Maffle"
+godate = "2024-03-19"
 
 [[trimestre.ephemeride]]
 title = "Messe et célébration de Saint-Joseph"
-date = "vendredi 17 mars 2023"
-godate = "2023-03-17"
-
-[[trimestre.ephemeride]]
-title = "Classe vertes P2"
-date = "du lundi 20 mars au vendredi 24 mars 2023"
-godate = "2023-03-20"
-
-[[trimestre.ephemeride]]
-title = "souper savoyard"
-date = "samedi 25 mars 2023"
-godate = "2023-03-25"
-
-[[trimestre.ephemeride]]
-title = "lundi de Pâques"
-date = "lundi 10 avril 2023"
-godate = "2023-04-10"
+date = "mardi 19 mars 2024"
+godate = "2024-03-19"
 
 [[trimestre.ephemeride]]
 title = "Bulletin 2 + Réunion individuelle"
-date = "vendredi 7 avril 2023"
-note = "à partir du lundi 10 avril 2023"
-godate = "2023-04-07"
+date = "du lundi 18 mars au vendredi 22 mars 2024"
+godate = "2024-03-18"
+
+[[trimestre.ephemeride]]
+title = "photo individuelle et de classe Ath"
+date = "lundi 25 mars 2024"
+godate = "2024-03-25"
+
+[[trimestre.ephemeride]]
+title = "photo individuelle et de classe Maffle"
+date = "mercredi 27 mars 2024"
+godate = "2024-03-27"
+
+[[trimestre.ephemeride]]
+title = "souper savoyard"
+date = "samedi 30 mars 2024"
+godate = "2024-03-30"
+
+[[trimestre.ephemeride]]
+title = "lundi de Pâques"
+date = "lundi 01 avril 2024"
+godate = "2024-04-01"
+
+[[trimestre.ephemeride]]
+title = "conférence pédagogique"
+date = "lundi 08 avril 2024"
+godate = "2024-04-08"
+
+[[trimestre.ephemeride]]
+title = "marche gourmande"
+date = "dimanche 21 avril 2024"
+godate = "2024-04-21"
+
+[[trimestre.ephemeride]]
+title = "journée sportive"
+date = "vendredi 26 avril 2024"
+note = "M1 à P6 Ath et Maffle"
+godate = "2024-04-26"
 
 [[trimestre.ephemeride]]
 title = "Congés de Pâques/Printemps"
-date = "du lundi 01 mai 2023 au vendredi 12 mai 2023"
-godate = "2023-05-01"
+date = "du lundi 29 avril 2024 au vendredi 10 mai 2024"
+godate = "2024-04-29"
 
 [[trimestre]]
 title = "3ème trimestre"
 
 [[trimestre.ephemeride]]
-title = "Conférence pédagogique"
-date = "mercredi 17 mai 2023"
-godate = "2023-05-17"
-
-[[trimestre.ephemeride]]
-title = "jeudi de l'ascension"
-date = "jeudi 18 mai 2023"
-godate = "2023-05-18"
-
-[[trimestre.ephemeride]]
-title = "journée sportive interclasse"
-date = "vendredi 19 mai 2023"
-godate = "2023-05-19"
-
-[[trimestre.ephemeride]]
 title = "lundi de pentecôte"
-date = "lundi 29 mai 2023"
-godate = "2023-05-29"
+date = "lundi 20 mai 2024"
+godate = "2024-05-20"
+
+[[trimestre.ephemeride]]
+title = "initiation au hockey"
+date = "mardi 21 mai 2024"
+note = "P3 à P6 Ath"
+godate = "2024-05-21"
+
+[[trimestre.ephemeride]]
+title = "classe verte M3"
+date = "du mecredi 22 mai au vendredi 24 mai 2024"
+godate = "2024-05-22"
+
+[[trimestre.ephemeride]]
+title = "initiation au hockey"
+date = "vendredi 24 mai 2024"
+note = "P3 à P6 Maffle"
+godate = "2024-05-24"
+
+[[trimestre.ephemeride]]
+title = "fin des activités extrascolaires"
+date = "vendredi 31 mai 2024"
+godate = "2024-05-31"
 
 [[trimestre.ephemeride]]
 title = "Fête scolaire"
 note  = "Ath"
-date = "samedi 03 juin 2023"
-godate = "2023-06-03"
+date = "samedi 01 juin 2024"
+godate = "2024-06-01"
 
 [[trimestre.ephemeride]]
-title = "fin des activités extrascolaires"
-date = "vendredi 09 juin 2023"
-godate = "2023-06-09"
-
-[[trimestre.ephemeride]]
-title = "fin des repas chaud"
-date = "vendredi 23 juin 2023"
-godate = "2023-06-23"
-
-[[trimestre.ephemeride]]
-title = "Bulletins intermédiaire pour P2, p4, P6"
-date = "date à venir"
-
-[[trimestre.ephemeride]]
-title = "épreuves certificatives interdiocésaines pour P2/P4"
-date = "date à venir"
-
-[[trimestre.ephemeride]]
-title = "Epreuves du CEB"
-date = "du lundi 26 juin au vendredi 30 juin 2023"
-godate = "2022-06-16"
-
-[[trimestre.ephemeride]]
-title = "voyage scolaire/classes"
-date = "date à venir"
+title = "initiation au golf"
+note  = "P4 à P6 Ath et Maffle"
+date = "mardi 04 juin 2024"
+godate = "2024-06-04"
 
 [[trimestre.ephemeride]]
 title = "Fête scolaire"
 note  = "Maffle"
-date = "dimanche 02 juillet 2023"
-godate = "2023-07-02"
+date = "samedi 08 juin 2024"
+godate = "2024-06-08"
 
 [[trimestre.ephemeride]]
-title = "Bulletin 3 + réunion individuelle"
-note  = "sur rendez vous (Ath)"
-date = "lundi 03 juillet 2023"
-godate = "2023-07-03"
+title = "journée athlétisme"
+note  = "P3 à P6 Ath et Maffle"
+date = "vendredi 13 juin 2024"
+godate = "2024-06-13"
 
 [[trimestre.ephemeride]]
-title = "Bulletin 3 + réunion individuelle"
-note  = "sur rendez vous (Maffle)"
-date = "mecredi 05 juillet 2023"
-godate = "2023-07-05"
+title = "Bulletins intermédiaire pour P2, p4, P6"
+note = "rdv sur convocation"
+date = "du lundi 17 juin au vendredi 21 juin 2024"
+godate = "2024-06-17"
+
+[[trimestre.ephemeride]]
+title = "fin des repas chaud"
+date = "vendredi 21 juin 2024"
+godate = "2024-06-21"
+
+[[trimestre.ephemeride]]
+title = "épreuves certificatives interdiocésaines pour P2/P4"
+date = "du lundi 24 juin au vendredi 28 juin 2024"
+godate = "2024-06-24"
+
+[[trimestre.ephemeride]]
+title = "Epreuves du CEB"
+date = "du lundi 24 juin au vendredi 28 juin 2024"
+godate = "2024-06-24"
+
+[[trimestre.ephemeride]]
+title = "remise des dîplomes 3eme maternelles"
+date = "vendredi 28 juin 2024"
+note = "à partir de 18h"
+godate = "2024-06-28"
+
+[[trimestre.ephemeride]]
+title = "Bulletin 3"
+note = "réunion individuelle sur rdv"
+date = "du lundi 01 juillet au vendredi 05 juillet 2024"
+godate = "2024-07-01"
 
 [[trimestre.ephemeride]]
 title = "Remise des CEB"
 note = "à 18h"
-date = "mecredi 05 juillet 2023"
-godate = "2023-07-05"
+date = "mecredi 03 juillet 2024"
+godate = "2024-07-03"
 
 [[trimestre.ephemeride]]
 title = "vacances d'été"
-date = "samedi 08 juillet 2023"
-godate = "2023-07-08"
+date = "samedi 06 juillet 2024"
+godate = "2024-07-06"
