@@ -3,9 +3,15 @@
       <div class="col-md-4 col-lg-4 col-sm-1">
         <div class="card mb-3 border-0" style="min-height:240px">
           {{if $d.image}}
-          <img src="images/{{$d.image}}" class="card-img" alt="">
-          {{else}}
-          <h1 class="h3 text-center">{{$d.name}}</h1>
+            <img src="images/{{$d.image}}" class="card-img" alt="">
+          {{end}}
+          {{if not $d.image}}
+          <div class="card-body d-flex flex-column justify-content-center">
+            <h5 class="card-title text-center">{{$d.name}}</h5>
+            <div class="align-self-center">
+              <i class="bi bi-file-pdf" style="font-size:70px"></i>
+            </div>
+          </div>
           {{end}}
           <div class="card-body py-2 d-flex align-items-end text-center card-img-overlay">
             {{if $d.location}}

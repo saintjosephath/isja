@@ -46,3 +46,21 @@ name = "droit à l'image"
 summary = ""
 location = "docs/IMAGE.pdf"
 image = "image.png"
+
+[[document]]
+name = "Gratuité à l'école"
+summary = ""
+location = "docs/FREE_FWB.pdf"
+image = ""
+
+[[document]]
+name = "Gratuité Maternelles"
+summary = ""
+location = "docs/FREE_MAT.pdf"
+image = ""
+
+[[document]]
+name = "Gratuité P1-P2"
+summary = ""
+location = "docs/FREE_PRIM.pdf"
+image = ""
