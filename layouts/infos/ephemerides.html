@@ -80,12 +80,17 @@
 <script>
   document.addEventListener('alpine:init', () => {
       Alpine.data('Filter', () => ({
-        site: "",
-        tag: "",
-        year: "",
-        dtstart: "",
-        dtend: "",
+        site: localStorage.getItem("site") || "",
+        tag: localStorage.getItem("tag") || "",
+        year: localStorage.getItem("year") || "",
+        dtstart: localStorage.getItem("dtstart") || "",
+        dtend: localStorage.getItem("dtend") || "",
         toggle() {
+          localStorage.setItem("site", this.site)
+          localStorage.setItem("tag", this.tag)
+          localStorage.setItem("year", this.year)
+          localStorage.setItem("dtstart", this.dtstart)
+          localStorage.setItem("dtend", this.dtend)
           const arr = Array.from(document.querySelectorAll('table.ephemerides tr'))
           arr.forEach(el => {
             const when = Date.parse(el.dataset.date)
@@ -99,7 +104,7 @@
             }
             const ok1 = this.tag == "" || el.dataset.tag == '' || el.dataset.tag.indexOf(this.tag) >= 0
             const ok2 = this.site == "" || el.dataset.site == '' || el.dataset.site.indexOf(this.site) >= 0
-            const ok3 = this.year == "" || el.dataset.year == '' || el.dataset.year.indexOf(this.year) >= 0
+            const ok3 = this.year == "" || el.dataset.class == '' || el.dataset.class.indexOf(this.year) >= 0
             el.style.display = ok1 && ok2 && ok3 && ok4 ? 'table-row' : 'none'
           })
         }
