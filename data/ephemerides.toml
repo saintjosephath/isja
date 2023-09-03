@@ -5,117 +5,144 @@ title = "1er trimestre"
 title = "Conférence pédagogique"
 date = "lundi 28 aout 2023"
 godate = "2023-08-28"
+tag = ["école"]
 
 [[trimestre.ephemeride]]
 title = "Réunion des parents (Maffle)"
 date = "jeudi 31 aout 2023"
 note = "accueil des MA 1 à P4 à 18h et des P5-P6 à 18h30 dans la cour suivi d'une réunion en classe"
 godate = "2023-08-31"
+site = ["maffle"]
 
 [[trimestre.ephemeride]]
 title = "Réunion des parents (Ath)"
 date = "vendredi 01 septembre 2023"
 note = "accueil des MA 1 à P4 à 18h et des P5-P6 à 18h30 dans la cour suivi d'une réunion en classe"
 godate = "2023-09-01"
+site = ["ath"]
 
 [[trimestre.ephemeride]]
 title = "Conférence pédagogique"
 date = "mardi 12 septembre 2023"
 godate = "2023-09-12"
+tag = ["école"]
 
 [[trimestre.ephemeride]]
 title = "24h Cross interscolaire"
 date  = "samedi 16 septembre 2023"
 note = "enseignants et parents"
 godate = "2023-09-16"
+tag = ["sport", "loisir"]
 
 [[trimestre.ephemeride]]
 title = "24h Cross interscolaire"
 date  = "dimanche 17 septembre 2023"
 note = "élèves"
 godate = "2023-09-17"
+tag = ["sport", "loisir"]
 
 [[trimestre.ephemeride]]
 title = "Congé - Fête de la FWB"
 date = "mercredi 27 septembre 2023"
 godate = "2023-09-27"
+tag = ["école", "vacances"]
 
 [[trimestre.ephemeride]]
 title = "début des activités extrascolaire"
 date = "lundi 02 octobre 2023"
 godate = "2023-10-02"
+tag = ["école", "loisirs"]
 
 [[trimestre.ephemeride]]
 title = "initiation au rugby"
 date = "mardi 03 octobre 2023"
 note = "P5/P6 Ath"
 godate = "2023-10-03"
+tag = ["sport"]
+class = ["P5", "P6"]
+site = ["ath"]
 
 [[trimestre.ephemeride]]
 title = "messe de rentrée"
 date = "mecredi 04 octobre 2023"
 godate = "2023-10-04"
+tag = ["école"]
 
 [[trimestre.ephemeride]]
 title = "JCPF"
 date = "vendredi 20 octobre 2023"
 note = "P3 à P6 Ath, Maffle"
 godate = "2023-10-20"
+class = ["P3", "P4", "P5", "P6"]
 
 [[trimestre.ephemeride]]
 title = "Animation Halloween"
 date = "vendredi 20 octobre 2023"
 note = "organisé par l'association des parents"
 godate = "2023-10-20"
+tag = ["loisir"]
 
 [[trimestre.ephemeride]]
 title = "Congé de Toussaint/d'automne"
 date = "du lundi 24 octobre 2023 au vendredi 04 novembre 2023"
 godate = "2023-10-24"
+tag = ["vacances"]
 
 [[trimestre.ephemeride]]
 title = "Congé de l'Armistice"
 date = "vendredi 11 novembre 2023"
 godate = "2023-11-11"
+tag = ["vacances"]
 
 [[trimestre.ephemeride]]
 title = "Bulletin 1 + Réunion individuelle des parents"
 date = "du lundi 20 novembre au vendredi 24 novembre 2023"
 godate = "2023-11-20"
+tag = ["école"]
 
 [[trimestre.ephemeride]]
 title = "tournoi de basket"
 date = "vendredi 24 novembre 2023"
 note = "P5, P6 Ath et Maffle"
 godate = "2023-11-24"
+tag = ["sport"]
+class = ["P5", "P6"]
 
 [[trimestre.ephemeride]]
 title = "Visite de Saint-Nicolas"
 date = "mardi 05 décembre 2023"
 note = "Ath"
 godate = "2023-12-05"
+site = ["ath"]
+tag = ["évenement"]
 
 [[trimestre.ephemeride]]
 title = "Visite de Saint-Nicolas"
 date = "mecredi 06 décembre 2023"
 note = "Maffle"
 godate = "2023-12-06"
+site = ["maffle"]
+tag = ["évenement"]
 
 [[trimestre.ephemeride]]
 title = "Marché de Noël"
 date = "vendredi 15 décembre 2023"
 godate = "2023-12-15"
+tag = ["évenement"]
 
 [[trimestre.ephemeride]]
 title = "championnat interclasse natation"
 date = "vendredi 22 décembre 2023"
 note = "P5, P6 Ath et Maffle"
 godate = "2023-12-22"
+tag = ["sport"]
+class = ["P5", "P6"]
 
 [[trimestre.ephemeride]]
 title = "Congés de Noël/Hiver"
 date = "du lundi 23 décembre 2023 au vendredi 05 janvier 2024"
 godate = "2023-12-23"
+tag = ["vacances"]
 
 [[trimestre]]
 title = "2ème trimestre"
@@ -124,63 +151,84 @@ title = "2ème trimestre"
 title = "Classe de neige P6"
 date = "du lundi 08 janvier 2024 au mecredi 17 janvier 2024"
 godate = "2024-01-08"
+tag = ["loisir"]
+class = ["P6"]
 
 [[trimestre.ephemeride]]
 title = "initiation au golf"
 date = "du lundi 08 janvier 2024 au mecredi 17 janvier 2024"
 note = "P1 à P5 Ath et Maffle"
 godate = "2024-01-08"
+tag = ["sport"]
+class = ["P1", "P2", "P3", "P4", "P5"]
 
 [[trimestre.ephemeride]]
 title = "initiation au tennis"
 date = "mardi 23 janvier"
 note = "P2/P3/P5 Ath"
 godate = "2024-01-23"
+tag = ["sport"]
+class = ["P2", "P3", "P5"]
+site = ["ath"]
 
 [[trimestre.ephemeride]]
 title = "initiation au tennis"
 date = "mardi 30 janvier"
 note = "P1/P4/P6 Ath"
 godate = "2024-01-30"
+tag = ["sport"]
+class = ["P1", "P4", "P6"]
+site = ["ath"]
 
 [[trimestre.ephemeride]]
 title = "initiation au tennis"
 date = "mardi 02 février"
 note = "Maffle"
 godate = "2024-02-02"
+tag = ["sport"]
+site = ["maffle"]
 
 [[trimestre.ephemeride]]
 title = "tournoi de foot interclasse"
 date = "vendredi 23 février"
 note = "P1 à P6 Ath et Maffle"
 godate = "2024-02-23"
+tag = ["sport"]
+class = ["P1", "P2", "P3", "P4", "P5", "P6"]
 
 [[trimestre.ephemeride]]
 title = "Carnaval dans la ville"
 date = "vendredi 23 février 2024"
 note = "avec l'aide de l'association des parents"
 godate = "2024-02-23"
+tag = ["loisir"]
 
 [[trimestre.ephemeride]]
 title = "Congé de Carnaval/Détente"
 date = "du lundi 26 février au vendredi 08 mars 2024"
 godate = "2024-02-26"
+tag = ["vacances"]
 
 [[trimestre.ephemeride]]
 title = "classe verte P2"
 date = "du lundi 11 mars au vendredi 15 mars 2024"
 godate = "2024-03-11"
+tag = ["loisir"]
+class = ["P2"]
 
 [[trimestre.ephemeride]]
 title = "Cross"
 date = "mardi 19 mars 2024"
 note = "P1 à P6 Ath et Maffle"
 godate = "2024-03-19"
+tag = ["sport"]
+class = ["P1", "P2", "P3", "P4", "P5", "P6"]
 
 [[trimestre.ephemeride]]
 title = "Messe et célébration de Saint-Joseph"
 date = "mardi 19 mars 2024"
 godate = "2024-03-19"
+tag = ["évenement"]
 
 [[trimestre.ephemeride]]
 title = "Bulletin 2 + Réunion individuelle"
@@ -191,42 +239,50 @@ godate = "2024-03-18"
 title = "photo individuelle et de classe Ath"
 date = "lundi 25 mars 2024"
 godate = "2024-03-25"
+site = ["ath"]
 
 [[trimestre.ephemeride]]
 title = "photo individuelle et de classe Maffle"
 date = "mercredi 27 mars 2024"
 godate = "2024-03-27"
+site = ["maffle"]
 
 [[trimestre.ephemeride]]
 title = "souper savoyard"
 date = "samedi 30 mars 2024"
 godate = "2024-03-30"
+tag = ["évenement"]
 
 [[trimestre.ephemeride]]
 title = "lundi de Pâques"
 date = "lundi 01 avril 2024"
 godate = "2024-04-01"
+tag = ["vacances"]
 
 [[trimestre.ephemeride]]
 title = "conférence pédagogique"
 date = "lundi 08 avril 2024"
 godate = "2024-04-08"
+tag = ["école"]
 
 [[trimestre.ephemeride]]
 title = "marche gourmande"
 date = "dimanche 21 avril 2024"
 godate = "2024-04-21"
+tag = ["loisir"]
 
 [[trimestre.ephemeride]]
 title = "journée sportive"
 date = "vendredi 26 avril 2024"
 note = "M1 à P6 Ath et Maffle"
 godate = "2024-04-26"
+tag = ["sport"]
 
 [[trimestre.ephemeride]]
 title = "Congés de Pâques/Printemps"
 date = "du lundi 29 avril 2024 au vendredi 10 mai 2024"
 godate = "2024-04-29"
+tag = ["vacances"]
 
 [[trimestre]]
 title = "3ème trimestre"
@@ -235,23 +291,32 @@ title = "3ème trimestre"
 title = "lundi de pentecôte"
 date = "lundi 20 mai 2024"
 godate = "2024-05-20"
+tag = ["vacances"]
 
 [[trimestre.ephemeride]]
 title = "initiation au hockey"
 date = "mardi 21 mai 2024"
 note = "P3 à P6 Ath"
 godate = "2024-05-21"
+tag = ["sport"]
+site = ["ath"]
+class = ["P3", "P4", "P5", "P6"]
 
 [[trimestre.ephemeride]]
 title = "classe verte M3"
 date = "du mecredi 22 mai au vendredi 24 mai 2024"
 godate = "2024-05-22"
+tag = ["loisir"]
+class = ["P3"]
 
 [[trimestre.ephemeride]]
 title = "initiation au hockey"
 date = "vendredi 24 mai 2024"
 note = "P3 à P6 Maffle"
 godate = "2024-05-24"
+tag = ["sport"]
+site = ["maffle"]
+class = ["P3", "P4", "P5", "P6"]
 
 [[trimestre.ephemeride]]
 title = "fin des activités extrascolaires"
@@ -263,24 +328,32 @@ title = "Fête scolaire"
 note  = "Ath"
 date = "samedi 01 juin 2024"
 godate = "2024-06-01"
+tag = ["évenement"]
+site = ["ath"]
 
 [[trimestre.ephemeride]]
 title = "initiation au golf"
 note  = "P4 à P6 Ath et Maffle"
 date = "mardi 04 juin 2024"
 godate = "2024-06-04"
+tag = ["sport"]
+class = ["P4", "P5", "P6"]
 
 [[trimestre.ephemeride]]
 title = "Fête scolaire"
 note  = "Maffle"
 date = "samedi 08 juin 2024"
 godate = "2024-06-08"
+site = ["maffle"]
+tag = ["évenement"]
 
 [[trimestre.ephemeride]]
 title = "journée athlétisme"
 note  = "P3 à P6 Ath et Maffle"
 date = "vendredi 13 juin 2024"
 godate = "2024-06-13"
+tag = ["sport"]
+class = ["P3", "P4", "P5", "P6"]
 
 [[trimestre.ephemeride]]
 title = "Bulletins intermédiaire pour P2, p4, P6"
@@ -308,6 +381,8 @@ title = "remise des dîplomes 3eme maternelles"
 date = "vendredi 28 juin 2024"
 note = "à partir de 18h"
 godate = "2024-06-28"
+tag = ["évenement"]
+site = ["ath"]
 
 [[trimestre.ephemeride]]
 title = "Bulletin 3"
@@ -320,8 +395,10 @@ title = "Remise des CEB"
 note = "à 18h"
 date = "mecredi 03 juillet 2024"
 godate = "2024-07-03"
+tag = ["évenement"]
 
 [[trimestre.ephemeride]]
 title = "vacances d'été"
 date = "samedi 06 juillet 2024"
 godate = "2024-07-06"
+tag = ["vacances"]

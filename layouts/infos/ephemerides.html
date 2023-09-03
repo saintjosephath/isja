@@ -10,14 +10,63 @@
 </section>
 {{end}}
 
+<section x-data="Filter">
+  <form class="row row-cols-lg-auto g-3 align-items-center mb-3">
+    <div class="col-auto">
+      <label for="filter-dtstart">Début</label>
+      <input type="date" class="form-control" @change="toggle" x-model="dtstart"/>
+    </div>
+    <div class="col-auto">
+      <label for="filter-end">Fin</label>
+      <input type="date" class="form-control" @change="toggle" x-model="dtend"/>
+    </div>
+    <div class="col-auto">
+      <label for="filter-category">Catégorie(s)</label>
+      <select class="form-select" @change="toggle" x-model="tag">
+        <option selected></option>
+        <option value="école">école</option>
+        <option value="loisir">loisir</option>
+        <option value="sport">sport</option>
+        <option value="évenement">évenement</option>
+        <option value="vacances">vacances</option>
+      </select>
+    </div>
+    <div class="col-auto">
+      <label for="filter-class">Classe(s)</label>
+      <select class="form-select" @change="toggle" x-model="year">
+        <option selected></option>
+        <option value="P1">P1</option>
+        <option value="P2">P2</option>
+        <option value="P3">P3</option>
+        <option value="P4">P4</option>
+        <option value="P5">P5</option>
+        <option value="P6">P6</option>
+        <option value="M1">M1</option>
+        <option value="M2">M2</option>
+        <option value="M3">M3</option>
+      </select>
+    </div>
+    <div class="col-auto">
+      <label for="filter-site">Implémentation(s)</label>
+      <select class="form-select" @change="toggle" x-model="site">
+        <option selected></option>
+        <option value="ath">Ath</option>
+        <option value="maffle">Maffle</option>
+      </select>
+    </div>
+  </form>
 {{$info := $.Site.Data.ephemerides}}
 {{range $info.trimestre}}
   <div class="row mb-3">
     <h3>{{.title}}</h3>
-    <table class="table" id="ephemerides">
+    <table class="table ephemerides">
       <tbody>
         {{range .ephemeride}}
-        <tr {{if .cancelled}}class="text-decoration-line-through"{{end}}>
+        <tr {{if .cancelled}}class="text-decoration-line-through"{{end}}
+          data-tag="{{if .tag}}{{delimit .tag " "}}{{end}}"
+          data-site="{{if .site}}{{delimit .site " "}}{{end}}"
+          data-class="{{if .class}}{{delimit .class " "}}{{end}}"
+          data-date={{.godate}}>
           <th width="30%">{{.title}}</th>
           <td width="40%">{{.date}}</td>
           <td>{{if not .cancelled}}{{.note}}{{else}}<strong class="text-decoration-none">annulé</strong>{{end}}</td>
@@ -27,6 +76,37 @@
     </table>
   </div>
 {{end}}
+<script src="//unpkg.com/alpinejs" defer></script>
+<script>
+  document.addEventListener('alpine:init', () => {
+      Alpine.data('Filter', () => ({
+        site: "",
+        tag: "",
+        year: "",
+        dtstart: "",
+        dtend: "",
+        toggle() {
+          const arr = Array.from(document.querySelectorAll('table.ephemerides tr'))
+          arr.forEach(el => {
+            const when = Date.parse(el.dataset.date)
+            let ok4 = true
+            if (this.dtstart != "" && this.dtend != "") {
+              ok4 = Date.parse(this.dtstart) <= when && Date.parse(this.dtend) >= when
+            } else if (this.dtstart != "" && this.dtend == "") {
+              ok4 = when >= Date.parse(this.dtstart)
+            } else if (this.dtstart == "" && this.dtend != "") {
+              ok4 = when <= Date.parse(this.dtend)
+            }
+            const ok1 = this.tag == "" || el.dataset.tag == '' || el.dataset.tag.indexOf(this.tag) >= 0
+            const ok2 = this.site == "" || el.dataset.site == '' || el.dataset.site.indexOf(this.site) >= 0
+            const ok3 = this.year == "" || el.dataset.year == '' || el.dataset.year.indexOf(this.year) >= 0
+            el.style.display = ok1 && ok2 && ok3 && ok4 ? 'table-row' : 'none'
+          })
+        }
+      }))
+  })
+</script>
+</section>
 {{end}}
 
 {{ define "aside"}}
