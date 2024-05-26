@@ -332,12 +332,12 @@ tag = ["évenement"]
 site = ["ath"]
 
 [[trimestre.ephemeride]]
-title = "initiation au golf"
-note  = "P4 à P6 Ath et Maffle"
-date = "mardi 04 juin 2024"
-godate = "2024-06-04"
+title = "matinée athlétisme"
+note  = "P3 à P6 Ath et Maffle"
+date = "jeudi 06 juin 2024"
+godate = "2024-06-06"
 tag = ["sport"]
-class = ["P4", "P5", "P6"]
+class = ["P3", "P4", "P5", "P6"]
 
 [[trimestre.ephemeride]]
 title = "Fête scolaire"
@@ -348,18 +348,18 @@ site = ["maffle"]
 tag = ["évenement"]
 
 [[trimestre.ephemeride]]
-title = "journée athlétisme"
-note  = "P3 à P6 Ath et Maffle"
-date = "vendredi 13 juin 2024"
-godate = "2024-06-13"
-tag = ["sport"]
-class = ["P3", "P4", "P5", "P6"]
-
-[[trimestre.ephemeride]]
 title = "Bulletins intermédiaire pour P2, p4, P6"
 note = "rdv sur convocation"
 date = "du lundi 17 juin au vendredi 21 juin 2024"
 godate = "2024-06-17"
+
+[[trimestre.ephemeride]]
+title = "initiation au golf"
+note  = "P3 à P6 Ath et Maffle"
+date = "mardi 18 juin 2024"
+godate = "2024-06-18"
+tag = ["sport"]
+class = ["P3", "P4", "P5", "P6"]
 
 [[trimestre.ephemeride]]
 title = "fin des repas chaud"
