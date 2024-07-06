@@ -2,8 +2,11 @@
 name = "acceuil et maternelle"
 location = "docs/mat_maffle.pdf"
 [[document]]
-name = "3ème et 4ème Primaire"
-location = "docs/p3_4_maffle.pdf"
+name = "3ème Primaire"
+location = "docs/p3_maffle.pdf"
+[[document]]
+name = "4ème Primaire"
+location = "docs/p4_maffle.pdf"
 [[document]]
 name = "5ème et 6ème Primaire"
 location = "docs/p5_6_maffle.pdf"
