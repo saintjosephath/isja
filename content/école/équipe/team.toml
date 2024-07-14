@@ -3,7 +3,7 @@
 location = "Ath"
 team = [
   {class = "Maternelles", names = ["Mme Cécile", "Mme Nathalie", "Mme Véronique", "Mme Stéphanie"]},
-  {class = "Puericultrice", names = ["Mme Laurence"]},
+  {class = "Puericultrice", names = ["Mme Tinat"]},
   {class = "Psychomotricité", names = ["Mme Ophélie D."]},
 ]
 
@@ -11,7 +11,7 @@ team = [
 location = "Maffle"
 team = [
   {class = "Maternelles", names = ["Mme Aline", "Mme Barbara", "Mr Bruno "]},
-  {class = "Puericultrice", names = ["Mme Tinat"]},
+  {class = "Puericultrice", names = ["Mme Laurence"]},
   {class = "Psychomotricité", names = ["Mme Ophélie D."]},
 ]
 
@@ -19,17 +19,16 @@ team = [
 
 location = "Ath"
 team = [
-  {class = "P1", names = ["Mr Laurent S."]},
-  {class = "P2", names = ["Mme Carine C."]},
+  {class = "P1", names = ["Mr Laurent S.", "Mme Elodie"]},
+  {class = "P2", names = ["Mme Carine C.", "Mme Valérie G."]},
   {class = "P3", names = ["Mme Valérie B.", "Mme Hélène D."]},
   {class = "P4", names = ["Mr FX Fromont", "Mme Isabelle L."]},
   {class = "P5", names = ["Mme C. Malherbe", "Mr P. Peltier"]},
   {class = "P6", names = ["Mr B. Deman", "Mr P. Mahaudens"]},
-  {class = "Maître spéciaux", names = ["Mr P. Brixy (Education Physique)", "Mme Laure D. (Néerlandais)"]},
-  {class = "Education Physique", names = ["Mr Brixy", "Mr Francis"]},
+  {class = "Education Physique", names = ["Mr Brixy"]},
   {class = "Néerlandais P3/4", names = ["Mme Vanessa"]},
   {class = "Néerlandais P5/6", names = ["Mme Laure"]},
-  {class = "Polyvalence", names = ["Mme Valérie G.", "Mr Lemaire"]},
+  {class = "Polyvalence", names = ["Mme Nathalie W.", "Mr Lemaire"]},
 ]
 
 [[Primaires]]
@@ -39,8 +38,8 @@ team = [
   {class = "P1/2", names = ["Mme Marie F."]},
   {class = "P3/4", names = ["Mme Véronique P."]},
   {class = "P5/6A", names = ["Mme Sarah", "Mme Isabelle"]},
-  {class = "Education Physique", names = ["Mr Brixy", "Mr Francis"]},
+  {class = "Education Physique", names = ["Mr Brixy"]},
   {class = "Néerlandais P3/4", names = ["Mme Vanessa"]},
   {class = "Néerlandais P5/6", names = ["Mme Laure"]},
-  {class = "Polyvalence", names = ["Mme Valérie G."]},
+  {class = "Polyvalence", names = ["Mme Isabelle", "Mme Nathalie W.", "Mr Lemaire"]},
 ]
