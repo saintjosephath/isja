@@ -2,24 +2,37 @@
 abbr = "PMS"
 name = "Centre psycho-médico-sociaux"
 link = "http://www.pmslibreho.be/"
+desc = """<p>Les parents sont reçus de préférence au Centre PMS (sur rendez-vous). L’équipe du Centre PMS est à la disposition des élèves, des parents, des enseignants et des éducateurs, pour toutes questions relatives:</p>
+<ul>
+<li>Au développement personnel et social des jeunes;</li>
+<li>À leur adaptation scolaire et aux questions d’apprentissages;</li>
+<li>Au choix d’attitudes éducatives appropriées à une situation vécue;</li>
+<li>À l’orientation, au choix d’études ou filières de formation.</li>
+</ul>
+<p>Le PMS participe aux entretiens et guidances, animations de groupe et conseils de classe. Les interventions du PMS sont gratuites.</p>
+"""
 
 [[partner]]
 abbr = "PSE"
 name = "Centre de promotion de la santé à l'école"
 link = ""
 category = ""
+desc = """<p>Tout élève/étudiant inscrit dans un établissement scolaire en Fédération Wallonie-Bruxelles est pris en charge par un service de Promotion de la Santé à l’École (PSE) avec lequel l’école a établi une convention. Ce service est obligatoire et gratuit. L’objectif de ce centre est de contribuer à la santé globale de l’étudiant et de l’élève dans l’environnement scolaire.</p>
+"""
 
 [[partner]]
 abbr = "AP"
 name = "l'Association des parents"
-link = ""
+link = "https://www.facebook.com/AP.saintjoseph.ath.maffle/?locale=fr_FR"
+desc = """
+<p>L’Association des Parents (AP) est une association de fait qui fonctionne avec des parents bénévoles et motivés pour maintenir et améliorer le cadre de vie au sein de l’école et ce, dans un esprit de co-construction.</p>
+<p>Le rôle de l’AP est d’être un lieu d’échange, à l’écoute de chacun, afin de créer, en partenariat avec la direction, les institutrices, l’équipe éducative et le pouvoir organisateur, un environnement serein, propice au développement harmonieux de chaque élève dans le respect des autres et le désir d’évoluer de façon positive.</p>
+<p>L’AP de l’Institut Saint-Joseph organise également des événements dans le but de soutenir des projets pour l’école (la vente des pomponettes, de sacs réutilisables, …): le stand maquillage, les activités d’Halloween, la Saint-Nicolas, l’encadrement du Carnaval, les oeufs de Pâques et un stand d’activités lors de la fête de l’école.</p>
+"""
 
 [[partner]]
 name = "Institut Saint-François"
 link = "http://www.saintfrancoisath.be/"
 category = "école"
+desc = "<p>L’Ecole Fondamentale Saint-François fait partie de notre Pouvoir Organisateur.</p>"
 
-[[partner]]
-abbr = "ELFCA"
-name = "ASBL école libre fondamentales catholiques d'Ath"
-link = "https://www.elfca.be"

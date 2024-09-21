@@ -4,13 +4,14 @@
   <h1 class="h3">{{.Title}}</h1>
 </header>
 {{$list := .Resources.GetMatch "list.toml" | transform.Unmarshal}}
-<ul>
 {{range $list.partner}}
-<li>
-  {{if .link}}<a href="{{.link}}">{{.name}}{{if .abbr}} ({{.abbr}}){{end}}</a>{{else}}<span>{{.name}}{{if .abbr}} ({{.abbr}}){{end}}</span>{{end}}
-</li>
+<section>
+  <h2>{{.name}}{{if .abbr}} ({{.abbr}}){{end}}</h2>
+  <div>{{.desc | safeHTML}}</div>
+</pre>
+  {{if .link }}<p>plus d'information sur <a href="{{.link}}">{{.link}}</a></p>{{end}}
+</section>
 {{end}}
-</ul>
 {{end}}
 
 {{ define "aside"}}

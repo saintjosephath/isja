@@ -2,7 +2,7 @@
 title       = "Association des parents"
 date        = 2021-09-15T16:23:37+02:00
 lastmod     = 2021-10-15
-draft       = false
+draft       = true
 author      = "direction"
 tags        = []
 description = ""

@@ -3,7 +3,7 @@
 location = "Ath"
 team = [
   {class = "Maternelles", names = ["Mme Cécile", "Mme Nathalie", "Mme Véronique", "Mme Stéphanie"]},
-  {class = "Puericultrice", names = ["Mme Tinat"]},
+  {class = "Puericultrice", names = ["Mme Laurence"]},
   {class = "Psychomotricité", names = ["Mme Ophélie D."]},
 ]
 
@@ -11,7 +11,7 @@ team = [
 location = "Maffle"
 team = [
   {class = "Maternelles", names = ["Mme Aline", "Mme Barbara", "Mr Bruno "]},
-  {class = "Puericultrice", names = ["Mme Laurence"]},
+  {class = "Puericultrice", names = ["Mme Tinat"]},
   {class = "Psychomotricité", names = ["Mme Ophélie D."]},
 ]
 
@@ -28,7 +28,8 @@ team = [
   {class = "Education Physique", names = ["Mr Brixy"]},
   {class = "Néerlandais P3/4", names = ["Mme Vanessa"]},
   {class = "Néerlandais P5/6", names = ["Mme Laure"]},
-  {class = "Polyvalence", names = ["Mme Nathalie W.", "Mr Lemaire"]},
+  {class = "Polyvalence", names = ["Mme Patty"]},
+  {class = "Accompagnement personnalisé de P1 à P4", names = ["Mme Nathalie"]},
 ]
 
 [[Primaires]]
@@ -41,5 +42,5 @@ team = [
   {class = "Education Physique", names = ["Mr Brixy"]},
   {class = "Néerlandais P3/4", names = ["Mme Vanessa"]},
   {class = "Néerlandais P5/6", names = ["Mme Laure"]},
-  {class = "Polyvalence", names = ["Mme Isabelle", "Mme Nathalie W.", "Mr Lemaire"]},
+  {class = "Polyvalence", names = ["Mme Isabelle"]},
 ]
