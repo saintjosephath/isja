@@ -36,12 +36,6 @@ location = "docs/COST.pdf"
 image = "cost.png"
 
 [[document]]
-name = "utilisation des plateformes numériques"
-summary = ""
-location = "docs/PLATEFORM.pdf"
-image = "plateform.png"
-
-[[document]]
 name = "droit à l'image"
 summary = ""
 location = "docs/IMAGE.pdf"
