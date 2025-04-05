@@ -21,10 +21,11 @@
   {{end}}
   </section>
   <section class="row mb-4">
-    {{partial "latest_home.html" .}}
-    <aside class="col-12 col-lg-4">
+    <div class="col-6">
       {{partial "recent.html" .}}
+    </div>
+    <div class="col-6">
       {{partial "incoming.html" .}}
-    </aside>
+    </div>
   </section>
 {{end}}
