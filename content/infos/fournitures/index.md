@@ -12,7 +12,7 @@ layout      = "furnitures"
 
 La rentrée approche et vous vous demandez quelles fournitures mettre dans le cartable de votre enfant?
 
-Vous êtes au magazin et vous avez oublié la liste des fournitures pour la rentrée! Pas de panique, ça arrive...
+Vous êtes au magasin et vous avez oublié la liste des fournitures pour la rentrée! Pas de panique, ça arrive...
 
 Votre enfant vous demande la dernière tablette à la mode pour les cours de calculs ou d'informatique?
 
