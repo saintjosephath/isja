@@ -4,7 +4,11 @@
   <h1 class="h3">{{.Title}}</h1>
 </header>
 {{$res := .Resources.GetMatch "images/team.png"}}
-<img src="{{$res.RelPermalink}}" class="mx-auto d-block my-3" height="360">
+<div class="row mb-3">
+  <div class="container">
+    <img src="{{$res.RelPermalink}}" class="mx-auto w-100 d-block my-3">
+  </div>
+</div>
 
 
 {{ with $team := .Resources.GetMatch "team.toml" | transform.Unmarshal }}
