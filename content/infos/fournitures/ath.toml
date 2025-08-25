@@ -5,6 +5,9 @@ location = "docs/mat_ath.pdf"
 name = "1ère Primaire"
 location = "docs/p1_ath.pdf"
 [[document]]
+name = "2ème Primaire"
+location = "docs/p2_ath.pdf"
+[[document]]
 name = "3ème Primaire"
 location = "docs/p3_ath.pdf"
 [[document]]
