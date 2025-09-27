@@ -3,192 +3,120 @@ title = "1er trimestre"
 
 [[trimestre.ephemeride]]
 title = "Conférence pédagogique"
-date = "lundi 26 aout 2024"
-godate = "2024-08-26"
+date = "lundi 25 aout 2025"
+godate = "2025-08-26"
 tag = ["école"]
 
 [[trimestre.ephemeride]]
-title = "Réunion des parents (Maffle)"
-date = "jeudi 29 août 2024"
-note = "accueil des MA 1 à P4 à 18h et des P5-P6 à 18h30 dans la cour suivi d'une réunion en classe"
-godate = "2024-08-29"
-site = ["maffle"]
-
-[[trimestre.ephemeride]]
-title = "Réunion des parents (Ath)"
-date = "jeudi 29 août 2024"
-note = "accueil des MA 1 à P4 à 18h et des P5-P6 à 18h30 dans la cour suivi d'une réunion en classe"
-godate = "2024-08-29"
+title = "Réunion des parents Ath"
+date = "mardi 26 août 2025"
+godate = "2025-08-26"
 site = ["ath"]
+tag = ["école"]
 
 [[trimestre.ephemeride]]
-title = "24h Cross interscolaire"
-date  = "samedi 21 septembre 2024"
+title = "Réunion des parents Maffle"
+date = "jeudi 28 août 2025"
+godate = "2025-08-28"
+site = ["maffle"]
+tag = ["école"]
+
+[[trimestre.ephemeride]]
+title = "24h d'Ath"
+date  = "samedi 20 septembre 2025"
 note = "enseignants et parents"
-godate = "2024-09-21"
+godate = "2025-09-20"
 tag = ["sport", "loisir"]
 
-[[trimestre.ephemeride]]
-title = "Karaté"
-date  = "jeudi 05 septembre 2024"
-godate = "2024-09-05"
-tag = ["sport", "loisir"]
-
-[[trimestre.ephemeride]]
-title = "Karaté"
-date  = "mardi 10 septembre 2024"
-godate = "2024-09-10"
-tag = ["sport", "loisir"]
-
-[[trimestre.ephemeride]]
-title = "Karaté"
-date  = "jeudi 12 septembre 2024"
-godate = "2024-09-12"
-tag = ["sport", "loisir"]
-
-[[trimestre.ephemeride]]
-title = "Karaté"
-date  = "mardi 17 septembre 2024"
-godate = "2024-09-17"
-tag = ["sport", "loisir"]
-
-[[trimestre.ephemeride]]
-title = "Karaté"
-date  = "jeudi 19 septembre 2024"
-godate = "2024-09-19"
-tag = ["sport", "loisir"]
 
 [[trimestre.ephemeride]]
 title = "24h Cross interscolaire"
-date  = "dimanche 22 septembre 2024"
+date  = "dimanche 21 septembre 2025"
 note = "élèves"
-godate = "2024-09-22"
+godate = "2025-09-21"
 tag = ["sport", "loisir"]
 
 [[trimestre.ephemeride]]
-title = "Tournoi mini-foot"
-date  = "jeudi 26 septembre 2024"
-godate = "2024-09-26"
+title = "Karaté"
+date  = "jeudi 05 septembre 2025"
+godate = "2025-09-05"
 tag = ["sport", "loisir"]
 
 [[trimestre.ephemeride]]
 title = "Congé - Fête de la FWB"
-date = "vendredi 27 septembre 2024"
-godate = "2024-09-27"
+date = "samedi 27 septembre 2025"
+godate = "2025-09-27"
 tag = ["école", "vacances"]
 
 [[trimestre.ephemeride]]
 title = "début des activités extrascolaire"
-date = "mardi 01 octobre 2024"
-godate = "2024-10-01"
+date = "lundi 29 septembre 2025"
+godate = "2025-09-29"
 tag = ["école", "loisirs"]
 
 [[trimestre.ephemeride]]
 title = "messe de rentrée"
-date = "mecredi 02 octobre 2024"
-godate = "2024-10-02"
+date = "mecredi 01 octobre 2025"
+godate = "2025-10-01"
 tag = ["école"]
 
 [[trimestre.ephemeride]]
-title = "initiation au rugby"
-date = "jeudi 03 octobre 2024"
-note = "P5/P6 Ath"
-godate = "2024-10-03"
-tag = ["sport"]
-class = ["P5", "P6"]
-site = ["ath"]
-
-[[trimestre.ephemeride]]
-title = "initiation au rugby"
-date = "mercredi 10 octobre 2024"
-note = "P5/P6 Ath"
-godate = "2024-10-10"
-tag = ["sport"]
-class = ["P5", "P6"]
-site = ["ath"]
-
-[[trimestre.ephemeride]]
 title = "Animation Halloween"
-date = "vendredi 18 octobre 2024"
-note = "organisé par l'association des parents"
-godate = "2024-10-18"
+date = "vendredi 17 octobre 2025"
+note = "organisé par l'association des parents - après midi"
+godate = "2025-10-17"
 tag = ["loisir"]
 
 [[trimestre.ephemeride]]
 title = "Congé de Toussaint/d'automne"
-date = "du lundi 21 octobre 2024 au vendredi 01 novembre 2024"
-godate = "2024-10-21"
+date = "du lundi 20 octobre 2025 au vendredi 31 octobre 2025"
+godate = "2025-10-20"
 tag = ["vacances"]
 
 [[trimestre.ephemeride]]
 title = "Congé de l'Armistice"
-date = "lundi 11 novembre 2024"
-godate = "2024-11-11"
+date = "mardi 11 novembre 2025"
+godate = "2025-11-11"
 tag = ["vacances"]
 
 [[trimestre.ephemeride]]
-title = "tournoi de basket"
-date = "vendredi 15 novembre 2024"
-note = "P3 à P6 Ath et Maffle"
-godate = "2024-11-15"
-tag = ["sport"]
-class = ["P3", "P4", "P5", "P6"]
-
-[[trimestre.ephemeride]]
 title = "Bulletin 1 + Réunion individuelle des parents"
-date = "du lundi 18 novembre au vendredi 22 novembre 2024"
-godate = "2024-11-18"
+date = "du lundi 17 novembre au vendredi 21 novembre 2025"
+godate = "2025-11-17"
 tag = ["école"]
 
 [[trimestre.ephemeride]]
-title = "tournoi de netball"
-date = "vendredi 29 novembre 2024"
-note = "P4 à P6 Ath et Maffle"
-godate = "2024-11-29"
-tag = ["sport"]
-class = ["P4", "P5", "P6"]
-
-[[trimestre.ephemeride]]
 title = "Visite de Saint-Nicolas"
-date = "mardi 03 décembre 2024"
+date = "mardi 02 décembre 2025"
 note = "Ath"
-godate = "2024-12-03"
+godate = "2025-12-02"
 site = ["ath"]
 tag = ["évenement"]
 
 [[trimestre.ephemeride]]
-title = "initiation au judo"
-date = "mardi 03 décembre 2024"
-godate = "2024-12-03"
-tag = ["sport"]
-class = ["P1", "P2", "P3", "P4", "P5", "P6"]
-
-[[trimestre.ephemeride]]
 title = "Visite de Saint-Nicolas"
-date = "mecredi 04 décembre 2024"
+date = "mecredi 03 décembre 2025"
 note = "Maffle"
-godate = "2024-12-04"
+godate = "2025-12-03"
 site = ["maffle"]
 tag = ["évenement"]
 
 [[trimestre.ephemeride]]
 title = "Marché de Noël"
-date = "vendredi 13 décembre 2024"
-godate = "2024-12-13"
+date = "vendredi 12 décembre 2025"
+godate = "2025-12-12"
 tag = ["évenement"]
 
 [[trimestre.ephemeride]]
-title = "championnat interclasse natation"
-date = "vendredi 20 décembre 2024"
-note = "P5, P6 Ath et Maffle"
-godate = "2024-12-20"
-tag = ["sport"]
-class = ["P5", "P6"]
+title = "Célébration de Noël"
+date = "vendredi 19 décembre 2025"
+godate = "2025-12-19"
+tag = ["évenement"]
 
 [[trimestre.ephemeride]]
 title = "Congés de Noël/Hiver"
-date = "du lundi 23 décembre 2024 au vendredi 03 janvier 2025"
-godate = "2024-12-23"
+date = "du lundi 22 décembre 2025 au vendredi 02 janvier 2026"
+godate = "2025-12-22"
 tag = ["vacances"]
 
 [[trimestre]]
@@ -196,90 +124,58 @@ title = "2ème trimestre"
 
 [[trimestre.ephemeride]]
 title = "Classe de neige P6"
-date = "du lundi 06 janvier 2025 au mecredi 15 janvier 2025"
-godate = "2025-01-06"
+date = "du vendredi 06 février 2026 au vendredi 13 février 2026"
+godate = "2026-02-06"
 tag = ["loisir"]
 class = ["P6"]
 
 [[trimestre.ephemeride]]
-title = "initiation au tennis"
-date = "lundi 20 janvier"
-note = "P3/P4/P5 Ath"
-godate = "2025-01-20"
-tag = ["sport"]
-class = ["P3", "P4", "P5"]
-site = ["ath"]
-
-[[trimestre.ephemeride]]
-title = "initiation au tennis"
-date = "vendredi 24 janvier"
-note = "P1 à P6 Maffle"
-godate = "2025-01-24"
-tag = ["sport"]
+title = "Défilé de Carnaval"
+date = "vendredi 13 février 2026"
+note = "avec l'association des parents"
+godate = "2026-02-13"
+tag = ["loisir"]
 class = ["P1", "P2", "P3", "P4", "P5", "P6"]
-site = ["maffle"]
 
 [[trimestre.ephemeride]]
-title = "initiation au tennis"
-date = "mardi 28 janvier 2025"
-note = "Maffle"
-godate = "2025-01-28"
-class = ["P1", "P2", "P6"]
-tag = ["sport"]
-site = ["ath"]
-
-[[trimestre.ephemeride]]
-title = "tournoi de ping pong"
-date = "vendredi 07 février 2025"
-godate = "2025-02-07"
-tag = ["sport"]
-class = ["P1", "P2", "P3", "P4", "P5", "P6"]
+title = "Congé de Carnaval/Détente"
+date = "du lundi 16 février au vendredi 27 février 2026"
+godate = "2026-02-16"
+tag = ["vacances"]
 
 [[trimestre.ephemeride]]
 title = "souper raclette des P6"
-date = "samedi 08 février 2025"
-godate = "2025-02-08"
+date = "samedi 14 mars 2026"
+godate = "2026-03-14"
 tag = ["évenement"]
 class = ["P6"]
 
 [[trimestre.ephemeride]]
-title = "classe verte P2"
-date = "du lundi 10 février au vendredi 14 février 2025"
-godate = "2025-02-10"
-tag = ["loisir"]
-class = ["P2"]
-
-[[trimestre.ephemeride]]
-title = "Carnaval dans la ville"
-date = "vendredi 21 février 2025"
-note = "avec l'aide de l'association des parents"
-godate = "2025-02-21"
-tag = ["loisir"]
-
-[[trimestre.ephemeride]]
-title = "Congé de Carnaval/Détente"
-date = "du lundi 24 février au vendredi 07 mars 2025"
-godate = "2025-02-24"
-tag = ["vacances"]
-
-[[trimestre.ephemeride]]
 title = "Cross"
-date = "mecredi 19 mars 2025"
+date = "jeudi 19 mars 2026"
 note = "P1 à P6 Ath et Maffle"
-godate = "2025-03-19"
+godate = "2026-03-19"
 tag = ["sport"]
 class = ["P1", "P2", "P3", "P4", "P5", "P6"]
 
 [[trimestre.ephemeride]]
 title = "Messe et célébration de Saint-Joseph"
-date = "mecredi 19 mars 2025"
-godate = "2025-03-19"
+date = "jeudi 19 mars 2026"
+godate = "2026-03-19"
 tag = ["évenement"]
 
 [[trimestre.ephemeride]]
 title = "Bulletin 2 + Réunion individuelle"
-date = "du lundi 17 mars au vendredi 21 mars 2025"
-godate = "2025-03-17"
+date = "du lundi 16 mars au vendredi 20 mars 2026"
+godate = "2026-03-16"
+
+[[trimestre.ephemeride]]
+title = "classe vertes P2"
+date = "lundi 23 mars au vendredi 27 mars 2026"
+godate = "2026-03-23"
+site = ["ath"]
+tag = ["évenement"]
+class = ["P2"]
 
 [[trimestre.ephemeride]]
 title = "photo individuelle et de classe Ath"
@@ -294,140 +190,119 @@ godate = ""
 site = ["maffle"]
 
 [[trimestre.ephemeride]]
+title = "lundi de Pâques"
+date = "lundi 6 avril 2026"
+godate = "2026-04-06"
+tag = ["vacances"]
+
+[[trimestre.ephemeride]]
 title = "Fête scolaire"
 note  = "Ath"
-date = "samedi 12 avril 2025"
-godate = "2025-04-12"
+date = "samedi 18 avril 2026"
+godate = "2026-04-18"
 tag = ["évenement"]
 site = ["ath"]
 
 [[trimestre.ephemeride]]
-title = "lundi de Pâques"
-date = "lundi 21 avril 2025"
-godate = "2025-04-21"
-tag = ["vacances"]
-
-[[trimestre.ephemeride]]
 title = "journée sportive"
-date = "vendredi 25 avril 2025"
+date = "vendredi 24 avril 2026"
 note = "M1 à P6 Ath et Maffle"
-godate = "2025-04-25"
+godate = "2026-04-24"
 tag = ["sport"]
 
 [[trimestre.ephemeride]]
 title = "Congés de Pâques/Printemps"
-date = "du lundi 28 avril 2025 au vendredi 09 mai 2025"
-godate = "2025-04-28"
+date = "du lundi 27 avril 2026 au vendredi 08 mai 2026"
+godate = "2026-04-27"
 tag = ["vacances"]
 
 [[trimestre]]
 title = "3ème trimestre"
 
 [[trimestre.ephemeride]]
-title = "Fête scolaire"
-note  = "Maffle"
-date = "samedi 17 mai 2025"
-godate = "2025-05-17"
-tag = ["évenement"]
-site = ["maffle"]
-
-[[trimestre.ephemeride]]
-title = "initiation/perfectionnement au hockey"
-date = "mardi 20 mai 2025"
-note = "P3 à P6 Ath"
-godate = "2025-05-20"
-tag = ["sport"]
-site = ["ath"]
-class = ["P3", "P4", "P5", "P6"]
-
-[[trimestre.ephemeride]]
-title = "athlétisme"
-date = "lundi 26 mai 2025"
-godate = "2025-05-26"
-tag = ["sport"]
+title = "Provelo"
+date = "mai"
+godate = "2026-05-01"
+tag = ["école", "sport", "loisir"]
+site = ["maffle", "ath"]
 
 [[trimestre.ephemeride]]
 title = "jeudi de l'ascension"
-date = "jeudi 29 mai 2025"
-godate = "2025-05-29"
+date = "jeudi 14 mai 2026"
+godate = "2026-05-14"
+tag = ["vacances"]
+
+[[trimestre.ephemeride]]
+title = "lundi de pentecôte"
+date = "lundi 25 mai 2026"
+godate = "2026-05-25"
 tag = ["vacances"]
 
 [[trimestre.ephemeride]]
 title = "fin des activités extrascolaires"
-date = "vendredi 30 mai 2025"
-godate = "2025-05-30"
+date = "vendredi 29 mai 2026"
+godate = "2026-05-29"
 
 [[trimestre.ephemeride]]
-title = "initiation/perfectionnement au golf"
-date = "mardi 03 juin 2025"
-godate = "2025-06-03"
-tag = ["sport"]
+title = "Fête scolaire"
+note  = "Maffle"
+date = "samedi 6 juin 2026"
+godate = "2026-06-06"
+tag = ["évenement"]
+site = ["maffle"]
 
 [[trimestre.ephemeride]]
-title = "lundi de pentecôte"
-date = "lundi 09 juin 2025"
-godate = "2025-06-09"
-tag = ["vacances"]
-
-[[trimestre.ephemeride]]
-title = "initiation/perfectionnement au golf"
-date = "mardi 10 juin 2025"
-godate = "2025-06-10"
-tag = ["sport"]
-class = ["P3", "P4", "P5", "P6"]
-site = ["ath", "maffle"]
-
-[[trimestre.ephemeride]]
-title = "classe verte M3"
-date = "du mecredi 11 juin au vendredi 13 juin 2025"
-godate = "2025-06-11"
-tag = ["loisir"]
-class = ["M3"]
+title = "classe vertes M3"
+date = "mercredi 10 juin au vendredi 12 juin"
+godate = "2026-06-10"
+site = ["ath"]
+tag = ["évenement"]
+class = ["P2"]
 
 [[trimestre.ephemeride]]
 title = "Bulletins intermédiaire pour P2, p4, P6"
 note = "rdv sur convocation"
-date = "du lundi 16 juin au vendredi 20 juin 2025"
-godate = "2025-06-16"
+date = "du lundi 15 juin au vendredi 19 juin 2026"
+godate = "2026-06-15"
 
 [[trimestre.ephemeride]]
 title = "fin des repas chaud"
-date = "vendredi 20 juin 2025"
-godate = "2025-06-20"
+date = "vendredi 19 juin 2026"
+godate = "2026-06-19"
 
 [[trimestre.ephemeride]]
 title = "épreuves certificatives interdiocésaines pour P2/P4"
-date = "du lundi 23 juin au vendredi 27 juin 2025"
-godate = "2025-06-23"
+date = "du jeudi 18 juin au mecredi 25 juin 2026"
+godate = "2026-06-18"
 
 [[trimestre.ephemeride]]
 title = "Epreuves du CEB"
-date = "du lundi 23 juin au vendredi 27 juin 2025"
-godate = "2025-06-23"
+date = "du jeudi 18 juin au mecredi 25 juin 2026"
+godate = "2026-06-18"
 
 [[trimestre.ephemeride]]
 title = "remise des dîplomes 3eme maternelles"
-date = "vendredi 27 juin 2025"
+date = "vendredi 26 juin 2026"
 note = "à partir de 18h"
-godate = "2025-06-27"
+godate = "2026-06-26"
 tag = ["évenement"]
 site = ["ath"]
 
 [[trimestre.ephemeride]]
 title = "Bulletin 3"
 note = "réunion individuelle sur rdv"
-date = "du lundi 30 juin au vendredi 03 juillet 2025"
-godate = "2025-06-30"
+date = "du lundi 29 juin au vendredi 03 juillet 2026"
+godate = "2026-06-29"
 
 [[trimestre.ephemeride]]
 title = "Remise des CEB"
-note = "à 18h"
-date = "mecredi 02 juillet 2025"
-godate = "2025-07-02"
+note = "à 17h30"
+date = "mecredi 01 juillet 2026"
+godate = "2026-07-01"
 tag = ["évenement"]
 
 [[trimestre.ephemeride]]
 title = "vacances d'été"
-date = "samedi 05 juillet 2025"
-godate = "2025-07-05"
+date = "samedi 04 juillet 2026"
+godate = "2026-07-04"
 tag = ["vacances"]
