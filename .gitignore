@@ -1,3 +1,4 @@
 resources
 *.lock
 local.toml
+*.DS_Store
