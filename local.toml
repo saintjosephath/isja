@@ -1,6 +1,6 @@
-baseURL = "https://saintjosephath.github.io"
+baseURL = "http://webdev.local:8088/saintjosephath/"
 title = "Institut Saint-Joseph Ath"
-publishDir = "../saintjosephath.github.io"
+publishDir = "/Users/greg/Web/saintjosephath"
 languageCode = "fr-be"
 defaultContentLanguage = "fr"
 
@@ -18,5 +18,5 @@ summaryLength = 64
 tag = "tags"
 
 [params]
-#warning = "Nouvelles mesures COVID en application à partir du 01/12/2021"
-facebook = "https://www.facebook.com/search/top?q=institut%20saint-joseph%20ath-maffle"
+#warning = "Reprise des repas chaud et des activités extra scolaire à partir du 07 Février 2022"
+facebook = "https://www.facebook.com/Saint.Joseph.Ath.Maffle"

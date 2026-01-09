@@ -102,6 +102,14 @@ site = ["maffle"]
 tag = ["évenement"]
 
 [[trimestre.ephemeride]]
+title = "Concert de l'artiste belge Antoine Armedan"
+date = "jeudi 04 décembre 2025"
+note = "Collège Saint-Julien"
+godate = "2025-12-04"
+class = ["P1", "P2", "P3", "P4", "P5", "P6"]
+tag = ["évenement"]
+
+[[trimestre.ephemeride]]
 title = "Marché de Noël"
 date = "vendredi 12 décembre 2025"
 godate = "2025-12-12"
@@ -130,7 +138,7 @@ tag = ["loisir"]
 class = ["P6"]
 
 [[trimestre.ephemeride]]
-title = "Défilé de Carnaval"
+title = "ANNULATION - Défilé de Carnaval"
 date = "vendredi 13 février 2026"
 note = "avec l'association des parents"
 godate = "2026-02-13"

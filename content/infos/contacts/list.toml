@@ -13,10 +13,10 @@ phone   = ""
 image = "images/visit_maffle.png"
 
 [[Contact]]
-role  = "P.O."
+role  = "P.O. - Président"
 name  = "Xavier Muller"
 phone = ""
-email = "po@ceflca.be"
+email = "po@isjam.be"
 
 [[Contact]]
 role  = "Direction"

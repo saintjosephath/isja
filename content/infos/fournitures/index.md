@@ -1,7 +1,7 @@
 +++
 title       = "Fournitures"
 date        = 2022-07-27T08:53:02+02:00
-lastmod     = 2022-07-27T08:53:02+02:00
+lastmod     = 2025-06-27T08:53:02+02:00
 draft       = false
 author      = "direction"
 tags        = []

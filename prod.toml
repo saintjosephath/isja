@@ -1,6 +1,6 @@
 baseURL = "https://www.institutsaintjosephath.be"
 title = "Institut Saint-Joseph Ath"
-publishDir = "../www.isja.be"
+publishDir = "/Users/greg/Web/isja_prod"
 languageCode = "fr-be"
 defaultContentLanguage = "fr"
 
