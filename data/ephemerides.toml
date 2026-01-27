@@ -5,7 +5,7 @@ title = "1er trimestre"
 title = "Conférence pédagogique"
 date = "lundi 25 aout 2025"
 godate = "2025-08-26"
-tag = ["école"]
+tag = ["école", "vacance"]
 
 [[trimestre.ephemeride]]
 title = "Réunion des parents Ath"
@@ -91,7 +91,7 @@ date = "mardi 02 décembre 2025"
 note = "Ath"
 godate = "2025-12-02"
 site = ["ath"]
-tag = ["évenement"]
+tag = ["événement"]
 
 [[trimestre.ephemeride]]
 title = "Visite de Saint-Nicolas"
@@ -99,7 +99,7 @@ date = "mecredi 03 décembre 2025"
 note = "Maffle"
 godate = "2025-12-03"
 site = ["maffle"]
-tag = ["évenement"]
+tag = ["événement"]
 
 [[trimestre.ephemeride]]
 title = "Concert de l'artiste belge Antoine Armedan"
@@ -107,19 +107,19 @@ date = "jeudi 04 décembre 2025"
 note = "Collège Saint-Julien"
 godate = "2025-12-04"
 class = ["P1", "P2", "P3", "P4", "P5", "P6"]
-tag = ["évenement"]
+tag = ["événement", "loisir"]
 
 [[trimestre.ephemeride]]
 title = "Marché de Noël"
 date = "vendredi 12 décembre 2025"
 godate = "2025-12-12"
-tag = ["évenement"]
+tag = ["événement"]
 
 [[trimestre.ephemeride]]
 title = "Célébration de Noël"
 date = "vendredi 19 décembre 2025"
 godate = "2025-12-19"
-tag = ["évenement"]
+tag = ["événement"]
 
 [[trimestre.ephemeride]]
 title = "Congés de Noël/Hiver"
@@ -134,16 +134,18 @@ title = "2ème trimestre"
 title = "Classe de neige P6"
 date = "du vendredi 06 février 2026 au vendredi 13 février 2026"
 godate = "2026-02-06"
-tag = ["loisir"]
+note = "P6 de Ath et Maffle"
+tag = ["loisir", "école", "événement"]
 class = ["P6"]
 
 [[trimestre.ephemeride]]
-title = "ANNULATION - Défilé de Carnaval"
+title = "Défilé de Carnaval"
 date = "vendredi 13 février 2026"
 note = "avec l'association des parents"
 godate = "2026-02-13"
 tag = ["loisir"]
 class = ["P1", "P2", "P3", "P4", "P5", "P6"]
+cancelled = "Annulé"
 
 [[trimestre.ephemeride]]
 title = "Congé de Carnaval/Détente"
@@ -152,11 +154,10 @@ godate = "2026-02-16"
 tag = ["vacances"]
 
 [[trimestre.ephemeride]]
-title = "souper raclette des P6"
-date = "samedi 14 mars 2026"
-godate = "2026-03-14"
-tag = ["évenement"]
-class = ["P6"]
+title = "Bulletin 2 + Réunion individuelle des parents"
+date = "du lundi 16 mars au vendredi 20 mars 2026"
+tag = ["école"]
+godate = "2026-03-16"
 
 [[trimestre.ephemeride]]
 title = "Cross"
@@ -169,33 +170,24 @@ class = ["P1", "P2", "P3", "P4", "P5", "P6"]
 [[trimestre.ephemeride]]
 title = "Messe et célébration de Saint-Joseph"
 date = "jeudi 19 mars 2026"
+note = "Ath et Maffle"
 godate = "2026-03-19"
-tag = ["évenement"]
+tag = ["événement"]
 
 [[trimestre.ephemeride]]
-title = "Bulletin 2 + Réunion individuelle"
-date = "du lundi 16 mars au vendredi 20 mars 2026"
-godate = "2026-03-16"
+title = "souper raclette des P6"
+date = "samedi 21 mars 2026"
+godate = "2026-03-21"
+tag = ["événement"]
+class = ["P6"]
 
 [[trimestre.ephemeride]]
-title = "classe vertes P2"
+title = "Classe vertes P2"
 date = "lundi 23 mars au vendredi 27 mars 2026"
 godate = "2026-03-23"
 site = ["ath"]
-tag = ["évenement"]
+tag = ["événement", "école"]
 class = ["P2"]
-
-[[trimestre.ephemeride]]
-title = "photo individuelle et de classe Ath"
-date = ""
-godate = ""
-site = ["ath"]
-
-[[trimestre.ephemeride]]
-title = "photo individuelle et de classe Maffle"
-date = ""
-godate = ""
-site = ["maffle"]
 
 [[trimestre.ephemeride]]
 title = "lundi de Pâques"
@@ -204,22 +196,29 @@ godate = "2026-04-06"
 tag = ["vacances"]
 
 [[trimestre.ephemeride]]
+title = "Photo individuelle et de classe Ath et Maffle"
+date = "jeudi 16 avril 2026"
+godate = "2026-04-16"
+note = "Photos des familles entre 8h et 8h25"
+tag=["événement","école"]
+
+[[trimestre.ephemeride]]
 title = "Fête scolaire"
 note  = "Ath"
 date = "samedi 18 avril 2026"
 godate = "2026-04-18"
-tag = ["évenement"]
+tag = ["événement"]
 site = ["ath"]
 
 [[trimestre.ephemeride]]
-title = "journée sportive"
+title = "Journée sportive"
 date = "vendredi 24 avril 2026"
 note = "M1 à P6 Ath et Maffle"
 godate = "2026-04-24"
 tag = ["sport"]
 
 [[trimestre.ephemeride]]
-title = "Congés de Pâques/Printemps"
+title = "Congés de Pâques/de printemps"
 date = "du lundi 27 avril 2026 au vendredi 08 mai 2026"
 godate = "2026-04-27"
 tag = ["vacances"]
@@ -256,7 +255,7 @@ title = "Fête scolaire"
 note  = "Maffle"
 date = "samedi 6 juin 2026"
 godate = "2026-06-06"
-tag = ["évenement"]
+tag = ["événement"]
 site = ["maffle"]
 
 [[trimestre.ephemeride]]
@@ -264,7 +263,7 @@ title = "classe vertes M3"
 date = "mercredi 10 juin au vendredi 12 juin"
 godate = "2026-06-10"
 site = ["ath"]
-tag = ["évenement"]
+tag = ["événement"]
 class = ["P2"]
 
 [[trimestre.ephemeride]]
@@ -293,7 +292,7 @@ title = "remise des dîplomes 3eme maternelles"
 date = "vendredi 26 juin 2026"
 note = "à partir de 18h"
 godate = "2026-06-26"
-tag = ["évenement"]
+tag = ["événement"]
 site = ["ath"]
 
 [[trimestre.ephemeride]]
@@ -307,7 +306,7 @@ title = "Remise des CEB"
 note = "à 17h30"
 date = "mecredi 01 juillet 2026"
 godate = "2026-07-01"
-tag = ["évenement"]
+tag = ["événement"]
 
 [[trimestre.ephemeride]]
 title = "vacances d'été"

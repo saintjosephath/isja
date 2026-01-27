@@ -2,22 +2,20 @@
   <h3 class="h5">prochainement</h3>
     {{$today := now.Format "2006-01-02"}}
     {{$local := newScratch}}
+    {{$local.Set "events" slice}}
     {{range $.Site.Data.ephemerides.trimestre}}
     {{range .ephemeride}}
     {{if and .godate (ge .godate $today) (not .cancelled)}}
-      {{$local.SetInMap "events" .godate .title}}
-      {{if gt (len ($local.Get "events")) 5 }}
-        {{$local.DeleteInMap "events" .godate}}
-      {{end}}
+      {{$local.Add "events" (dict "date" .godate "title" .title)}}
     {{end}}
     {{end}}
     {{end}}
     <table class="table table-calendar table-sm">
       <tbody>
-        {{range $k, $v := $local.Get "events"}}
+        {{range first 5 (sort ($local.Get "events") "date")}}
         <tr>
-          <td>{{time.Format "02-01-2006" $k}}</td>
-          <td>{{$v}}</td>
+          <td>{{time.Format "02-01-2006" .date}}</td>
+          <td>{{.title}}</td>
         </tr>
         {{end}}
       </tbody>
