@@ -49,16 +49,16 @@ godate = "2025-09-27"
 tag = ["école", "vacances"]
 
 [[trimestre.ephemeride]]
-title = "début des activités extrascolaire"
+title = "Début des activités extrascolaire"
 date = "lundi 29 septembre 2025"
 godate = "2025-09-29"
 tag = ["école", "loisirs"]
 
 [[trimestre.ephemeride]]
-title = "messe de rentrée"
+title = "Messe de rentrée"
 date = "mecredi 01 octobre 2025"
 godate = "2025-10-01"
-tag = ["école"]
+tag = ["école", "événement"]
 
 [[trimestre.ephemeride]]
 title = "Animation Halloween"
@@ -175,7 +175,7 @@ godate = "2026-03-19"
 tag = ["événement"]
 
 [[trimestre.ephemeride]]
-title = "souper raclette des P6"
+title = "Souper raclette des P6"
 date = "samedi 21 mars 2026"
 godate = "2026-03-21"
 tag = ["événement"]
@@ -190,7 +190,16 @@ tag = ["événement", "école"]
 class = ["P2"]
 
 [[trimestre.ephemeride]]
-title = "lundi de Pâques"
+title = "Opération bol de riz - Télévie"
+date = "Jeudi 2 avril 2026"
+note = "Il n'y aura donc pas de repas tartines, ni de repas chaud pour les primaires. Chaque enfant apport un bol, une cuillère et sachet en plastique (pour ranger sa vaisselle sale dans son cartable)"
+godate = "2026-04-02"
+tag = ["événement"]
+class = ["P1","P2","P3","P4","P5","P6"]
+
+
+[[trimestre.ephemeride]]
+title = "Lundi de Pâques"
 date = "lundi 6 avril 2026"
 godate = "2026-04-06"
 tag = ["vacances"]
@@ -228,27 +237,28 @@ title = "3ème trimestre"
 
 [[trimestre.ephemeride]]
 title = "Provelo"
-date = "mai"
+date = "à confirmer en mai"
 godate = "2026-05-01"
 tag = ["école", "sport", "loisir"]
 site = ["maffle", "ath"]
 
 [[trimestre.ephemeride]]
-title = "jeudi de l'ascension"
+title = "Jeudi de l'ascension"
 date = "jeudi 14 mai 2026"
 godate = "2026-05-14"
 tag = ["vacances"]
 
 [[trimestre.ephemeride]]
-title = "lundi de pentecôte"
+title = "Lundi de pentecôte"
 date = "lundi 25 mai 2026"
 godate = "2026-05-25"
 tag = ["vacances"]
 
 [[trimestre.ephemeride]]
-title = "fin des activités extrascolaires"
+title = "Fin des activités extrascolaires"
 date = "vendredi 29 mai 2026"
 godate = "2026-05-29"
+tag = ["école", "loisirs"]
 
 [[trimestre.ephemeride]]
 title = "Fête scolaire"
@@ -259,57 +269,68 @@ tag = ["événement"]
 site = ["maffle"]
 
 [[trimestre.ephemeride]]
-title = "classe vertes M3"
+title = "Classe vertes M3"
 date = "mercredi 10 juin au vendredi 12 juin"
 godate = "2026-06-10"
 site = ["ath"]
 tag = ["événement"]
-class = ["P2"]
+class = ["M3"]
 
 [[trimestre.ephemeride]]
-title = "Bulletins intermédiaire pour P2, p4, P6"
-note = "rdv sur convocation"
+title = "Bulletins intermédiaire pour P2, P4, P6"
+note = "Rendez-vous sur convocation"
 date = "du lundi 15 juin au vendredi 19 juin 2026"
 godate = "2026-06-15"
+tag = ["école"]
+class = ["P2","P4","P6"]
 
 [[trimestre.ephemeride]]
-title = "fin des repas chaud"
+title = "Fin des repas chaud"
 date = "vendredi 19 juin 2026"
 godate = "2026-06-19"
+tag = ["école"]
 
 [[trimestre.ephemeride]]
-title = "épreuves certificatives interdiocésaines pour P2/P4"
+title = "Epreuves certificatives interdiocésaines pour P2/P4"
 date = "du jeudi 18 juin au mecredi 25 juin 2026"
 godate = "2026-06-18"
+tag = ["école"]
+class = ["P2", "P4"]
 
 [[trimestre.ephemeride]]
 title = "Epreuves du CEB"
 date = "du jeudi 18 juin au mecredi 25 juin 2026"
 godate = "2026-06-18"
+tag = ["école"]
+class = ["P6"]
 
 [[trimestre.ephemeride]]
-title = "remise des dîplomes 3eme maternelles"
+title = "Remise des dîplomes 3eme maternelles"
 date = "vendredi 26 juin 2026"
 note = "à partir de 18h"
 godate = "2026-06-26"
-tag = ["événement"]
+tag = ["événement", "école"]
 site = ["ath"]
+class = ["M3"]
 
 [[trimestre.ephemeride]]
 title = "Bulletin 3"
-note = "réunion individuelle sur rdv"
+note = "Réunion individuelle sur rendez-vous"
 date = "du lundi 29 juin au vendredi 03 juillet 2026"
 godate = "2026-06-29"
+tag = ["école"]
+class = ["P1", "P2", "P3", "P4", "P5", "P6"]
 
 [[trimestre.ephemeride]]
 title = "Remise des CEB"
 note = "à 17h30"
 date = "mecredi 01 juillet 2026"
 godate = "2026-07-01"
-tag = ["événement"]
+tag = ["événement", "école"]
+class = ["P6"]
 
 [[trimestre.ephemeride]]
-title = "vacances d'été"
+title = "Vacances d'été"
 date = "samedi 04 juillet 2026"
 godate = "2026-07-04"
 tag = ["vacances"]
